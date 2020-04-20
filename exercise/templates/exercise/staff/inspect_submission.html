@@ -1,0 +1,81 @@
+{% extends "exercise/exercise_base.html" %}
+{% load i18n %}
+{% load course %}
+{% load exercise %}
+
+{% block title %}{% trans "Inspect SID " %} {{ submission.id}} | {{ block.super }}{% endblock %}
+{% block view_tag %}inspect{% endblock %}
+
+{% block exercisebreadcrumblist %}
+{{ block.super }}
+<li><a href="{{ exercise|url:'submission-list' }}">{% trans "All submissions"  %}</a></li>
+<li><a href="{{ submission|url }}">{% trans "Submission ID" %} {{ submission.id }}</a></li>
+<li class="active">{% trans "Inspect" %}</td>
+{% endblock %}
+
+{% block columns %}
+<div class="col-md-5">
+    {% include "exercise/staff/_assess_info.html" %}
+</div>
+<div class="col-md-7">
+    <h3>{% trans "Assistant feedback" %}</h3>
+    <div class="well">
+
+        {% if submission.assistant_feedback %}
+        {{ submission.assistant_feedback|safe }}
+        {% else %}
+        <div class="alert alert-info">
+        	{% trans "No assistant feedback available for this submission." %}
+        </div>
+        {% endif %}
+
+        {% if is_teacher or is_assistant and submission.exercise.allow_assistant_grading %}
+        <hr/>
+        <p>
+            <a class="btn btn-primary" href="{{ submission|url:'submission-assess' }}">
+                {% if submission.exercise.allow_assistant_grading %}
+            	{% trans "Assess this submission as an assistant" %}
+                {% else %}
+                {% trans "Assess this submission as a teacher" %}
+                {% endif %}
+            </a>
+        </p>
+        {% endif %}
+    </div>
+
+    <h3>{% trans "Grader feedback" %}</h3>
+    <div class="well">
+    	{% if submission.feedback %}
+        {{ submission.feedback|safe }}
+    	{% else %}
+        <div class="alert alert-info">
+        	{% trans "No grader feedback available for this submission." %}
+        </div>
+    	{% endif %}
+
+        <hr/>
+        {% if exercise.can_regrade %}
+        	<form method="post" action="{{ submission|url:'submission-re-submit' }}">
+        		{% csrf_token %}
+        		<input class="btn btn-primary" type="submit" value="{% trans 'Re-submit to service' %}" />
+        	</form>
+        {% endif %}
+        <p>
+        {% if exercise.can_regrade %}
+        	{% blocktrans %}
+            单击此按钮将此提交重新提交到评估服务。这意味着仅在评估服务行为不正确，导致评分数据不正确或提交的状态没有准备好时才使用。谨慎!重新提交会覆盖当前的评分数据。
+            {% endblocktrans %}
+        {% else %}
+            {% trans "Exercises of this type can not be re-submitted to the assessment service." %}
+        {% endif %}
+        </p>
+
+    </div>
+
+    {% get_grading_errors submission as errors %}
+    {% if errors %}
+        <h3>{% trans "Grader errors" %}</h3>
+        <pre>{{ errors }}</pre>
+    {% endif %}
+</div>
+{% endblock %}

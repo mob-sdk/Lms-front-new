@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% load course %}
+{# Load the tag library #}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+{% block content %}
+
+    {% if welcome_text %}
+        <div class="page-header">
+            <h1>{{ welcome_text|safe }}</h1>
+        </div>
+    {% endif %}
+
+{#    {% bootstrap_alert welcome_text alert_type='danger' %}#}
+{##}
+{#    <div class="jumbotron">#}
+{#        <p>...</p>#}
+{#        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>#}
+{#    </div>#}
+
+    {# Read the documentation for more information #}
+    <div class="row">
+        {% for instance in instances %}
+            {% with instance_url=instance|url %}
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="thumbnail course-thumbnail">
+                        <a href="{{ instance_url }}">
+                            <div class="image" aria-hidden="true">
+                                {% if instance.image %}
+                                    <img src="{{ instance.image.url }}"
+                                         alt="{{ instance.course.name|parse_localization }}"/>
+                                {% else %}
+                                    <h1 class="glyphicon glyphicon-book"></h1>
+                                {% endif %}
+                            </div>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="{{ instance_url }}">
+                                    {{ instance.course.name|parse_localization }}<br/>
+                                </a>
+                            </h3>
+                            <p>
+                                {{ instance.course.code }}
+                                {% if not instance.visible_to_students %}
+                                    <span class="label label-danger">{% trans "Hidden from students" %}</span>
+                                {% endif %}
+                                <br/>
+                                <!--{{ instance.instance_name }}<br />-->
+                                {{ instance.starting_time|date:"SHORT_DATE_FORMAT" }} &ndash;
+                                {{ instance.ending_time|date:"SHORT_DATE_FORMAT" }}
+                                <br/>
+                                {% if instance.enrollment_audience == 1 or instance.enrollment_audience == 3 %}
+                                    <span class="label label-success">{{ internal_user_label|safe }}</span>
+                                {% endif %}
+                                {% if instance.enrollment_audience == 2 or instance.enrollment_audience == 3 %}
+                                    <span class="label label-info">{{ external_user_label|safe }}</span>
+                                {% endif %}
+                            </p>
+                            <div class="buttons caption">
+                                <a class="btn btn-primary btn-block" role="button" href="{{ instance_url }}">
+                                    {% trans "View course" %}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endwith %}
+        {% endfor %}
+    </div>
+
+    {#<p>#}
+    {#    {% url 'archive' as url %}#}
+    {#    {% blocktrans with url=url %}#}
+    {#    Old courses can be found at the <a href="{{ url }}">course archive</a>.#}
+    {#    {% endblocktrans %}#}
+    {#</p>#}
+
+{% endblock %}

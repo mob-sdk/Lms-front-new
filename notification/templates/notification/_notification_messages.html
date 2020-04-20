@@ -1,0 +1,17 @@
+{% load course %}
+{% load i18n %}
+{% if count > 0 %}
+<div class="alert alert-danger visible-xs">
+    <span class="glyphicon glyphicon-envelope pull-left" aria-hidden="true"></span>
+    <p>
+        {% trans "You have" %} {{ count }} {{ unread_message }}
+        <ul>
+            {% for entry in notifications %}
+            <li><a href="{{ entry.link }}" class="page-modal">
+                {{ entry.name|parse_localization }}
+            </a></li>
+            {% endfor %}
+        </ul>
+    </p>
+</div>
+{% endif %}

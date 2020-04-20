@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load course %}
+
+{% block scripts %}
+{{ block.super }}
+{% for url in instance.head_css_urls %}
+<link rel="stylesheet" href="{{ url }}" />
+{% endfor %}
+{% for url in instance.head_js_urls %}
+<script src="{{ url }}"></script>
+{% endfor %}
+{% endblock %}
+
+{% block title %}{{ course.name|parse_localization }} | {{ block.super }} {% endblock %}
+
+{% block content %}
+<div data-taggings="{{ get_taggings|join:' ' }}"  class="row">
+    <div class="col-sm-2 hidden-xs">
+        <nav class="course-menu" id="main-course-menu">
+            <ul class="nav nav-pills nav-stacked">
+                {% include "course/_course_menu.html" %}
+            </ul>
+        </nav>
+
+{#        <div class="calendar-view">#}
+{#            <h4>{% trans "Calendar" %}</h4>#}
+{#            <div id="study-calendar"></div>#}
+{#            <p>#}
+{#                <a href="{{ instance|url:'export-calendar' }}">#}
+{#                    <small>{% trans "Download calendar (ics)" %}</small>#}
+{#                </a>#}
+{#            </p>#}
+{#        </div>#}
+    </div>
+    <div class="col-sm-10">
+        {% block siblings %}{% endblock %}
+        {% block breadcrumb %}
+        <ol class="breadcrumb">
+            {% block breadcrumblist %}
+            <li><a href="{{ instance|url }}">{{ course.code }}</a></li>
+            {% endblock %}
+        </ol>
+        {% endblock %}
+        <div class="row">
+            {% block columns %}
+            <div class="col-lg-9">
+                {% block coursecontent %}
+                {% endblock %}
+            </div>
+            <div class="col-lg-3">
+                {% block sidecontent %}
+                {% endblock %}
+            </div>
+            {% endblock %}
+        </div>
+        {% block siblings_bottom %}{% endblock %}
+    </div>
+</div>
+{% endblock %}
+
+{% block mobilemenu %}
+{{ block.super }}
+{% include "course/_course_menu.html" %}
+{% endblock %}

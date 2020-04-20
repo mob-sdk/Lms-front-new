@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta name="status" value="{{ status }}" />
+  </head>
+  <body>
+    {% if status == "accepted" %}
+    <div class="alert alert-success">
+      提交的内容已存储，课程工作人员将对您进行评估。
+    </div>
+    {% else %}
+    <div class="alert alert-danger">
+      错误：缺少提交文件。
+    </div>
+    {% endif %}
+  </body>
+</html>

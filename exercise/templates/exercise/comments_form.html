@@ -1,0 +1,45 @@
+{% extends "exercise/exercise_base.html" %}
+{% load i18n %}
+{% load static %}
+{% load course %}
+{% load exercise %}
+{% load bootstrap %}
+{% load comments_extras %}
+
+{% block exercisecontent %}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">评论</h3>
+    </div>
+</div>
+<div class="panel-body">
+    <div class="well comments">
+        <form method="post" role="form">
+            {% csrf_token %}
+
+            {{ form }}
+            <br>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">{% trans 'Save' %}</button>
+                <a href="{{ exercise|url:'exercise' }}" class="btn btn-default">{% trans "Cancel" %}</a>
+
+            </div>
+        </form>
+    </div>
+    {% show_comments exercise %}
+    <!-- <h3>评论列表，共 <span>{{ exercise.comments_count }}</span> 条评论</h3>
+    {% if exercise.comments %}
+    {{ exercise.comments|safe }}
+    {% else %}
+    <div class="alert alert-info">
+        没有评论
+    </div>
+    {% endif %} -->
+
+</div>
+{% endblock %}
+
+
+
+
+

@@ -1,0 +1,17 @@
+{% extends "exercise/exercise_base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "All submissions" %} | {{ block.super }}{% endblock %}
+{% block view_tag %}all-submissions{% endblock %}
+
+{% block exercisebreadcrumblist %}
+{{ block.super }}
+<li class="active">{% trans "All submissions" %}</li>
+{% endblock %}
+
+{% block columns %}
+<div class="col-md-12">
+    {% include "exercise/staff/_submissions_table.html" %}
+</div>
+{% endblock %}

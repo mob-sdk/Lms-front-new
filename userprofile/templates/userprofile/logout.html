@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Logged out" %} | {{ block.super }}{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+    <h1>{% trans "Logged out" %}</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="alert alert-success">
+            {% blocktrans %}
+            您已经成功登出。如果您正在使用公共计算机清除剩余的会话，请关闭浏览器。
+            {% endblocktrans %}
+        </div>
+    </div>
+</div>
+{% endblock %}

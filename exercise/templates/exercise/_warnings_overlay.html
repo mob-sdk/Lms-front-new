@@ -1,0 +1,56 @@
+{% load i18n %}
+{% load course %}
+<div class="overlay exercise-warnings-overlay" id="overlay-{{ exercise.id }}">
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            {% trans "You cannot submit this exercise" %}
+        </div>
+        <div class="panel-body">
+            {% for issue in issues %}
+            <p>{{ issue }}</p>
+            {% endfor %}
+            <div class="btn-toolbar" role="toolbar">
+                <button
+                    type="button"
+                    class="btn btn-default"
+                    id="overlay-dismiss-{{ exercise.id }}"
+                >
+                    {% trans "Show anyway" %}
+                </button>
+                {% if should_enroll and enrollable and instance.is_enrollment_open %}
+                {% comment %}
+                TODO: The enrollment form has partial duplication with
+                course/_enroll_form.html that maybe could be removed
+                {% endcomment %}
+                <form
+                    method="post"
+                    action="{{ instance|url:'enroll' }}"
+                    data-aplus-overlay="true"
+                >
+                    {% csrf_token %}
+                    <button
+                        type="submit"
+                        class="btn btn-info"
+                        id="overlay-enroll-{{ exercise.id }}"
+                    >
+                        {% trans 'Enroll' %}
+                    </button>
+                </form>
+                {% elif should_enroll %}
+                {# The enrollment page informs the user about why he/she can not enroll. #}
+                <a class="btn btn-info" href="{{ instance|url:'enroll' }}">
+                  {% trans "Enrollment information" %}
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <script>
+     $(function () {
+         $('#overlay-dismiss-{{ exercise.id }}').on('click', function () {
+             $('#overlay-{{ exercise.id }}').remove();
+             return false;
+         });
+     });
+    </script>
+</div>

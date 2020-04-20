@@ -1,0 +1,4698 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-29 09:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps/models.py:29
+msgid "object ID"
+msgstr "对象ID"
+
+#: apps/models.py:41
+msgid "Label is the word displayed on the tab."
+msgstr "tab页标签"
+
+#: apps/models.py:43
+msgid "Title is displayed on the top of the tab page."
+msgstr "tab页标题"
+
+#: apps/models.py:50
+msgid "No content for this tab..."
+msgstr "该标签页无内容"
+
+#: apps/models.py:119
+msgid "Base plug-in does not have a render-method."
+msgstr "无render-method的基础插件"
+
+#: authorization/permissions.py:101
+msgid "Any user authenticated or not"
+msgstr "是否有经过身份认证的用户"
+
+#: authorization/permissions.py:103
+msgid "Any authenticated student"
+msgstr "任何经过身认证的学生"
+
+#: authorization/permissions.py:104
+msgid "Enrolled student of the course"
+msgstr "本课程的注册学生"
+
+#: authorization/permissions.py:105
+msgid "Assistant of the course"
+msgstr "课程助教"
+
+#: authorization/permissions.py:106
+msgid "Grading. Assistant if course has that option or teacher"
+msgstr "成绩评定"
+
+#: authorization/permissions.py:107
+msgid "Teacher of the course"
+msgstr "课程老师"
+
+#: authorization/permissions.py:108
+msgid "Superuser of the service"
+msgstr "服务的超级用户"
+
+#: authorization/permissions.py:116
+msgid "Permission denied by access mode."
+msgstr "请登录"
+
+#: authorization/permissions.py:131
+msgid "Only course teachers shall pass."
+msgstr "只有本课程老师才能进入。"
+
+#: authorization/permissions.py:136
+msgid "Only course staff shall pass."
+msgstr "只有本课程教职员才能进入。"
+
+#: authorization/permissions.py:141 course/permissions.py:66
+msgid "Only enrolled students shall pass."
+msgstr "只有注册学生才能通过"
+
+#: course/admin.py:24
+#: external_services/templates/external_services/list_menu.html:22
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2240
+msgid "URL"
+msgstr "URL"
+
+#: course/forms.py:23
+#, python-brace-format
+msgid "{num} member"
+msgstr "{num} 成员"
+
+#: course/forms.py:37
+msgid "The code was not recognized."
+msgstr "无法识别的代码"
+
+#: course/forms.py:39
+msgid "The user is already in the group."
+msgstr "用户组中该用户已存在"
+
+#: course/forms.py:45
+msgid "The group already exists."
+msgstr "该用户组已存在"
+
+#: course/models.py:49 course/models.py:633 course/models.py:739
+msgid "name"
+msgstr "名称"
+
+#: course/models.py:50
+msgid "code"
+msgstr "代码"
+
+#: course/models.py:53
+msgid "Input an URL identifier for this course."
+msgstr "输入本课程的URL"
+
+#: course/models.py:53 course/models.py:636 exercise/exercise_models.py:94
+msgid "Urlidentifier"
+msgstr "地址标识"
+
+#: course/models.py:55
+msgid "teachers"
+msgstr "教师"
+
+#: course/models.py:66 course/models.py:673 exercise/exercise_models.py:127
+msgid "Taken words include: {}"
+msgstr "引用的单词包括: {}"
+
+#: course/models.py:320
+msgid "Internal users"
+msgstr "线下学生"
+
+#: course/models.py:321
+msgid "External users"
+msgstr "线上学生"
+
+#: course/models.py:322
+msgid "Internal and external users"
+msgstr "线上/线下学生"
+
+#: course/models.py:325
+msgid "Enrolled students"
+msgstr "注册学生"
+
+#: course/models.py:326
+msgid "Enrollment audience"
+msgstr "注册对象"
+
+#: course/models.py:327
+msgid "All registered users"
+msgstr "注册用户"
+
+#: course/models.py:328
+msgid "Public to internet"
+msgstr "全网用户"
+
+#: course/models.py:331
+msgid "User results"
+msgstr "课程模块"
+
+#: course/models.py:332
+msgid "Table of contents"
+msgstr "课程资料"
+
+#: course/models.py:333
+msgid "Link to last visited content"
+msgstr "上次内容"
+
+#: course/models.py:334
+msgid "Experimental setup (hard-coded)"
+msgstr "作业练习"
+
+#: course/models.py:337
+msgid "No numbering"
+msgstr "无编号"
+
+#: course/models.py:338
+msgid "Arabic"
+msgstr "阿拉伯数字"
+
+#: course/models.py:339
+msgid "Roman"
+msgstr "罗马数字"
+
+#: course/models.py:340
+msgid "Hidden arabic"
+msgstr "隐藏阿拉伯数字"
+
+#: course/models.py:347
+msgid "Input an URL identifier for this course instance."
+msgstr "输入本课程实例的URL标识"
+
+#: course/models.py:365
+msgid "Index mode"
+msgstr "首页模块"
+
+#: course/models.py:366
+msgid "Select content for the course index page."
+msgstr "设置课程首页内容"
+
+#: course/models.py:374
+msgid ""
+"External CSS and JS resources that are included on all course pages. "
+"Separate with white space."
+msgstr "在所有课程页面中引用的外部 CSS 和 JS 资源用空格分开"
+
+#: course/models.py:381
+msgid ""
+"By default exercise errors are reported to teacher email addresses. Set this "
+"field as comma separated emails to override the recipients."
+msgstr "默认情况下，错误报告会发送至老师邮箱。若要设置多个邮箱请用逗号分隔。"
+
+#: course/models.py:408
+msgid "Ending time must be later than starting time."
+msgstr "结束时间必须晚于开始时间"
+
+#: course/models.py:410
+msgid "Lifesupport time must be later than ending time."
+msgstr "下架时间必须晚于结束时间。"
+
+#: course/models.py:416
+msgid ""
+"Lifesupport time and archive time must be either both set or both unset."
+msgstr "课程保持时间和归档时间必须同时设置或同时取消设置"
+
+#: course/models.py:418
+msgid "Archive time must be later than lifesupport time."
+msgstr "课程归档时间必须晚于保持时间"
+
+#: course/models.py:426
+msgid "Language code(s) missing from settings: "
+msgstr "语言代码未设置"
+
+#: course/models.py:428
+msgid "Language code missing from settings."
+msgstr "语言代码未设置"
+
+#: course/models.py:625 course/models.py:733 exercise/exercise_models.py:68
+#: exercise/submission_models.py:58
+msgid "Ready"
+msgstr "就绪"
+
+#: course/models.py:626 exercise/exercise_models.py:69
+msgid "Unlisted in table of contents"
+msgstr "未列于目录中"
+
+#: course/models.py:627 course/models.py:735 templates/base.html:114
+msgid "Hidden"
+msgstr "隐藏"
+
+#: course/models.py:628 exercise/exercise_models.py:73
+msgid "Maintenance"
+msgstr "维护"
+
+#: course/models.py:631 course/models.py:738 exercise/exercise_models.py:82
+#: exercise/templates/exercise/_submission_info.html:15
+#: exercise/templates/exercise/staff/_assess_info.html:25
+#: exercise/templates/exercise/staff/_submissions_table.html:53
+#: exercise/templates/exercise/submission_plain.html:39
+msgid "Status"
+msgstr "状态"
+
+#: course/models.py:632 exercise/exercise_models.py:91
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:371
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:373
+msgid "Order"
+msgstr "序列"
+
+#: course/models.py:636
+msgid "Input an URL identifier for this module."
+msgstr "输入该模块的URL标识。"
+
+#: course/models.py:637 course/models.py:741
+msgid "Points_to_pass"
+msgstr "通过分数"
+
+#: course/models.py:638
+msgid "introduction"
+msgstr "介绍"
+
+#: course/models.py:640
+msgid "course_instance"
+msgstr "课程实例"
+
+#: course/models.py:641
+msgid "opening_time"
+msgstr "开放时间"
+
+#: course/models.py:642
+msgid "closing_time"
+msgstr "关闭时间"
+
+#: course/models.py:649
+msgid "late_submissions_allowed"
+msgstr "最晚允许提交"
+
+#: course/models.py:650
+msgid "late_submission_deadline"
+msgstr "最后提交期限"
+
+#: course/models.py:652
+msgid "Multiplier of points to reduce, as decimal. 0.1 = 10%"
+msgstr "例如：0.1 = 10%"
+
+#: course/models.py:652
+msgid "late_submission_penalty"
+msgstr "晚交惩罚"
+
+#: course/models.py:675
+msgid "Opening time must be earlier than the closing time."
+msgstr "课程开放时间必须早于截止时间"
+
+#: course/models.py:677
+msgid "Late submission deadline must be later than the closing time."
+msgstr "课程开放时间必须早于截止时间"
+
+#: course/models.py:734
+msgid "No total points"
+msgstr "无总分"
+
+#: course/models.py:740 edit_course/templates/edit_course/usertag_list.html:29
+#: exercise/exercise_models.py:97
+msgid "Description"
+msgstr "描述"
+
+#: course/models.py:743
+msgid "Course_instance"
+msgstr "课程实例"
+
+#: course/models.py:745
+msgid ""
+"Once exercise is graded non zero it confirms all the points on the hierarchy "
+"level. Implemented as a mandatory feedback feature."
+msgstr "根据练习分值来确定层级"
+
+#: course/models.py:745
+msgid "Confirm_the_level"
+msgstr "确认等级"
+
+#: course/models.py:747
+msgid ""
+"Grade unofficial submissions after deadlines have passed or submission "
+"limits have been exceeded. The points are stored but not included in "
+"official records."
+msgstr ""
+"超过截止日期或超过提交限制后对非正常提交进行评分。这些分数被保存，但不包括在"
+"正式记录中。"
+
+#: course/models.py:747
+msgid "Accept_unofficial_submits"
+msgstr ""
+
+#: course/permissions.py:20 course/permissions.py:88
+msgid "Permission denied by course visibility"
+msgstr "当前不可访问"
+
+#: course/permissions.py:46 course/permissions.py:99
+msgid "The resource is not currently visible."
+msgstr "当前不可访问"
+
+#: course/permissions.py:57 course/permissions.py:105
+msgid "This course is not open for public."
+msgstr "本课程尚未发布"
+
+#: course/permissions.py:79
+msgid "This course is only for internal students."
+msgstr "本课程仅供内部学生使用。"
+
+#: course/permissions.py:82
+msgid "This course is only for external students."
+msgstr "本课程仅供外部学生使用。"
+
+#: course/permissions.py:112
+msgid "The module is not currently visible"
+msgstr "本模块当前不可见"
+
+#: course/permissions.py:130
+#, python-brace-format
+msgid "The module will open for submissions at {date}."
+msgstr "本模块将开放提交 at {date}"
+
+#: course/permissions.py:143
+msgid "Only course teacher is allowed"
+msgstr "仅供老师使用"
+
+#: course/permissions.py:153
+msgid "Only course staff is allowed"
+msgstr "仅供教职员使用"
+
+#: course/staff_views.py:68 edit_course/views.py:50 exercise/staff_views.py:283
+msgid "Changes were saved succesfully."
+msgstr "保存成功"
+
+#: course/staff_views.py:72 edit_course/views.py:54 exercise/staff_views.py:287
+msgid "Failed to save changes."
+msgstr "保存失败"
+
+#: course/templates/course/_course_dropdown_menu.html:16
+msgid "Begin by enrolling in a course."
+msgstr "请先查看并注册课程"
+
+#: course/templates/course/_course_menu.html:14
+#: course/templates/course/_course_menu.html:38
+#: edit_course/templates/edit_course/edit_course_base.html:26
+msgid "Course"
+msgstr "课程信息"
+
+#: course/templates/course/_course_menu.html:18
+#: userprofile/templates/userprofile/profile.html:39
+msgid "Language"
+msgstr "语言"
+
+#: course/templates/course/_course_menu.html:51
+#: course/templates/course/_siblings.html:46
+#: exercise/templates/exercise/toc.html:7
+#: exercise/templates/exercise/toc.html:12
+msgid "Course materials"
+msgstr "课程资料"
+
+#: course/templates/course/_course_menu.html:57
+#: exercise/templates/exercise/results.html:13
+msgid "Exercise results"
+msgstr "作业练习"
+
+#: course/templates/course/_course_menu.html:66
+msgid "Form a group"
+msgstr "组成小组"
+
+#: course/templates/course/_course_menu.html:94
+msgid "Apps"
+msgstr "应用"
+
+#: course/templates/course/_course_menu.html:108
+#: exercise/templates/exercise/_user_results.html:86
+#: exercise/templates/exercise/submission_plain.html:41
+msgid "Course staff"
+msgstr "教师"
+
+#: course/templates/course/_course_menu.html:114
+#: course/templates/course/staff/participants.html:6
+#: course/templates/course/staff/participants.html:11
+#: exercise/templates/exercise/staff/user_results.html:34
+msgid "Participants"
+msgstr "注册学生"
+
+#: course/templates/course/_course_menu.html:121
+#: course/templates/course/staff/group_delete.html:6
+#: course/templates/course/staff/group_delete.html:11
+#: course/templates/course/staff/group_edit.html:6
+#: course/templates/course/staff/group_edit.html:11
+#: course/templates/course/staff/groups.html:5
+#: course/templates/course/staff/groups.html:10
+#: edit_course/exercise_forms.py:105
+msgid "Groups"
+msgstr "学生分组"
+
+#: course/templates/course/_course_menu.html:129
+#: diploma/templates/diploma/list.html:4 diploma/templates/diploma/list.html:8
+msgid "Grades"
+msgstr "成绩"
+
+#: course/templates/course/_course_menu.html:137
+#: exercise/templates/exercise/staff/results.html:5
+#: exercise/templates/exercise/staff/results.html:10
+msgid "All results"
+msgstr "成绩汇总"
+
+#: course/templates/course/_course_menu.html:144
+#: exercise/templates/exercise/staff/analytics.html:6
+#: exercise/templates/exercise/staff/analytics.html:11
+msgid "Visualizations"
+msgstr "数据分析"
+
+#: course/templates/course/_course_menu.html:152
+#: news/templates/news/edit.html:11 news/templates/news/list.html:11
+msgid "Edit news"
+msgstr "信息发布"
+
+#: course/templates/course/_course_menu.html:158
+#: edit_course/templates/edit_course/edit_content.html:8
+#: edit_course/templates/edit_course/edit_course_base.html:5
+#: edit_course/templates/edit_course/edit_course_base.html:11
+msgid "Edit course"
+msgstr "课程设置"
+
+#: course/templates/course/_enroll_form.html:11
+msgid "In order to submit exercises you must enroll in the course."
+msgstr "请注册课程以方便后继的学习！"
+
+#: course/templates/course/_enroll_form.html:13
+msgid ""
+"In order to submit exercises and see material, you must enroll in the course."
+msgstr "您必须注册课程才可以查看学习资料材和提交练习"
+
+#: course/templates/course/_enroll_form.html:15
+#: exercise/templates/exercise/_warnings_overlay.html:37
+msgid "Enroll"
+msgstr "注册课程"
+
+#: course/templates/course/_enroll_form.html:19
+#, python-format
+msgid ""
+"\n"
+"        The course enrollment is open until %(end)s.\n"
+"        "
+msgstr ""
+"\n"
+"        在 %(end)s 之前，该课程开放注册\n"
+"        "
+
+#: course/templates/course/_enroll_form.html:27
+msgid "Unfortunately, enrolling in the course has ended."
+msgstr "很抱歉！该课程注册时间已截止！"
+
+#: course/templates/course/_enroll_form.html:29
+#, python-format
+msgid ""
+"\n"
+"  The course opens %(start)s.\n"
+"  "
+msgstr ""
+"\n"
+"  本课程开放 %(start)s.\n"
+"  "
+
+#: course/templates/course/_enroll_form.html:35
+msgid ""
+"Unfortunately, you may not enroll in this course and you may not explore the "
+"contents either."
+msgstr "很抱歉！您必须注册该课程才可以查看"
+
+#: course/templates/course/_enroll_form.html:37
+msgid ""
+"Unfortunately, you cannot enroll in this course, but you may explore the "
+"course material."
+msgstr "很抱歉！您不能注册该课程，但是可以查看课程资料。"
+
+#: course/templates/course/_enroll_form.html:40
+msgid ""
+"Login is required to submit exercises, but you may anonymously explore the "
+"course material."
+msgstr "提交练习前必段登录"
+
+#: course/templates/course/_group_info.html:4
+#, python-format
+msgid ""
+"\n"
+"  You are now submitting with %(collaborators)s.\n"
+"  "
+msgstr ""
+"\n"
+"  您正在和 %(collaborators)s 一起完成学习任务\n"
+"  "
+
+#: course/templates/course/_group_info.html:10
+msgid "You are now submitting alone."
+msgstr "您正在独自完成学习任务"
+
+#: course/templates/course/_group_select.html:13
+msgid "Registering selection..."
+msgstr "正在注册所选内容…"
+
+#: course/templates/course/_group_select.html:21
+msgid "Submit alone"
+msgstr "独自完成学习任务"
+
+#: course/templates/course/_group_select.html:30
+#, python-format
+msgid ""
+"\n"
+"          Submit with %(collaborators)s\n"
+"          "
+msgstr ""
+"\n"
+"          和 %(collaborators)s 一起完成学习任务\n"
+"          "
+
+#: course/templates/course/_siblings.html:18
+#: course/templates/course/_siblings.html:37
+#: exercise/templates/exercise/_children.html:29
+#: exercise/templates/exercise/_user_results.html:139
+#: exercise/templates/exercise/_user_results.html:166
+#: exercise/templates/exercise/_user_toc.html:29
+msgid "Early access"
+msgstr "提前访问"
+
+#: course/templates/course/archive.html:5
+#: course/templates/course/archive.html:12
+msgid "Course archive"
+msgstr "课程归档"
+
+#: course/templates/course/archive.html:23
+#: course/templates/course/index.html:55
+msgid "Hidden from students"
+msgstr "未公开"
+
+#: course/templates/course/enroll.html:6 course/templates/course/enroll.html:10
+msgid "Enrollment"
+msgstr "注册"
+
+#: course/templates/course/enroll.html:16
+msgid "You are already enrolled in this course."
+msgstr "您已经注册本课程"
+
+#: course/templates/course/enroll.html:23
+msgid "Enrollment target group"
+msgstr "注册学习组"
+
+#: course/templates/course/enroll.html:24
+#, python-format
+msgid ""
+"\n"
+"Enrollment is open from %(start)s to %(end)s.\n"
+msgstr ""
+"\n"
+"已开放注册从 %(start)s 到 %(end)s\n"
+
+#: course/templates/course/enroll.html:27
+msgid "Course visibility"
+msgstr "本课程可访问"
+
+#: course/templates/course/groups.html:8 course/templates/course/groups.html:13
+#: course/templates/course/groups.html:53
+msgid "My groups"
+msgstr "我的学习组"
+
+#: course/templates/course/groups.html:22
+msgid "[staff has none]"
+msgstr "[无教职员]"
+
+#: course/templates/course/groups.html:23
+#, python-format
+msgid ""
+"\n"
+"    Your personal group <strong>join code</strong> is <strong>%(code)s</"
+"strong>.\n"
+"    "
+msgstr ""
+"\n"
+"    您的小组 <strong>验证码</strong> 是 <strong>%(code)s</strong>\n"
+"    "
+
+#: course/templates/course/groups.html:31
+msgid ""
+"\n"
+"      First, query the personal <strong>join codes</strong> from your other "
+"group members.\n"
+"      Then enter the codes below to form a new group.\n"
+"      It is sufficient that one group member submits this form.\n"
+"      "
+msgstr ""
+"\n"
+"      首先询问其他组员 <strong>验证码</strong>；\n"
+"      然后在下面表单中输入正确的验证码。\n"
+"      "
+
+#: course/templates/course/groups.html:39
+msgid "Form a new group"
+msgstr "组成新学习组"
+
+#: course/templates/course/groups.html:45
+msgid "This course does not utilize group submissions."
+msgstr "本课程不能分组提交作业"
+
+#: course/templates/course/groups.html:64
+msgid "No groups yet"
+msgstr "还未分组"
+
+#: course/templates/course/index.html:71
+msgid "View course"
+msgstr "查看课程"
+
+#: course/templates/course/module.html:27
+#, python-format
+msgid ""
+"\n"
+"                Late submissions are allowed until %(deadline)s.\n"
+"                "
+msgstr ""
+"\n"
+"                提交作业不得晚于 %(deadline)s \n"
+"                "
+
+#: course/templates/course/module.html:31
+#, python-format
+msgid ""
+"\n"
+"                but points are only worth %(percent)s%%.\n"
+"                "
+msgstr ""
+"\n"
+"                分值 %(percent)s%%.\n"
+"                "
+
+#: course/templates/course/staff/_tag_remove_modal.html:21
+msgid "Untag multiple users"
+msgstr "取消多个用户标签"
+
+#: course/templates/course/staff/_tag_remove_modal.html:25
+msgid ""
+"\n"
+"                Remove tagging\n"
+"                <span id=\"tag-remove-modal-tagging\"></span>\n"
+"                from <span id=\"tag-remove-modal-amount\"></span> users:\n"
+"                <ul id=\"tag-remove-modal-users\"></ul>\n"
+"                "
+msgstr ""
+"\n"
+"                取消标签\n"
+"                <span id=\"tag-remove-modal-tagging\"></span>\n"
+"                <span id=\"tag-remove-modal-amount\"></span> 用户:\n"
+"                <ul id=\"tag-remove-modal-users\"></ul>\n"
+"                "
+
+#: course/templates/course/staff/_tag_remove_modal.html:38
+#: course/templates/course/staff/group_delete.html:42
+#: deviations/templates/deviations/add_dl.html:24
+#: edit_course/templates/edit_course/edit_model.html:68
+#: edit_course/templates/edit_course/remove_model.html:54
+#: edit_course/templates/edit_course/usertag_add.html:23
+#: edit_course/templates/edit_course/usertag_delete.html:31
+#: edit_course/templates/edit_course/usertag_edit.html:23
+#: edit_course/templates/edit_course/usertagging_add.html:23
+#: exercise/templates/exercise/staff/assess_submission.html:28
+#: exercise/templates/exercise/staff/edit_submitters.html:23
+#: external_services/templates/external_services/edit_menu.html:24
+#: news/templates/news/edit.html:24
+msgid "Cancel"
+msgstr "放弃"
+
+#: course/templates/course/staff/_tag_remove_modal.html:46
+msgid "Remove all"
+msgstr "全部删除"
+
+#: course/templates/course/staff/group_delete.html:6
+#: course/templates/course/staff/group_delete.html:12
+#: course/templates/course/staff/group_delete.html:40
+#: course/templates/course/staff/groups.html:46
+#: deviations/templates/deviations/list_dl.html:44
+#: edit_course/templates/edit_course/edit_content.html:53
+#: edit_course/templates/edit_course/edit_content.html:91
+#: edit_course/templates/edit_course/edit_content.html:112
+#: edit_course/templates/edit_course/remove_model.html:51
+#: edit_course/templates/edit_course/usertag_delete.html:29
+#: edit_course/templates/edit_course/usertag_list.html:46
+#: external_services/templates/external_services/list_menu.html:68
+#: news/templates/news/list.html:53 templates/base.html:261
+msgid "Remove"
+msgstr "删除"
+
+#: course/templates/course/staff/group_delete.html:20
+msgid "Confirm group removal"
+msgstr "确认删除组"
+
+#: course/templates/course/staff/group_delete.html:25
+#: course/templates/course/staff/groups.html:27
+msgid "ID"
+msgstr "编号"
+
+#: course/templates/course/staff/group_delete.html:26
+#: course/templates/course/staff/groups.html:28
+msgid "Members"
+msgstr "成员"
+
+#: course/templates/course/staff/group_delete.html:27
+#: course/templates/course/staff/groups.html:29
+msgid "Created"
+msgstr "已创建"
+
+#: course/templates/course/staff/group_edit.html:6
+#: course/templates/course/staff/group_edit.html:12
+#: course/templates/course/staff/groups.html:42
+#: edit_course/templates/edit_course/usertag_list.html:42
+#: exercise/templates/exercise/staff/_assess_info.html:20
+#: external_services/templates/external_services/list_menu.html:60
+#: news/templates/news/list.html:45
+msgid "Edit"
+msgstr "编辑"
+
+#: course/templates/course/staff/group_edit.html:20
+msgid "Edit group members"
+msgstr "编辑小组成员"
+
+#: course/templates/course/staff/group_edit.html:23
+#: edit_course/templates/edit_course/edit_content.html:186
+#: edit_course/templates/edit_course/edit_index.html:20
+#: edit_course/templates/edit_course/edit_instance.html:24
+#: edit_course/templates/edit_course/usertag_add.html:22
+#: edit_course/templates/edit_course/usertag_edit.html:22
+#: edit_course/templates/edit_course/usertagging_add.html:22
+#: exercise/templates/exercise/staff/assess_submission.html:27
+#: exercise/templates/exercise/staff/edit_submitters.html:22
+#: userprofile/templates/userprofile/profile.html:55
+msgid "Save"
+msgstr "保存"
+
+#: course/templates/course/staff/groups.html:17
+msgid "Number of groups"
+msgstr "学习小组数量"
+
+#: course/templates/course/staff/groups.html:20
+#: external_services/templates/external_services/edit_menu.html:12
+#: news/templates/news/edit.html:12
+msgid "Add new"
+msgstr "新增"
+
+#: course/templates/course/staff/participants.html:18
+#: diploma/templates/diploma/list.html:13
+msgid "Filter users"
+msgstr "用户过滤"
+
+#: course/templates/course/staff/participants.html:36
+msgid "Number of students"
+msgstr "学生人数"
+
+#: course/templates/course/staff/participants.html:38
+msgid "of which selected"
+msgstr "选择"
+
+#: course/templates/course/staff/participants.html:50
+#: diploma/templates/diploma/list.html:27
+#: exercise/templates/exercise/staff/user_results.html:45
+msgid "Student id"
+msgstr "学生编号"
+
+#: course/templates/course/staff/participants.html:51
+#: exercise/templates/exercise/staff/user_results.html:46
+msgid "Last name"
+msgstr "姓名"
+
+#: course/templates/course/staff/participants.html:52
+#: exercise/templates/exercise/staff/user_results.html:47
+msgid "First name"
+msgstr "姓名"
+
+#: course/templates/course/staff/participants.html:53
+#: exercise/templates/exercise/staff/user_results.html:48
+msgid "Email"
+msgstr "邮箱"
+
+#: course/templates/course/staff/participants.html:54
+#: edit_course/templates/edit_course/edit_course_base.html:46
+#: edit_course/templates/edit_course/usertag_add.html:9
+#: edit_course/templates/edit_course/usertag_delete.html:10
+#: edit_course/templates/edit_course/usertag_edit.html:9
+#: edit_course/templates/edit_course/usertag_list.html:10
+#: edit_course/templates/edit_course/usertagging_add.html:9
+msgid "Tags"
+msgstr "学生标签"
+
+#: course/views.py:98
+msgid "You cannot enroll, or have already enrolled, in this course."
+msgstr "您已经注册本课程！或者本课程还未开放！"
+
+#: course/views.py:102 exercise/exercise_models.py:528
+msgid "The enrollment is not open."
+msgstr "注册尚未开放"
+
+#: course/views.py:176
+msgid "A new student group was created."
+msgstr "新学习组创建成功"
+
+#: deviations/forms.py:25
+msgid ""
+"Amount of extra time given in minutes. Leave blank if you fill in the date "
+"below."
+msgstr "延长时间（分种）。该字段与下面日期字段二选一。"
+
+#: deviations/forms.py:30
+msgid "New submission deadline in the future in format YYYY-MM-DD HH:MM."
+msgstr "新的提交截止时间格式：YYYY-MM-DD HH:MM."
+
+#: deviations/forms.py:35
+msgid "Do not apply late penalty during extra time."
+msgstr "延长时间内不处罚"
+
+#: deviations/templates/deviations/add_dl.html:6
+#: deviations/templates/deviations/add_dl.html:19
+msgid "Add deadline deviations"
+msgstr "延长截止时间"
+
+#: deviations/templates/deviations/add_dl.html:11
+#: deviations/templates/deviations/list_dl.html:5
+#: deviations/templates/deviations/list_dl.html:10
+msgid "List deadline deviations"
+msgstr "延长列表"
+
+#: deviations/templates/deviations/add_dl.html:12
+#: deviations/templates/deviations/list_dl.html:18
+msgid "Add new deadline deviations"
+msgstr "延长截止时间"
+
+#: deviations/templates/deviations/add_dl.html:23
+#: edit_course/templates/edit_course/batch_assess.html:85
+#: edit_course/templates/edit_course/edit_model.html:66
+#: exercise/templates/exercise/model/_file_submit_form.html:4
+#: exercise/templates/exercise/model/_file_submit_form.html:14
+#: external_services/templates/external_services/edit_menu.html:23
+#: news/templates/news/edit.html:23
+msgid "Submit"
+msgstr "提交"
+
+#: deviations/templates/deviations/list_dl.html:23
+msgid "Deadline deviations"
+msgstr "延长列表"
+
+#: deviations/templates/deviations/list_dl.html:27
+msgid "Submitter"
+msgstr "提交者"
+
+#: deviations/templates/deviations/list_dl.html:28
+#: edit_course/templates/edit_course/edit_content.html:149
+#: exercise/templates/exercise/_user_results.html:81
+msgid "Exercise"
+msgstr "练习"
+
+#: deviations/templates/deviations/list_dl.html:29
+msgid "Extra minutes"
+msgstr "完成时间"
+
+#: deviations/templates/deviations/list_dl.html:30
+msgid "Without late penalty"
+msgstr "超时不处罚"
+
+#: deviations/templates/deviations/list_dl.html:31
+#: edit_course/templates/edit_course/usertag_list.html:31
+msgid "Actions"
+msgstr "操作"
+
+#: deviations/templates/deviations/list_dl.html:51
+msgid "No deadline deviations."
+msgstr "无"
+
+#: deviations/views.py:43
+msgid "You have to provide either minutes or a date in the future."
+msgstr "你必须在将来提供会议记录或日期"
+
+#: deviations/views.py:77
+#, python-brace-format
+msgid ""
+"Deadline deviation already exists for {user} in {exercise}!Remove it before "
+"trying to add a new one."
+msgstr "延长截止时间 {user} 的 {exercise}！在添加新项前请删除！"
+
+#: diploma/templates/diploma/_diploma_button.html:7
+msgid "Get course diploma"
+msgstr "获得课程文凭"
+
+#: diploma/templates/diploma/_diploma_button.html:12
+msgid "Open grade 0 diploma"
+msgstr "开放评分 0 文凭"
+
+#: diploma/templates/diploma/list.html:26
+#: edit_course/templates/edit_course/signin_as_user.html:14
+#: userprofile/templates/userprofile/login.html:78
+#: userprofile/templates/userprofile/profile.html:35
+msgid "Username"
+msgstr "用户名"
+
+#: diploma/templates/diploma/list.html:28
+#: exercise/templates/exercise/_submission_info.html:22
+#: exercise/templates/exercise/staff/_assess_info.html:29
+#: exercise/templates/exercise/staff/_submissions_table.html:54
+msgid "Grade"
+msgstr "分数"
+
+#: edit_course/course_forms.py:30 exercise/exercise_models.py:86
+#: exercise/templates/exercise/_user_results.html:82
+msgid "Category"
+msgstr "类型"
+
+#: edit_course/course_forms.py:61 edit_course/exercise_forms.py:59
+msgid "Hierarchy"
+msgstr "层级"
+
+#: edit_course/course_forms.py:62 edit_course/exercise_forms.py:63
+#: edit_course/templates/edit_course/edit_course_base.html:36
+msgid "Content"
+msgstr "课程内容"
+
+#: edit_course/course_forms.py:63
+msgid "Schedule"
+msgstr "计划"
+
+#: edit_course/course_forms.py:97
+msgid "The URL identifier is locked while the course is visible to students."
+msgstr "当课程设置为学生可见时，URL不可更改。"
+
+#: edit_course/course_forms.py:99
+msgid "Removes visibility of model answers for students."
+msgstr ""
+
+#: edit_course/course_forms.py:101
+msgid "Removes possibility for students to return answers."
+msgstr ""
+
+#: edit_course/course_forms.py:142
+msgid "New URL identifier for the course instance:"
+msgstr "输入新课程实例URL标识："
+
+#: edit_course/course_forms.py:153
+msgid "The URL is already taken."
+msgstr ""
+
+#: edit_course/exercise_forms.py:102
+msgid "Grading"
+msgstr "评分"
+
+#: edit_course/managers.py:45
+msgid "category"
+msgstr "类型"
+
+#: edit_course/managers.py:51
+msgid "module"
+msgstr "模块"
+
+#: edit_course/managers.py:63
+msgid "learning object"
+msgstr "课程内容"
+
+#: edit_course/operations/batch.py:17
+msgid "Parsing the submission JSON raised an error '{error!s}'."
+msgstr "解析提交的JSON文件错误 '{error!s}'！"
+
+#: edit_course/operations/batch.py:22
+msgid "Missing JSON field: objects."
+msgstr "对象缺少JSON字段！"
+
+#: edit_course/operations/batch.py:25
+msgid "Invalid JSON. Expected list or list in objects field"
+msgstr "无效的JSON格式！应为列表或对象字段中的列表。"
+
+#: edit_course/operations/batch.py:34
+#, python-brace-format
+msgid "Missing field \"exercise_id\" in object {count:d}."
+msgstr "对象 {count:d} 丢失字段 \"exercise_id\""
+
+#: edit_course/operations/batch.py:43
+#, python-brace-format
+msgid "Unknown exercise_id {id:d} in object {count:d}."
+msgstr "对象 {count:d} 中存在未知的练习 {id:d}"
+
+#: edit_course/operations/batch.py:55
+#, python-brace-format
+msgid ""
+"Object number {ordinal:d} has invalid fields:\n"
+" {errors}"
+msgstr ""
+"对象 {ordinal:d} 中包含无效的字段。:\n"
+" {errors}"
+
+#: edit_course/operations/configure.py:26
+#, python-brace-format
+msgid "Unable to parse value '{value}' as a date."
+msgstr "'{value}' 无法解析为日期！"
+
+#: edit_course/operations/configure.py:54
+#, python-brace-format
+msgid "Unable to parse value '{value}' as a time duration."
+msgstr "'{value}' 无法解析为时间间隔!"
+
+#: edit_course/operations/configure.py:62
+#, python-brace-format
+msgid "Unable to parse value '{value}' as an int."
+msgstr "'{value}' 无法解析为整形数!"
+
+#: edit_course/operations/configure.py:70
+#, python-brace-format
+msgid "Unable to parse value '{value}' as a float."
+msgstr "'{value}' 无法解析为浮点数!"
+
+#: edit_course/operations/configure.py:85
+#, python-brace-format
+msgid "Field '{field}' has an unknown value '{value}'."
+msgstr "字段 '{field}' 包含未知值 '{value}'"
+
+#: edit_course/operations/configure.py:97
+msgid "Learning object requires a key."
+msgstr "学习对象需要设置关键字"
+
+#: edit_course/operations/configure.py:100
+msgid "Learning object requires a category."
+msgstr "学习对象需要设置类别"
+
+#: edit_course/operations/configure.py:103
+#, python-brace-format
+msgid "Unknown category '{category}'."
+msgstr "未知的类别 '{category}'"
+
+#: edit_course/operations/configure.py:133
+#, python-brace-format
+msgid ""
+"The site has no configuration for the LTI service '{lti_label}' used by the "
+"LTI exercise '{exercise_key}'. You may have misspelled the value for the "
+"field 'lti' or the site administrator has not yet added the configuration "
+"for the LTI service. The exercise was not created/updated due to the error."
+msgstr "请为LTI 练习 '{exercise_key}' 配置 LTI 服务 '{lti_label}'"
+
+#: edit_course/operations/configure.py:267
+msgid "Cannot request build log from build_log_url when it is blank."
+msgstr "当build_log_url为空时，无法构建日志!"
+
+#: edit_course/operations/configure.py:271
+msgid "Requesting build log failed with error '{error!s}'."
+msgstr "请求构建日志失败： '{error!s}'"
+
+#: edit_course/operations/configure.py:276
+msgid "Parsing the build log JSON raised error '{error!s}'."
+msgstr "解析构建日志JSON出错：'{error!s}'！"
+
+#: edit_course/operations/configure.py:279
+msgid "Remote URL returned an empty build log."
+msgstr "运程URL返回空构建日志！"
+
+#: edit_course/operations/configure.py:288
+msgid "Configuration URL required."
+msgstr "配置URL请求"
+
+#: edit_course/operations/configure.py:293
+msgid ""
+"Request for a course configuration failed with error '{error!s}'. "
+"Configuration of course aborted."
+msgstr "课程配置请求失败 '{error!s}'，中断课程配置！"
+
+#: edit_course/operations/configure.py:302
+msgid "JSON parser raised error '{error!s}'. Configuration of course aborted."
+msgstr "JSON解析错误：'{error!s}'，中断课程配置！"
+
+#: edit_course/operations/configure.py:397
+msgid "Assistants must be given as a student ID array."
+msgstr "助教必须关联学生ID！"
+
+#: edit_course/operations/configure.py:404
+#, python-brace-format
+msgid ""
+"Adding the assistant failed, because an associated user with student ID {id} "
+"does not exist."
+msgstr "关联的学生ID{id}不存在，添加助教失败！"
+
+#: edit_course/operations/configure.py:417
+msgid "Categories required as an object."
+msgstr "对象需要类别"
+
+#: edit_course/operations/configure.py:420
+msgid "Modules required as an array."
+msgstr "模块需要数组"
+
+#: edit_course/operations/configure.py:428
+msgid "Category requires a name."
+msgstr "类别需要名称"
+
+#: edit_course/operations/configure.py:466
+msgid "Module requires a key."
+msgstr "模块需要关键字"
+
+#: edit_course/operations/configure.py:569
+msgid "ExerciseCollection object requires collection_category."
+msgstr ""
+
+#: edit_course/operations/configure.py:572
+msgid "ExerciseCollection object must have either identified or URL"
+msgstr ""
+
+#: edit_course/operations/configure.py:580
+msgid "Course: {} does not exist"
+msgstr ""
+
+#: edit_course/operations/configure.py:586
+msgid "Course: {}, Instance: {}, not found."
+msgstr ""
+
+#: edit_course/operations/configure.py:591
+msgid "ExerciseColletion URL \"{}\" not in correct domain {}."
+msgstr ""
+
+#: edit_course/operations/configure.py:602
+msgid "No course found with URL \"{}\""
+msgstr ""
+
+#: edit_course/operations/configure.py:608
+msgid "Category: {}, not found in Course: {}, Instance: {}."
+msgstr ""
+
+#: edit_course/templates/edit_course/batch_assess.html:6
+msgid "Batch assess submissions"
+msgstr ""
+
+#: edit_course/templates/edit_course/batch_assess.html:11
+#: edit_course/templates/edit_course/batch_assess.html:18
+msgid "Batch create and assess submissions"
+msgstr "批量创建提交和评估"
+
+#: edit_course/templates/edit_course/batch_assess.html:21
+#, python-format
+msgid ""
+"\n"
+"<p><em>Use only if you know what you are doing!</em></p>\n"
+"<p>By submitting json to the form below you can try to create and assess "
+"multiple exercises for students automatically.</p>\n"
+"<dl>\n"
+"\t<dt>XXXXX1 and XXXXX2</dt>\n"
+"    <dd>the real student ids</dd>\n"
+"\t<dt>X1 (integer)</dt>\n"
+"    <dd>the system userprofile id of the desired grader. Your userprofile id "
+"is <b>%(id)s.</b></dd>\n"
+"\t<dt>Z1 and Z2 (integers)</dt>\n"
+"    <dd>the system exercise ids</dd>\n"
+"</dl>\n"
+msgstr ""
+"\n"
+"<p><em>慎重使用！</em></p>\n"
+"<p>通过下面的表单提交JSON文本，您可以批量创建提交和评估学生的练习。</p>\n"
+"<dl>\n"
+"\t<dt>XXXXX1 and XXXXX2</dt>\n"
+"    <dd>学生ID</dd>\n"
+"\t<dt>X1 (integer)</dt>\n"
+"    <dd>你的ID 当前为 <b>%(id)s.</b></dd>\n"
+"\t<dt>Z1 and Z2 (integers)</dt>\n"
+"    <dd>练习ID</dd>\n"
+"</dl>\n"
+
+#: edit_course/templates/edit_course/build_log.html:9
+msgid "Build initated by"
+msgstr "构建初始化"
+
+#: edit_course/templates/edit_course/build_log.html:13
+msgid "Build initated at"
+msgstr "构建初始化"
+
+#: edit_course/templates/edit_course/build_log.html:18
+#: edit_course/templates/edit_course/build_log.html:23
+msgid "Build finished"
+msgstr "构建完毕"
+
+#: edit_course/templates/edit_course/build_log.html:19
+msgid "Not yet built"
+msgstr "尚未构建"
+
+#: edit_course/templates/edit_course/clone_instance.html:9
+#: edit_course/templates/edit_course/edit_course_base.html:21
+msgid "Instances"
+msgstr "课程实例"
+
+#: edit_course/templates/edit_course/clone_instance.html:17
+msgid "Course instances"
+msgstr "课程实例"
+
+#: edit_course/templates/edit_course/clone_instance.html:30
+msgid "hidden"
+msgstr "隐藏"
+
+#: edit_course/templates/edit_course/clone_instance.html:42
+msgid "Clone course"
+msgstr "复制课程实例"
+
+#: edit_course/templates/edit_course/clone_instance.html:44
+msgid ""
+"\n"
+"        This action will clone all course modules and exercises into a new "
+"instance.\n"
+"        "
+msgstr ""
+"\n"
+"此操作将复制本课程实例中所有模块和练习到一个新课程实例。\n"
+"复制课程实例相当于同一门课程新开班，\n"
+"每个课程实例分别对应不同的学生。\n"
+"        "
+
+#: edit_course/templates/edit_course/clone_instance.html:50
+msgid "Clone into new instance"
+msgstr "复制到新实例"
+
+#: edit_course/templates/edit_course/clone_instance.html:54
+msgid "Cloning course..."
+msgstr "克隆课程…"
+
+#: edit_course/templates/edit_course/edit_content.html:17
+msgid "Import and override content configuration from URL"
+msgstr "导入并覆盖内容配置 URL："
+
+#: edit_course/templates/edit_course/edit_content.html:20
+msgid "Apply"
+msgstr "导入"
+
+#: edit_course/templates/edit_course/edit_content.html:21
+msgid "Clear content cache"
+msgstr "清除内容缓存"
+
+#: edit_course/templates/edit_course/edit_content.html:25
+msgid "Retrieve latest build log"
+msgstr "检索最新的生成日志"
+
+#: edit_course/templates/edit_course/edit_content.html:31
+msgid "Previous modification of this course instance took place at"
+msgstr "上次修改时间"
+
+#: edit_course/templates/edit_course/edit_content.html:37
+msgid "Exercise categories"
+msgstr "练习类型"
+
+#: edit_course/templates/edit_course/edit_content.html:49
+msgid "Edit category"
+msgstr "编辑"
+
+#: edit_course/templates/edit_course/edit_content.html:63
+msgid "Add new category"
+msgstr "添加新类型"
+
+#: edit_course/templates/edit_course/edit_content.html:73
+msgid "Course modules"
+msgstr "课程模块"
+
+#: edit_course/templates/edit_course/edit_content.html:87
+msgid "Edit module"
+msgstr "编辑"
+
+#: edit_course/templates/edit_course/edit_content.html:95
+msgid "Open module"
+msgstr "打开"
+
+#: edit_course/templates/edit_course/edit_content.html:109
+#: exercise/templates/exercise/exercise_base.html:91
+msgid "Edit exercise"
+msgstr "编辑"
+
+#: edit_course/templates/edit_course/edit_content.html:115
+msgid "Open exercise"
+msgstr "打开"
+
+#: edit_course/templates/edit_course/edit_content.html:119
+#: exercise/templates/exercise/_user_results.html:146
+msgid "View submissions"
+msgstr "查看"
+
+#: edit_course/templates/edit_course/edit_content.html:129
+msgid "Add new learning object"
+msgstr "添加新内容"
+
+#: edit_course/templates/edit_course/edit_content.html:139
+msgid "Choose learning object type to add"
+msgstr "选择内容类别"
+
+#: edit_course/templates/edit_course/edit_content.html:145
+msgid "Content chapter"
+msgstr "章节"
+
+#: edit_course/templates/edit_course/edit_content.html:146
+msgid "A remote content page loaded in as a chapter."
+msgstr "支持URL加载远程章节内容"
+
+#: edit_course/templates/edit_course/edit_content.html:150
+msgid "A remote exercise page loaded in for posting submissions."
+msgstr "支持URL加载远程练习内容"
+
+#: edit_course/templates/edit_course/edit_content.html:153
+msgid "LTI Exercise"
+msgstr "LTI 练习"
+
+#: edit_course/templates/edit_course/edit_content.html:154
+msgid ""
+"A remote exercise page loaded in for posting submissions including signed "
+"LTI course and student information."
+msgstr "支持学习工具协同（Learning Tool Interoperability）合作方提供的练习内容"
+
+#: edit_course/templates/edit_course/edit_content.html:157
+msgid "Exercise with attachment"
+msgstr "带附件的练习"
+
+#: edit_course/templates/edit_course/edit_content.html:158
+msgid ""
+"A local page accepting files and initiating remote grading with teacher "
+"provided grading attachment."
+msgstr "支持教师提供附件进行评分的练习内容"
+
+#: edit_course/templates/edit_course/edit_content.html:161
+msgid "Static exercise"
+msgstr "静态练习"
+
+#: edit_course/templates/edit_course/edit_content.html:162
+msgid "A local page with editable markup content."
+msgstr "支持可在本地编辑的练习内容"
+
+#: edit_course/templates/edit_course/edit_content.html:176
+msgid "Add new module"
+msgstr "添加新模块"
+
+#: edit_course/templates/edit_course/edit_content.html:187
+msgid "Renumerate learning objects for each module"
+msgstr "模块和内容重新编号"
+
+#: edit_course/templates/edit_course/edit_content.html:188
+msgid "Renumerate learning objects ignoring modules"
+msgstr "忽略模块内容重新编号"
+
+#: edit_course/templates/edit_course/edit_course_base.html:31
+#: edit_course/templates/edit_course/edit_index.html:9
+msgid "Index"
+msgstr "课程首页"
+
+#: edit_course/templates/edit_course/edit_course_base.html:41
+msgid "Menu"
+msgstr "参考资料"
+
+#: edit_course/templates/edit_course/edit_course_base.html:51
+msgid "Deviations"
+msgstr "提交期限"
+
+#: edit_course/templates/edit_course/edit_course_base.html:56
+msgid "Batch assess"
+msgstr "批量评估"
+
+#: edit_course/templates/edit_course/edit_index.html:17
+msgid "Edit course index"
+msgstr "编辑课程首页"
+
+#: edit_course/templates/edit_course/edit_instance.html:9
+msgid "Details"
+msgstr "详情"
+
+#: edit_course/templates/edit_course/edit_instance.html:17
+msgid "Edit course details"
+msgstr "编辑课程详情"
+
+#: edit_course/templates/edit_course/edit_instance.html:20
+msgid "Teachers"
+msgstr "教师"
+
+#: edit_course/templates/edit_course/edit_model.html:6
+#, python-format
+msgid "Edit %(model)s ID %(id)s"
+msgstr "编辑 %(model)s ID %(id)s"
+
+#: edit_course/templates/edit_course/edit_model.html:6
+#, python-format
+msgid "Add new %(model)s"
+msgstr "添加新 %(model)s"
+
+#: edit_course/templates/edit_course/edit_model.html:12
+#, python-format
+msgid ""
+"\n"
+"    \tEdit %(model)s\n"
+"    \t"
+msgstr ""
+"\n"
+"    \t编辑 %(model)s\n"
+"    \t"
+
+#: edit_course/templates/edit_course/edit_model.html:16
+#, python-format
+msgid ""
+"\n"
+"        Add new %(model)s\n"
+"        "
+msgstr ""
+"\n"
+"        添加新%(model)s\n"
+"        "
+
+#: edit_course/templates/edit_course/edit_model.html:34
+msgid "Remote service"
+msgstr "服务器"
+
+#: edit_course/templates/edit_course/edit_model.html:41
+msgid "Fill in the URL and"
+msgstr "请输入URL地址并"
+
+#: edit_course/templates/edit_course/edit_model.html:43
+msgid "Download possible metadata"
+msgstr "下载可能需要的元数据"
+
+#: edit_course/templates/edit_course/remove_model.html:5
+#, python-format
+msgid "Remove %(model)s ID %(id)s"
+msgstr ""
+
+#: edit_course/templates/edit_course/remove_model.html:10
+#, python-format
+msgid ""
+"\n"
+"\tRemove %(model)s\n"
+"\t"
+msgstr ""
+
+#: edit_course/templates/edit_course/remove_model.html:21
+#, python-format
+msgid ""
+"\n"
+"\t\tConfirm %(model)s removal\n"
+"\t\t"
+msgstr ""
+
+#: edit_course/templates/edit_course/remove_model.html:28
+#, python-format
+msgid ""
+"\n"
+"\t\t\tYou are removing %(model)s <strong>%(name)s</strong>.\n"
+"\t\t\tAre you sure?\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t您正在删除%(model)s <strong>%(name)s</strong>\n"
+"\t\t\t确定删除吗?\n"
+"\t\t\t"
+
+#: edit_course/templates/edit_course/remove_model.html:35
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\tIf you remove this exercise, <strong>all the %(num)s submissions\n"
+"\t\t\t\tto the exercise will also be removed</strong>.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t假如您删除了练习，<strong>已提交 %(num)s 次的练习答案也会同时删除！</"
+"strong>\n"
+"\t\t\t\t"
+
+#: edit_course/templates/edit_course/remove_model.html:42
+#, python-format
+msgid ""
+"\n"
+"\t\t\tThe %(model)s <strong>%(name)s</strong> is not empty.\n"
+"\t\t\tContained exercises must be removed first.\n"
+"\t\t\t"
+msgstr ""
+
+#: edit_course/templates/edit_course/signin_as_user.html:4
+#: edit_course/templates/edit_course/signin_as_user.html:7
+msgid "Sign in as given user"
+msgstr ""
+
+#: edit_course/templates/edit_course/signin_as_user.html:9
+msgid ""
+"For debugging purposes, superusers may sign in here as any user. Consider "
+"your actions!"
+msgstr ""
+
+#: edit_course/templates/edit_course/signin_as_user.html:17
+msgid "Change my session"
+msgstr ""
+
+#: edit_course/templates/edit_course/usertag_add.html:10
+msgid "Add new user tag"
+msgstr "添加用户标签"
+
+#: edit_course/templates/edit_course/usertag_add.html:18
+msgid "Add student tag"
+msgstr "添加学生标签"
+
+#: edit_course/templates/edit_course/usertag_delete.html:11
+msgid "Remove user tag"
+msgstr "删除用户标签"
+
+#: edit_course/templates/edit_course/usertag_delete.html:20
+msgid "Confirm user tag removal"
+msgstr "确认删除用户标签"
+
+#: edit_course/templates/edit_course/usertag_delete.html:24
+msgid "Are you sure you want to remove following user tag?"
+msgstr "您是否想删除下面的用户本标签？"
+
+#: edit_course/templates/edit_course/usertag_edit.html:10
+#: edit_course/templates/edit_course/usertag_edit.html:18
+msgid "Edit student tag"
+msgstr "编辑学生标签"
+
+#: edit_course/templates/edit_course/usertag_list.html:19
+msgid "Add new student tag"
+msgstr "添加学生标签"
+
+#: edit_course/templates/edit_course/usertag_list.html:24
+msgid "Student tags"
+msgstr "标签列表"
+
+#: edit_course/templates/edit_course/usertag_list.html:28
+msgid "Tag"
+msgstr "学生标签"
+
+#: edit_course/templates/edit_course/usertag_list.html:30
+msgid "Visible to students"
+msgstr "学生可见"
+
+#: edit_course/templates/edit_course/usertag_list.html:50
+msgid "Tag students"
+msgstr "学生标签"
+
+#: edit_course/templates/edit_course/usertag_list.html:56
+msgid "No student tags."
+msgstr "无学生标签"
+
+#: edit_course/templates/edit_course/usertagging_add.html:10
+#: edit_course/templates/edit_course/usertagging_add.html:18
+msgid "Add new user tagging"
+msgstr "添加用户标签"
+
+#: edit_course/views.py:158
+msgid ""
+"At least one exercise category must be created before creating exercises."
+msgstr "在创建练习之前必须先创建练习类别"
+
+#: edit_course/views.py:175
+#, python-brace-format
+msgid "Failed to save {name} due to an error '{error}'."
+msgstr "保存 {name} 发生错误  '{error}'"
+
+#: edit_course/views.py:179
+#, python-brace-format
+msgid "The {name} was saved successfully."
+msgstr "保存 {name} 成功"
+
+#: edit_course/views.py:185
+#, python-brace-format
+msgid "Failed to save {name}."
+msgstr "保存 {name} 失败"
+
+#: edit_course/views.py:265
+#, python-brace-format
+msgid "Tagged user {user_name} with tag {tag_name}."
+msgid_plural "Tagged users {user_name} with tag {tag_name}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: edit_course/views.py:286
+msgid "New submissions stored."
+msgstr "新的提交已存储"
+
+#: edit_course/views.py:303
+msgid "Course instance is now cloned."
+msgstr "克隆课程实例已成功"
+
+#: edit_course/views.py:325
+msgid "Course content configured."
+msgstr "课程内容已配置"
+
+#: edit_course/views.py:327
+msgid "Server returned error '{error!s}'."
+msgstr "服务器返回错误：'{error!s}'"
+
+#: edit_course/views.py:333
+msgid "Exercise caches have been cleared."
+msgstr "练习缓存已被清除"
+
+#: edit_course/views.py:356
+#, python-brace-format
+msgid "Username \"{username}\" does not exist."
+msgstr "用户名 \"{username}\" 不存在"
+
+#: exercise/admin.py:40
+msgid "Real class"
+msgstr "实时课程"
+
+#: exercise/admin.py:41
+msgid "Course instance"
+msgstr "课程实例"
+
+#: exercise/admin.py:42 exercise/templates/exercise/_submission_info.html:33
+#: exercise/templates/exercise/staff/_assess_info.html:17
+#: exercise/templates/exercise/staff/_submissions_table.html:51
+msgid "Submitters"
+msgstr "提交者"
+
+#: exercise/async_views.py:29
+msgid ""
+"<div class=\"alert alert-error\">\n"
+"<p>The exercise assessment service is malfunctioning. Staff has been "
+"notified.</p>\n"
+"<p>This submission is now marked as erroneous.</p>\n"
+"</div>"
+msgstr ""
+"<div class=\"alert alert-error\">\n"
+"<p>练习评估服务器故障，已通知相关教职员.</p>\n"
+"<p>该次提交不成功！</p>\n"
+"</div>"
+
+#: exercise/exercise_models.py:70
+msgid "Enrollment questions"
+msgstr "该问题供注册学生使用"
+
+#: exercise/exercise_models.py:71
+msgid "Enrollment questions for external students"
+msgstr "该问题供外部学生使用"
+
+#: exercise/exercise_models.py:72
+msgid "Hidden from non course staff"
+msgstr "非教职员不可见"
+
+#: exercise/exercise_models.py:76
+msgid "Course audience"
+msgstr "课程观众"
+
+#: exercise/exercise_models.py:77
+msgid "Only internal users"
+msgstr "仅供内部用户"
+
+#: exercise/exercise_models.py:78
+msgid "Only external users"
+msgstr "仅供外部用户"
+
+#: exercise/exercise_models.py:79
+msgid "Only registered users"
+msgstr "仅供注册用户"
+
+#: exercise/exercise_models.py:84 news/templates/news/list.html:19
+msgid "Audience"
+msgstr "目标读者"
+
+#: exercise/exercise_models.py:88
+msgid "Course module"
+msgstr "课程模块"
+
+#: exercise/exercise_models.py:90
+msgid "Parent"
+msgstr "上一级"
+
+#: exercise/exercise_models.py:94
+msgid "Input an URL identifier for this object."
+msgstr "请输入URL标识符"
+
+#: exercise/exercise_models.py:95
+msgid "Name"
+msgstr "名称"
+
+#: exercise/exercise_models.py:97
+msgid "Internal description is not presented on site."
+msgstr "内部描述不会显示在网站上"
+
+#: exercise/exercise_models.py:99
+msgid "Remove the third info column for more space."
+msgstr "删除第三列以获得更多空间"
+
+#: exercise/exercise_models.py:99
+msgid "use wide column"
+msgstr "使用宽列"
+
+#: exercise/exercise_models.py:101
+msgid "Service url"
+msgstr "服务器地址"
+
+#: exercise/exercise_models.py:104
+msgid "List model answer files as protected URL addresses."
+msgstr "将模型答案文件列出为受保护的URL地址。"
+
+#: exercise/exercise_models.py:104
+msgid "Model answers"
+msgstr "课程答案"
+
+#: exercise/exercise_models.py:106
+msgid "List template files as protected URL addresses."
+msgstr "将模板文件列表为受保护的URL地址。"
+
+#: exercise/exercise_models.py:106
+msgid "Templates"
+msgstr "模板"
+
+#: exercise/exercise_models.py:129
+msgid "Course_module and category must belong to the same course instance."
+msgstr ""
+
+#: exercise/exercise_models.py:132
+msgid "Cannot select parent from another course module."
+msgstr ""
+
+#: exercise/exercise_models.py:134
+msgid "Cannot select self as a parent."
+msgstr ""
+
+#: exercise/exercise_models.py:302
+msgid "Generate_table_of_contents"
+msgstr "未列于目录中"
+
+#: exercise/exercise_models.py:333
+msgid "Allow assistant viewing"
+msgstr "允许助理查看"
+
+#: exercise/exercise_models.py:334
+msgid "Allow assistant grading"
+msgstr "允许助理评分"
+
+#: exercise/exercise_models.py:335
+msgid "Min group size"
+msgstr "最小小组规模"
+
+#: exercise/exercise_models.py:336
+msgid "Max group size"
+msgstr "最大小组规模"
+
+#: exercise/exercise_models.py:337
+msgid "Max submissions"
+msgstr "历史提交"
+
+#: exercise/exercise_models.py:338
+msgid "Max points"
+msgstr "最大分值"
+
+#: exercise/exercise_models.py:339
+msgid "Points to pass"
+msgstr "及格分数"
+
+#: exercise/exercise_models.py:340
+msgid "Difficulty"
+msgstr "困难度"
+
+#: exercise/exercise_models.py:354
+msgid "Points to pass cannot be greater than max_points."
+msgstr "及格分数不能大于满分"
+
+#: exercise/exercise_models.py:356
+msgid "Minimum group size cannot exceed maximum size."
+msgstr ""
+
+#: exercise/exercise_models.py:419
+#, no-python-format, python-brace-format
+msgid ""
+"Deadline for the exercise has passed. Late submissions are allowed until "
+"{date} but points are only worth {percent:d}% of normal."
+msgstr ""
+
+#: exercise/exercise_models.py:424
+#, python-brace-format
+msgid ""
+"Deadline for the exercise has passed ({date}). You may still submit to "
+"receive feedback, but your current grade will not change."
+msgstr ""
+
+#: exercise/exercise_models.py:428
+#, python-brace-format
+msgid "The exercise opens {date} for submissions."
+msgstr "该练习 {date} 开放提交作业"
+
+#: exercise/exercise_models.py:432
+#, python-brace-format
+msgid "Deadline for the exercise has passed ({date})."
+msgstr "该作业提交已超过截止时间 ({date})"
+
+#: exercise/exercise_models.py:436
+#, python-brace-format
+msgid "This course has been archived ({date})."
+msgstr "该课程已归档 ({date})"
+
+#: exercise/exercise_models.py:489
+msgid ""
+"You have used the allowed amount of submissions for this exercise. You may "
+"still submit to receive feedback, but your current grade will not change."
+msgstr ""
+"您已使用此练习允许的提交数量. "
+"您仍然可以提交以接收反馈，但是您当前的成绩不会改变."
+
+#: exercise/exercise_models.py:490
+msgid "You have used the allowed amount of submissions for this exercise."
+msgstr "您已使用此练习允许的提交数量"
+
+#: exercise/exercise_models.py:532
+msgid "You cannot enroll in the course."
+msgstr "您不能注册此课程"
+
+#: exercise/exercise_models.py:537
+msgid "Staff can submit exercises without enrolling."
+msgstr "教职员提交作业不用注册课程"
+
+#: exercise/exercise_models.py:540
+msgid "You must enroll in the course to submit exercises."
+msgstr "请先注册课程后才能提交作业！"
+
+#: exercise/exercise_models.py:562
+msgid "Group can only change between different exercises."
+msgstr "更改学习组只对未提交的练习生效。"
+
+#: exercise/exercise_models.py:563
+#, python-brace-format
+msgid "You have previously submitted this exercise {with_group}. {msg}"
+msgstr "你已经 {with_group} 提交过此练习，{msg}"
+
+#: exercise/exercise_models.py:566
+msgid "alone"
+msgstr "独自"
+
+#: exercise/exercise_models.py:570
+msgid "with {}"
+msgstr "和 {}"
+
+#: exercise/exercise_models.py:576
+#, python-brace-format
+msgid ""
+"{collaborators} already submitted to this exercise in a different group."
+msgstr "{collaborators} 已经在不同的学习组中提交过该练习。"
+
+#: exercise/exercise_models.py:591
+#, python-brace-format
+msgid "This exercise must be submitted in groups of {size} students."
+msgstr "该练习必须由{size}学生小组提交"
+
+#: exercise/exercise_models.py:601
+msgid ""
+"Cannot submit exercise due to unknown reason. If you think this is an error, "
+"please contact course staff."
+msgstr "由于未知原因，无法提交练习。 如果您认为这是一个错误，请与课程人员联系。"
+
+#: exercise/exercise_models.py:737
+msgid "Default: [hostname]/[course:url]/[instance:url]/"
+msgstr "默认: [hostname]/[course:url]/[instance:url]/"
+
+#: exercise/exercise_models.py:739
+msgid "Default: [aplusexercise:id]"
+msgstr "默认: [aplusexercise:id]"
+
+#: exercise/exercise_models.py:741
+msgid "Default: the menu label of the LTI service"
+msgstr "默认值:LTI服务的菜单标签"
+
+#: exercise/exercise_models.py:743
+msgid ""
+"Perform GET and POST from A+ to custom service URL with LTI data appended."
+msgstr "执行从A +到附加了LTI数据的自定义服务URL的GET和POST。"
+
+#: exercise/exercise_models.py:745
+msgid ""
+"Open the exercise in an iframe inside the A+ page instead of a new window."
+msgstr "在A +页面而不是新窗口的iframe中打开练习。"
+
+#: exercise/exercise_models.py:762
+msgid ""
+"Domain of Service URL must match the domain of LTI Service or it should only "
+"be the path."
+msgstr "服务URL的域必须与LTI服务的域匹配，否则它只能是路径。"
+
+#: exercise/exercise_models.py:769
+msgid ""
+"The exercise can not be loaded because the external LTI service has been "
+"disabled."
+msgstr "由于外部LTI服务已被禁用，因此无法加载该练习。"
+
+#: exercise/exercise_models.py:900
+msgid ""
+"File names that user should submit, use pipe character to separate files"
+msgstr "请输入文件名，多个文件名用管道符（|）分隔。"
+
+#: exercise/forms.py:26
+msgid "Points greater than maximum points are not allowed."
+msgstr "分数不允许超过最大分数。"
+
+#: exercise/forms.py:29
+msgid "Points lower than zero are not allowed."
+msgstr "分数低于零是不允许的。"
+
+#: exercise/forms.py:36
+msgid ""
+"Possible penalties are not applied - the points are set as given. This will "
+"<em>override</em> grader points!"
+msgstr ""
+"可能的惩罚当前不适用，这将 "
+"<em>重置</em> 评估评分!"
+
+#: exercise/forms.py:39
+msgid "HTML formatting is allowed. This will not override machine feedback."
+msgstr "允许HTML格式。 这不会覆盖机器反馈。"
+
+#: exercise/forms.py:42
+msgid "HTML formatting is allowed. This WILL override machine feedback."
+msgstr "允许HTML格式。 这将覆盖机器反馈。"
+
+#: exercise/forms.py:55
+#, python-brace-format
+msgid ""
+"The maximum points for this exercise is {max:d} and the given points is more "
+"than that."
+msgstr ""
+
+#: exercise/forms.py:100
+msgid "One of the student fields must not be blank"
+msgstr ""
+
+#: exercise/forms.py:102
+msgid "Only one student field can be given"
+msgstr ""
+
+#: exercise/permissions.py:19
+msgid "Permission denied by exercise visibility"
+msgstr ""
+
+#: exercise/permissions.py:31
+msgid "The exercise is not currently visible."
+msgstr ""
+
+#: exercise/permissions.py:37
+msgid "The exercise is only for registered users."
+msgstr "练习仅限注册用户"
+
+#: exercise/permissions.py:42
+msgid "The exercise is only for internal users."
+msgstr ""
+
+#: exercise/permissions.py:47
+msgid "The exercise is only for external users."
+msgstr ""
+
+#: exercise/permissions.py:54
+msgid "Permission denied by exercise assistant permission"
+msgstr ""
+
+#: exercise/permissions.py:73
+msgid "Assistant viewing is not allowed for this exercise."
+msgstr ""
+
+#: exercise/permissions.py:78
+msgid "Assistant grading is not allowed for this exercise."
+msgstr ""
+
+#: exercise/permissions.py:85
+msgid "Permission denied by submission visibility"
+msgstr ""
+
+#: exercise/permissions.py:93
+msgid "Only the submitter shall pass."
+msgstr ""
+
+#: exercise/permissions.py:121
+msgid "Permission denied by exercise model answer visibility"
+msgstr ""
+
+#: exercise/permissions.py:133
+msgid "You are not allowed to view model answers for this exercise."
+msgstr ""
+
+#: exercise/protocol/aplus.py:27
+msgid "Connecting to the exercise service failed!"
+msgstr "内容服务器忙，请稍候！"
+
+#: exercise/protocol/aplus.py:52
+msgid "Connecting to the assessment service failed!"
+msgstr ""
+
+#: exercise/protocol/aplus.py:80
+#, python-brace-format
+msgid ""
+"Assessment service responded with invalid points. Points: {points:d}/{max:d} "
+"(exercise max {exercise_max:d})"
+msgstr ""
+
+#: exercise/protocol/aplus.py:109
+msgid "Assessment service responded with error."
+msgstr "评估服务回应错误。"
+
+#: exercise/staff_views.py:148
+msgid "The review was saved successfully and the submitters were notified."
+msgstr "该评论已成功保存，并通知了提交者。"
+
+#: exercise/staff_views.py:169
+msgid "Failed to load the resource."
+msgstr ""
+
+#: exercise/staff_views.py:245
+#, python-brace-format
+msgid ""
+"Invalid POST data:\n"
+"{error}"
+msgstr ""
+
+#: exercise/staff_views.py:260
+msgid "New submission stored."
+msgstr "新的提交已保存"
+
+#: exercise/submission_models.py:56
+msgid "Initialized"
+msgstr ""
+
+#: exercise/submission_models.py:57
+msgid "In grading"
+msgstr "评分中"
+
+#: exercise/submission_models.py:59
+msgid "Error"
+msgstr "错误"
+
+#: exercise/submission_models.py:60
+#: exercise/templates/exercise/_points_badge.html:11
+msgid "Rejected"
+msgstr ""
+
+#: exercise/submission_models.py:61
+msgid "No effect on grading"
+msgstr ""
+
+#: exercise/templates/exercise/_category_points.html:8
+msgid "Total points"
+msgstr ""
+
+#: exercise/templates/exercise/_exercise_info.html:7
+msgid "Current status"
+msgstr "当前状态"
+
+#: exercise/templates/exercise/_exercise_info.html:12
+msgid "Earned points"
+msgstr "您现在得分："
+
+#: exercise/templates/exercise/_exercise_info.html:19
+msgid "Late"
+msgstr "最新"
+
+#: exercise/templates/exercise/_exercise_info.html:30
+msgid "Exercise info"
+msgstr "练习信息"
+
+#: exercise/templates/exercise/_exercise_info.html:35
+msgid "Exercise category"
+msgstr "练习类型"
+
+#: exercise/templates/exercise/_exercise_info.html:40
+msgid "Your submissions"
+msgstr "提交次数"
+
+#: exercise/templates/exercise/_exercise_info.html:49
+msgid "Points required to pass"
+msgstr "及格分数"
+
+#: exercise/templates/exercise/_exercise_info.html:53
+#: exercise/templates/exercise/exercise_plain.html:103
+msgid "Deadline"
+msgstr "截至时间"
+
+#: exercise/templates/exercise/_exercise_info.html:57
+#: exercise/templates/exercise/exercise_plain.html:98
+msgid "Late submission deadline"
+msgstr "提交截止"
+
+#: exercise/templates/exercise/_exercise_info.html:67
+msgid "Group size"
+msgstr "小组规模"
+
+#: exercise/templates/exercise/_exercise_info.html:71
+msgid "Total number of submitters"
+msgstr "已提交人数"
+
+#: exercise/templates/exercise/_exercise_wait.html:6
+#: exercise/templates/exercise/exercise.html:49
+msgid "Communication error with the exercise."
+msgstr "与练习服务器通信错误！"
+
+#: exercise/templates/exercise/_exercise_wait.html:7
+msgid ""
+"Unfortunately grading takes longer than expected. Return later to see the "
+"result."
+msgstr "评分时间比预期的要长，稍后返回查看结果。"
+
+#: exercise/templates/exercise/_exercise_wait.html:9
+msgid "Grading submission..."
+msgstr "提交评分"
+
+#: exercise/templates/exercise/_exercisecollection.html:15
+msgid "Current score"
+msgstr "当前分数"
+
+#: exercise/templates/exercise/_model_files.html:14
+msgid "File not found."
+msgstr "文件未找到"
+
+#: exercise/templates/exercise/_model_files.html:17
+msgid "No model answer has been supplied for this exercise."
+msgstr "未提供答案给该练习"
+
+#: exercise/templates/exercise/_points_badge.html:11
+#: exercise/templates/exercise/_points_badge.html:29
+msgid "Submitted after deadline or exceeded submission limit"
+msgstr "在截止日期后提交或超过提交限制"
+
+#: exercise/templates/exercise/_points_badge.html:11
+msgid "Accepted"
+msgstr "接受"
+
+#: exercise/templates/exercise/_points_badge.html:11
+msgid "Submitted"
+msgstr "已提交"
+
+#: exercise/templates/exercise/_points_badge.html:14
+msgid ""
+"You must submit here to confirm your points. Submissions are accepted even "
+"after the deadline."
+msgstr ""
+
+#: exercise/templates/exercise/_points_badge.html:15
+msgid "Missing"
+msgstr "缺少"
+
+#: exercise/templates/exercise/_points_badge.html:19
+#: exercise/templates/exercise/staff/analytics.html:139
+msgid "Not submitted"
+msgstr "未提交"
+
+#: exercise/templates/exercise/_points_badge.html:29
+msgid "Passed"
+msgstr "通过"
+
+#: exercise/templates/exercise/_points_badge.html:29
+#, python-format
+msgid "%(points)s points required to pass"
+msgstr "%(points)s 分及格"
+
+#: exercise/templates/exercise/_points_badge.html:29
+msgid "Required exercises are not passed"
+msgstr "还有练习未提交"
+
+#: exercise/templates/exercise/_points_progress.html:3
+#: exercise/templates/exercise/_user_results.html:84
+#: exercise/templates/exercise/exercise_plain.html:56
+#: exercise/templates/exercise/submission_plain.html:39
+msgid "Points"
+msgstr "分数"
+
+#: exercise/templates/exercise/_points_progress.html:3
+msgid "Required"
+msgstr "要求"
+
+#: exercise/templates/exercise/_submission_info.html:8
+msgid "Submission info"
+msgstr "提交信息"
+
+#: exercise/templates/exercise/_submission_info.html:12
+msgid "Submitted on"
+msgstr "提交时间"
+
+#: exercise/templates/exercise/_submission_info.html:28
+#: exercise/templates/exercise/staff/_assess_info.html:35
+msgid "Includes late penalty"
+msgstr "包括逾期惩罚"
+
+#: exercise/templates/exercise/_template_files.html:14
+msgid ""
+"\n"
+"This exercise has no template.\n"
+msgstr ""
+
+#: exercise/templates/exercise/_text_stats.html:2
+#, python-format
+msgid ""
+"\n"
+"Submitters: %(number)s <small>%(percentage)s%%</small>\n"
+msgstr ""
+"\n"
+"提交次数: %(number)s <small>%(percentage)s%%</small>\n"
+
+#: exercise/templates/exercise/_user_last.html:7
+#, python-format
+msgid ""
+"\n"
+"  You have last visited\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+msgstr ""
+"\n"
+"  上次学习内容：\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+
+#: exercise/templates/exercise/_user_last.html:12
+#, python-format
+msgid ""
+"\n"
+"  You can start from\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+"  or browse the <a href=\"%(toc_link)s\">course materials</a>.\n"
+msgstr ""
+"\n"
+"  You can start from\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+"  or browse the <a href=\"%(toc_link)s\">course materials</a>.\n"
+
+#: exercise/templates/exercise/_user_results.html:7
+msgid "Filter view"
+msgstr "筛选"
+
+#: exercise/templates/exercise/_user_results.html:19
+msgid "Show older assignments."
+msgstr "显示较早作业"
+
+#: exercise/templates/exercise/_user_results.html:33
+#: exercise/templates/exercise/_user_toc.html:40
+msgid "Opens"
+msgstr "打开"
+
+#: exercise/templates/exercise/_user_results.html:38
+#: exercise/templates/exercise/_user_toc.html:17
+#: exercise/templates/exercise/_user_toc.html:36
+msgid "Requires"
+msgstr "要求"
+
+#: exercise/templates/exercise/_user_results.html:54
+#, python-format
+msgid ""
+"\n"
+"        Late submission are allowed until %(deadline)s\n"
+"        "
+msgstr ""
+"\n"
+"        提交不得晚于： %(deadline)s\n"
+"        "
+
+#: exercise/templates/exercise/_user_results.html:58
+#, python-format
+msgid ""
+"\n"
+"        but points are only worth %(percent)s%%.\n"
+"        "
+msgstr ""
+"\n"
+"        分数占 %(percent)s%%.\n"
+"        "
+
+#: exercise/templates/exercise/_user_results.html:67
+#, python-format
+msgid ""
+"\n"
+"      %(points)s points required to pass the module.\n"
+"      "
+msgstr ""
+"\n"
+"      该学习模块%(points)s分及格\n"
+"      "
+
+#: exercise/templates/exercise/_user_results.html:83
+#: exercise/templates/exercise/staff/_assess_info.html:38
+msgid "Submissions"
+msgstr "提交次数"
+
+#: exercise/templates/exercise/_user_results.html:126
+#: exercise/templates/exercise/exercise_base.html:61
+#: exercise/templates/exercise/exercise_plain.html:83
+msgid "No submissions yet"
+msgstr "还未提交"
+
+#: exercise/templates/exercise/_warnings_overlay.html:6
+msgid "You cannot submit this exercise"
+msgstr "提示"
+
+#: exercise/templates/exercise/_warnings_overlay.html:18
+msgid "Show anyway"
+msgstr "取消"
+
+#: exercise/templates/exercise/_warnings_overlay.html:43
+msgid "Enrollment information"
+msgstr ""
+
+#: exercise/templates/exercise/exercise.html:40
+#: exercise/templates/exercise/exercise.html:48
+msgid "Posting submission..."
+msgstr ""
+
+#: exercise/templates/exercise/exercise.html:47
+msgid "Loading exercise..."
+msgstr "加载练习"
+
+#: exercise/templates/exercise/exercise.html:54
+msgid "Submission received."
+msgstr "已收到提交。"
+
+#: exercise/templates/exercise/exercise.html:57
+msgid "Go to feedback"
+msgstr "得到反馈"
+
+#: exercise/templates/exercise/exercise_base.html:40
+msgid "Exercise description"
+msgstr "练习内容"
+
+#: exercise/templates/exercise/exercise_base.html:46
+#: exercise/templates/exercise/exercise_plain.html:63
+msgid "My submissions"
+msgstr "历史提交"
+
+#: exercise/templates/exercise/exercise_base.html:74
+#: exercise/templates/exercise/model.html:9
+msgid "Model answer"
+msgstr "模型答案"
+
+#: exercise/templates/exercise/exercise_base.html:85
+msgid "Inspect submission"
+msgstr "查看提交"
+
+#: exercise/templates/exercise/exercise_base.html:97
+#: exercise/templates/exercise/exercise_plain.html:134
+msgid "View all submissions"
+msgstr "查看所有提交"
+
+#: exercise/templates/exercise/exercise_plain.html:93
+#, python-format
+msgid ""
+"\n"
+"                                                %(points)s points required "
+"to pass.\n"
+"                                            "
+msgstr ""
+"\n"
+"                                                %(points)s 分及格\n"
+"                                            "
+
+#: exercise/templates/exercise/exercise_plain.html:119
+msgid "Show model answer"
+msgstr "显示课程答案"
+
+#: exercise/templates/exercise/exercise_plain.html:127
+msgid "Show exercise template"
+msgstr "显示练习模板"
+
+#: exercise/templates/exercise/exercise_plain.html:156
+#: exercise/templates/exercise/submission.html:37
+#: exercise/templates/exercise/submission_plain.html:94
+msgid "Your submission has been accepted for grading."
+msgstr "你的作品已被接受评分。"
+
+#: exercise/templates/exercise/results.html:8
+msgid "Results"
+msgstr "结果"
+
+#: exercise/templates/exercise/staff/_assess_info.html:12
+msgid "Submitted data"
+msgstr "提交数据"
+
+#: exercise/templates/exercise/staff/_assess_info.html:27
+msgid "Submission time"
+msgstr "提交时间"
+
+#: exercise/templates/exercise/staff/_assess_info.html:32
+msgid "grader output"
+msgstr "评分输出"
+
+#: exercise/templates/exercise/staff/_assess_info.html:56
+msgid "In total"
+msgstr "总共"
+
+#: exercise/templates/exercise/staff/_assess_info.html:61
+msgid "Add one extra submission for the student in this exercise."
+msgstr "在这个练习中为学生添加一个额外的提交。"
+
+#: exercise/templates/exercise/staff/_assess_info.html:70
+msgid "Submitted files"
+msgstr "提交文件"
+
+#: exercise/templates/exercise/staff/_assess_info.html:80
+msgid "No files"
+msgstr "没有文件"
+
+#: exercise/templates/exercise/staff/_assess_info.html:85
+msgid "Submitted values"
+msgstr "提交值"
+
+#: exercise/templates/exercise/staff/_assess_info.html:92
+#: exercise/templates/exercise/staff/_assess_info.html:103
+msgid "No values"
+msgstr "没有值"
+
+#: exercise/templates/exercise/staff/_assess_info.html:96
+msgid "Grading data"
+msgstr "评分数据"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:11
+#: exercise/templates/exercise/staff/submissions_summary.html:13
+msgid "Summary"
+msgstr "总计"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:20
+msgid "Download"
+msgstr "下载"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:37
+#, python-format
+msgid ""
+"\n"
+"    %(limit)s latest submissions.\n"
+"    <a class=\"btn btn-default btn-sm\" href=\"%(url)s\">Show all</a>\n"
+"    "
+msgstr ""
+
+#: exercise/templates/exercise/staff/_submissions_table.html:42
+#, python-format
+msgid ""
+"\n"
+"    %(count)s submissions\n"
+"    "
+msgstr ""
+"\n"
+"    %(count)s 次提交\n"
+"    "
+
+#: exercise/templates/exercise/staff/_submissions_table.html:52
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2114
+msgid "Time"
+msgstr "时间"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:55
+#: exercise/templates/exercise/staff/_submissions_table.html:86
+#: exercise/templates/exercise/staff/inspect_submission.html:13
+#: exercise/templates/exercise/submission_plain.html:74
+msgid "Inspect"
+msgstr "查看"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:68
+#, python-format
+msgid ""
+"\n"
+"                    Late <small>-%(percent)s%%</small>\n"
+"                    "
+msgstr ""
+
+#: exercise/templates/exercise/staff/_submissions_table.html:80
+msgid "Assistant"
+msgstr "助手"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:92
+msgid "No submissions"
+msgstr "没有提交"
+
+#: exercise/templates/exercise/staff/analytics.html:23
+msgid "All"
+msgstr "全部"
+
+#: exercise/templates/exercise/staff/analytics.html:31
+msgid "Collective Progress"
+msgstr "成绩分布"
+
+#: exercise/templates/exercise/staff/analytics.html:34
+msgid "Learning Trajectories"
+msgstr "学习轨迹"
+
+#: exercise/templates/exercise/staff/analytics.html:37
+msgid "Table"
+msgstr "成绩表格"
+
+#: exercise/templates/exercise/staff/analytics.html:74
+msgid "Download CSV"
+msgstr "下载CSV"
+
+#: exercise/templates/exercise/staff/analytics.html:78
+msgid "Toggle Dropdown"
+msgstr "下拉切换"
+
+#: exercise/templates/exercise/staff/analytics.html:81
+msgid "Open API"
+msgstr ""
+
+#: exercise/templates/exercise/staff/analytics.html:88
+msgid "Clear selection"
+msgstr "清除选择"
+
+#: exercise/templates/exercise/staff/analytics.html:140
+#, python-format
+msgid "< 90%% points"
+msgstr "< 90%% 分值"
+
+#: exercise/templates/exercise/staff/analytics.html:141
+#, python-format
+msgid ">= 90%% points"
+msgstr ">= 90%% 分值"
+
+#: exercise/templates/exercise/staff/assess_submission.html:6
+msgid "Assess SID "
+msgstr "访问SID"
+
+#: exercise/templates/exercise/staff/assess_submission.html:11
+#: exercise/templates/exercise/staff/edit_submitters.html:11
+#: exercise/templates/exercise/staff/inspect_submission.html:11
+#: exercise/templates/exercise/staff/list_submissions.html:5
+#: exercise/templates/exercise/staff/list_submissions.html:10
+#: exercise/templates/exercise/staff/submissions_summary.html:12
+msgid "All submissions"
+msgstr "所有提交"
+
+#: exercise/templates/exercise/staff/assess_submission.html:12
+#: exercise/templates/exercise/staff/edit_submitters.html:12
+#: exercise/templates/exercise/staff/inspect_submission.html:12
+msgid "Submission ID"
+msgstr "提交ID"
+
+#: exercise/templates/exercise/staff/assess_submission.html:13
+msgid "Assess"
+msgstr "访问"
+
+#: exercise/templates/exercise/staff/assess_submission.html:21
+msgid "Assessment"
+msgstr "评估"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:6
+msgid "Edit submitters SID "
+msgstr "修改提交SID"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:13
+msgid "Edit submitters"
+msgstr "修改提交者"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:27
+msgid "Quick select a group"
+msgstr "快速选择组"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:34
+msgid "Select"
+msgstr "选择"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:6
+msgid "Inspect SID "
+msgstr "检查SID"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:21
+#: exercise/templates/exercise/submission.html:27
+#: exercise/templates/exercise/submission_plain.html:84
+msgid "Assistant feedback"
+msgstr "助教反馈"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:28
+msgid "No assistant feedback available for this submission."
+msgstr "该提交没有助教反馈"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:37
+msgid "Assess this submission as an assistant"
+msgstr "以助教身份评估该提交"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:39
+msgid "Assess this submission as a teacher"
+msgstr "以教师身份评估该提交"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:46
+msgid "Grader feedback"
+msgstr "评分反馈"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:52
+#: exercise/templates/exercise/submission.html:41
+#: exercise/templates/exercise/submission_plain.html:98
+msgid "No grader feedback available for this submission."
+msgstr "该提交没有评分反馈"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:60
+msgid "Re-submit to service"
+msgstr "重新提交至服务"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:65
+msgid ""
+"\n"
+"            Click this button to re-submit this submission to the "
+"assessment\n"
+"            service. This is meant to be used only in situations where the\n"
+"            assessment service has behaved incorrectly so that the grading\n"
+"            data is incorrect or the status of the submission never became\n"
+"            ready. Caution! Re-submitting overwrites the current grading "
+"data.\n"
+"            "
+msgstr ""
+"\n"
+"            单击此按钮可将此提交重新提交到 "
+"评估\n"
+"            服务. 这意味着仅在以下情况下使用\n"
+"            评估服务出现错误, 导致评分数据不正确\n"
+"            或者提交状态没有就绪e\n"
+"            谨慎!重新提交会覆盖当前的评分 "
+"数据.\n"
+"            "
+
+#: exercise/templates/exercise/staff/inspect_submission.html:73
+msgid ""
+"Exercises of this type can not be re-submitted to the assessment service."
+msgstr "此类练习不能重新提交给评估服务。"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:81
+msgid "Grader errors"
+msgstr "评分错误"
+
+#: exercise/templates/exercise/staff/results.html:19
+#, python-format
+msgid ""
+"\n"
+"                \tStudent (N=%(num)s)\n"
+"                \t"
+msgstr ""
+"\n"
+"                \t学生 (N=%(num)s)\n"
+"                \t"
+
+#: exercise/templates/exercise/staff/results.html:28
+msgid "Sum"
+msgstr "总计"
+
+#: exercise/templates/exercise/staff/results.html:44
+msgid "Maximum points"
+msgstr "最大分值"
+
+#: exercise/templates/exercise/staff/submissions_summary.html:7
+msgid "Submissions summary"
+msgstr "提交总结"
+
+#: exercise/templates/exercise/submission.html:5
+#: exercise/templates/exercise/submission.html:10
+msgid "Submission"
+msgstr "提交"
+
+#: exercise/templates/exercise/submission.html:15
+msgid "Files in this submission"
+msgstr "提交的文件"
+
+#: exercise/templates/exercise/submission_plain.html:34
+msgid "Return to exercise"
+msgstr "返回练习"
+
+#: exercise/templates/exercise/submission_plain.html:38
+msgid "Date"
+msgstr "时间"
+
+#: exercise/templates/exercise/submission_plain.html:40
+msgid "Files"
+msgstr "文件"
+
+#: exercise/templates/exercise/submission_plain.html:48
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\tLate <small>-%(percent)s%%</small>\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t落后 <small>-%(percent)s%%</small>\n"
+"\t\t\t\t\t\t"
+
+#: exercise/templates/exercise/template.html:9
+msgid "Exercise template"
+msgstr "练习模板"
+
+#: exercise/templatetags/exercise.py:101
+msgid "Latest submissions"
+msgstr "最新提交"
+
+#: exercise/templatetags/exercise.py:102
+msgid "No submissions for this course."
+msgstr "本课程不接受提交"
+
+#: exercise/templatetags/exercise.py:273
+msgid "Excel compatible CSV"
+msgstr "Excel兼容CSV"
+
+#: exercise/views.py:88
+msgid "Exercise is in maintenance and content is hidden from students."
+msgstr "练习内容维护学生不可见！"
+
+#: exercise/views.py:94
+msgid "Unfortunately this exercise is currently under maintenance."
+msgstr "该练习当前在维护中！"
+
+#: exercise/views.py:155
+msgid ""
+"The submission could not be saved for some reason. The submission was not "
+"registered."
+msgstr "由于某种原因，无法保存提交。提交文件没有注册！"
+
+#: exercise/views.py:168
+msgid "You need to sign in and enroll to submit exercises."
+msgstr "您需要注册并提交练习！"
+
+#: external_services/cache.py:43
+msgid "External"
+msgstr "参考"
+
+#: external_services/models.py:16
+msgid "Url can not contain scheme or domain part."
+msgstr "Url不能包含scheme或domain部分！"
+
+#: external_services/models.py:24
+msgid "Destination is hosted internally. Link to internal privacy notice."
+msgstr "目标托管链接到内部隐私通知"
+
+#: external_services/models.py:25
+msgid ""
+"Destination is hosted in the same organization. Link to a privacy notice."
+msgstr ""
+
+#: external_services/models.py:26
+msgid ""
+"Destination is hosted in European Economic Area. Link to a privacy notice."
+msgstr ""
+
+#: external_services/models.py:27
+msgid ""
+"Destination is hosted out side of European Economic Area, but certified "
+"under EU-US Privacy Shield. Link to an extended privacy notice."
+msgstr ""
+
+#: external_services/models.py:28
+msgid ""
+"Destination is hosted out side of European Economic Area. Link to an "
+"extended privacy notice."
+msgstr ""
+
+#: external_services/models.py:32
+msgid "The service URL"
+msgstr "服务器URL地址"
+
+#: external_services/models.py:37
+msgid ""
+"The geographical area of the destination. Will display correct user notice."
+msgstr "物理地址"
+
+#: external_services/models.py:42
+msgid ""
+"A link to the service privacy notice. This is mandatory for services outside "
+"organization!"
+msgstr "服务隐私声明的链接"
+
+#: external_services/models.py:45
+msgid "A default label to show in the course menu."
+msgstr "在课程菜单中显示的默认标签"
+
+#: external_services/models.py:50
+msgid ""
+"A default menu icon style name, see http://getbootstrap.com/components/"
+"#glyphicons-glyphs"
+msgstr ""
+"默认菜单图标样式名称，详细参照：http://getbootstrap.com/components/"
+"#glyphicons-glyphs"
+
+#: external_services/models.py:54
+msgid "If not enabled, the service is disabled for all course instances."
+msgstr ""
+
+#: external_services/models.py:69
+msgid "Privacy notice URL is mandatory for services outside organization."
+msgstr "如果未启用，则对所有课程实例禁用服务。"
+
+#: external_services/models.py:109
+msgid "Anonymous service, no API access"
+msgstr "匿名服务，不允许API访问"
+
+#: external_services/models.py:110
+msgid "Public service, no API access"
+msgstr "公共服务，不允许API访问"
+
+#: external_services/models.py:111
+msgid "Public service, allow API access"
+msgstr "公共服务，允许API访问"
+
+#: external_services/models.py:116
+msgid ""
+"Select whether to pass pseudonymised user data to the LTI service.<br>Public "
+"services can also enable sharing the user's API token and course API URL in "
+"the LTI launch request. This grants the LTI tool API access with the user's "
+"privileges."
+msgstr ""
+
+#: external_services/models.py:120
+msgid "The consumer key provided by the LTI service."
+msgstr "LTI服务提供的使用者key。"
+
+#: external_services/models.py:124
+msgid "The consumer secret provided by the LTI service."
+msgstr "LTI服务提供的使用者secret。"
+
+#: external_services/models.py:165
+msgid "All students, assistants and teachers can access."
+msgstr "学生、助教和教师"
+
+#: external_services/models.py:166
+msgid "Only assistants and teachers can access."
+msgstr "助教和教师"
+
+#: external_services/models.py:167
+msgid "Only teachers can access."
+msgstr "教师"
+
+#: external_services/models.py:173
+msgid "A course where the menu item exists."
+msgstr "该课程菜单项已存在"
+
+#: external_services/models.py:178
+#: external_services/templates/external_services/list_menu.html:23
+msgid "Access"
+msgstr "访问者"
+
+#: external_services/models.py:185
+#: external_services/templates/external_services/list_menu.html:21
+msgid "Service"
+msgstr "服务"
+
+#: external_services/models.py:186
+msgid "An external service to link to. These are configured by administrators."
+msgstr "要链接到的外部服务，需要由管理员配置。"
+
+#: external_services/models.py:192
+msgid "Menu url"
+msgstr "菜单项URL"
+
+#: external_services/models.py:194
+msgid ""
+"URL that is a) relative to the service URL or b) this course if no service "
+"is selected.\n"
+"Case a: url starting with / overwrites path in service url and extends it "
+"otherwise.\n"
+"case b: url starting with / is absolute within this service and relative to "
+"the course path otherwise.\n"
+"Note that URL entered here can not include scheme or domain."
+msgstr "相对路径，不包括scheme和domain。"
+
+#: external_services/models.py:203
+msgid "Menu group label"
+msgstr "菜单组标签"
+
+#: external_services/models.py:204
+msgid "Places menu item under a group label."
+msgstr "菜单项可放置在菜单组标签下。"
+
+#: external_services/models.py:210
+msgid "Menu label"
+msgstr "菜单项标签"
+
+#: external_services/models.py:211
+msgid "Label for the menu link (else service default)."
+msgstr "设置菜单项链接的标签（如果【服务】字段已选择预配置的服务则可为空）"
+
+#: external_services/models.py:217
+msgid "Menu icon class"
+msgstr "字体图标"
+
+#: external_services/models.py:218
+msgid ""
+"Menu icon style name (else service default), e.g. star see http://"
+"getbootstrap.com/components/#glyphicons-glyphs"
+msgstr "Bootstrap字体图标名称，例如："
+
+#: external_services/models.py:222
+msgid "Heavier menu entries are placed after lighter ones."
+msgstr ""
+
+#: external_services/models.py:239
+msgid ""
+"Relative URL is required when there is no preconfigured service selected."
+msgstr ""
+
+#: external_services/models.py:241
+msgid "Menu label is required when there is no preconfigured service selected."
+msgstr "如果未选择预配置的服务，则必须要设置菜单标签。"
+
+#: external_services/permissions.py:8
+msgid "Permission denied by menu visibility"
+msgstr "菜单可见性拒绝的权限"
+
+#: external_services/permissions.py:19
+msgid "The link is only for teachers."
+msgstr "连接仅限于教师"
+
+#: external_services/permissions.py:24
+msgid "The link is only for course staff."
+msgstr "连接仅限于课程的教师"
+
+#: external_services/permissions.py:31
+msgid "Not LTI service"
+msgstr ""
+
+#: external_services/templates/external_services/_launch.html:28
+#, python-format
+msgid "You are leaving %(brand)s and entering %(name)s"
+msgstr "你正在离开 %(brand)s 并进入 %(name)s"
+
+#: external_services/templates/external_services/_launch.html:30
+#, python-format
+msgid "This exercise is hosted on %(name)s"
+msgstr ""
+
+#: external_services/templates/external_services/_launch.html:40
+msgid "Don't show this and automatically load the exercise next time."
+msgstr "不要显示这个，下次会自动加载这个练习。"
+
+#: external_services/templates/external_services/_launch.html:42
+msgid "Don't show this and automatically open the exercise next time."
+msgstr ""
+
+#: external_services/templates/external_services/_launch.html:45
+msgid "Don't show this and automatically continue to the service next time."
+msgstr "不要显示此信息，下次自动继续使用该服务。"
+
+#: external_services/templates/external_services/_launch.html:48
+msgid ""
+"This choice is saved on your device and you can remove it on your profile "
+"page."
+msgstr ""
+
+#: external_services/templates/external_services/_launch.html:58
+msgid "Load the exercise"
+msgstr "加载练习"
+
+#: external_services/templates/external_services/_launch.html:58
+msgid "Open the exercise in a new window"
+msgstr ""
+
+#: external_services/templates/external_services/_launch.html:58
+msgid "Continue to the service"
+msgstr ""
+
+#: external_services/templates/external_services/_launch.html:62
+msgid "Show details"
+msgstr "显示详情"
+
+#: external_services/templates/external_services/_privacy.html:11
+msgid "No personal data is send to this service."
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:15
+#, python-format
+msgid ""
+"\n"
+"\t\t\tYour name and email address will be pseudonymised and send to the "
+"service.\n"
+"\t\t\tThis means that the service’s administration can not identify you, but "
+"%(brand)s's administration can if necessary.\n"
+"\t\t\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:26
+msgid ""
+"\n"
+"\t\tInformation including your name and email address will be sent to the "
+"service.\n"
+"\t\tThis means that at least the service’s administrators can identify you.\n"
+"\t\tYou can see the full list of information below.\n"
+"\t\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:32
+msgid ""
+"\n"
+"\t\t\tWe use this external service to help you and other students learn.\n"
+"\t\t\tNevertheless, you aren't absolutely required to use it in order to "
+"pass the course.\n"
+"\t\t\tIf you want to avoid using the service, please discuss alternative "
+"solutions with the course staff.\n"
+"\t\t\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:49
+#, python-format
+msgid ""
+"\n"
+"\t\t\tMoreover, we send this service a so-called <a href=\"https://en."
+"wikipedia.org/wiki/Access_token\" rel=\"noopener nofollow\" target=\"_blank"
+"\" class=\"alert-link\">access token</a>, which gives the service access to "
+"the %(brand)s API at your privilege level.\n"
+"\t\t\tIf you don't want that to happen, please contact %(brand)s "
+"administration.\n"
+"\t\t\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:56
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\tMoreover, we send this service a so-called <a href=\"https://en."
+"wikipedia.org/wiki/Access_token\" rel=\"noopener nofollow\" target=\"_blank"
+"\" class=\"alert-link\">access token</a>, which gives the service access to "
+"the %(brand)s API at your privilege level.\n"
+"\t\t\t\tThis means that the service can, for example, access your student ID "
+"number and your progress in the course, and submit solutions to "
+"assignments.\n"
+"\t\t\t\tThe course staff has enabled this feature and trust the service to "
+"operate with your best interests in mind.\n"
+"\t\t\t\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:70
+#, python-format
+msgid ""
+"\n"
+"\tThis service is hosted by us (%(brand)s administrators) and thus our <a "
+"href=\"%(url)s\" target=\"_blank\">privacy notice</a> covers it too.\n"
+"\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:75
+#, python-format
+msgid ""
+"\n"
+"\tThis service is hosted within our organization, but it's not maintained by "
+"us (%(brand)s administrators).\n"
+"\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:84
+msgid ""
+"\n"
+"\tThis service is hosted within the European Economics Area and is thus "
+"subject to <a href=\"https://ec.europa.eu/info/law/law-topic/data-protection/"
+"reform_en\" rel=\"noopener nofollow\" target=\"_blank\" class=\"alert-link"
+"\">the European Union's General Data Protection Regulation</a>.\n"
+"\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:94
+msgid ""
+"\n"
+"\tThis service is hosted outside of the European Economics Area and is thus "
+"not covered by <a href=\"https://ec.europa.eu/info/law/law-topic/data-"
+"protection/reform_en\" rel=\"noopener nofollow\" target=\"_blank\" class="
+"\"alert-link\">the European Union's General Data Protection Regulation</a> "
+"(GDPR).\n"
+"\tHowever, the service is certified under <a href=\"https://www."
+"privacyshield.gov/Individuals-in-Europe\" rel=\"noopener nofollow\" target="
+"\"_blank\" class=\"alert-link\">the EU-U.S. Privacy Shield</a>, which "
+"provides similar protection as GDPR.\n"
+"\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:105
+msgid ""
+"This service is not covered by any privacy regulations, thus there isn’t any "
+"lawful entity to enforce it."
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:108
+#, python-format
+msgid ""
+"\n"
+"\tPlease see <a href=\"%(url)s\" rel=\"noopener nofollow\" target=\"_blank\" "
+"class=\"alert-link\">the service's privacy notice</a> for more details.\n"
+"\t"
+msgstr ""
+
+#: external_services/templates/external_services/_privacy.html:117
+#, python-format
+msgid ""
+"\n"
+"\t\tYou can first take a look at the external service without sending data: "
+"<a href=\"%(url)s\" rel=\"noopener nofollow\" target=\"_blank\">services’ "
+"front page</a>.\n"
+"\t\t"
+msgstr ""
+
+#: external_services/templates/external_services/edit_menu.html:6
+#: external_services/templates/external_services/edit_menu.html:19
+msgid "Add menu item"
+msgstr "添加菜单项"
+
+#: external_services/templates/external_services/edit_menu.html:11
+#: external_services/templates/external_services/list_menu.html:6
+#: external_services/templates/external_services/list_menu.html:11
+msgid "Menu items"
+msgstr "菜单项"
+
+#: external_services/templates/external_services/list_menu.html:18
+msgid "Link"
+msgstr "链接"
+
+#: external_services/templates/external_services/list_menu.html:19
+msgid "Group"
+msgstr "分组"
+
+#: external_services/templates/external_services/list_menu.html:20
+msgid "Weight"
+msgstr "权重"
+
+#: external_services/templates/external_services/list_menu.html:53
+msgid "Disabled"
+msgstr "禁止"
+
+#: external_services/templates/external_services/list_menu.html:79
+msgid "Add new menu item"
+msgstr "添加菜单项"
+
+#: external_services/views.py:91
+msgid "You need to be enrolled to access an anonymous service."
+msgstr "您需要注册才能访问匿名服务！"
+
+#: lib/fields.py:27
+msgid "The number must be between 0.0 and 1.0"
+msgstr "这个数字必须在0.0到1.0之间"
+
+#: lib/fields.py:47 lib/fields.py:77
+msgid "Enter valid JSON."
+msgstr "请输入有效的JOSN！"
+
+#: lib/remote_page.py:84
+msgid "The requested resource was not found from the course service!"
+msgstr "所请求的资源没有从课程服务中找到！"
+
+#: lib/remote_page.py:86
+#, python-brace-format
+msgid "Connecting to the course service failed with {code}!"
+msgstr "使用{code}连接到课程服务失败！"
+
+#: lib/validators.py:12
+msgid "URL keys may consist of alphanumeric characters, hyphen and period."
+msgstr "URL键可以由字母数字字符、连字符和句号组成。"
+
+#: news/models.py:13
+msgid "No alert"
+msgstr "无警告"
+
+#: news/models.py:14
+msgid "Green / Success"
+msgstr "绿色 / 成功"
+
+#: news/models.py:15
+msgid "Blue / Info"
+msgstr "蓝色 / 通知"
+
+#: news/models.py:16
+msgid "Yellow / Warning"
+msgstr "黄色 / 警告"
+
+#: news/models.py:17
+msgid "Red / Danger"
+msgstr "红色 / 危险"
+
+#: news/templates/news/edit.html:6 news/templates/news/edit.html:19
+#: news/templates/news/list.html:64
+msgid "Add news item"
+msgstr "添加"
+
+#: news/templates/news/list.html:6
+msgid "News"
+msgstr "通知"
+
+#: news/templates/news/list.html:18
+msgid "Publish"
+msgstr "发布时间"
+
+#: news/templates/news/list.html:20
+msgid "Title"
+msgstr "通知标题"
+
+#: news/templates/news/user_news.html:10
+msgid "Appears"
+msgstr "显示"
+
+#: news/templates/news/user_news.html:23
+msgid "Course news"
+msgstr "课程通知"
+
+#: news/templates/news/user_news.html:32
+msgid "Appears later"
+msgstr "稍后显示"
+
+#: news/templates/news/user_news.html:42
+msgid "Show more"
+msgstr "显示更多..."
+
+#: notification/templates/notification/_notification_messages.html:7
+msgid "You have"
+msgstr "你有"
+
+#: notification/templatetags/notification.py:24
+msgid "new notification"
+msgid_plural "new notifications"
+msgstr[0] "新通知"
+msgstr[1] "新通知"
+
+#: shibboleth_login/views.py:33
+msgid ""
+"Failed to login the user. Shibboleth META headers missing. Check the Apache "
+"mod_shibd is active and /shibboleth is protected."
+msgstr ""
+"用户登录失败！Shibboleth META headers missing. Check the Apache mod_shibd is "
+"active and /shibboleth is protected."
+
+#: shibboleth_login/views.py:40
+msgid "The user account has been disabled."
+msgstr "该用户账号被禁用！"
+
+#: src/drf-extensions/build/lib/rest_framework_extensions/exceptions.py:8
+#: src/drf-extensions/rest_framework_extensions/exceptions.py:8
+#: venv/src/drf-extensions/build/lib/rest_framework_extensions/exceptions.py:8
+#: venv/src/drf-extensions/rest_framework_extensions/exceptions.py:8
+#, python-brace-format
+msgid "This \"{method}\" request is required to be conditional."
+msgstr ""
+
+#: templates/404.html:20
+msgid ""
+"\n"
+"                        For an unknown reason you arrived somewhere that "
+"does not exist.\n"
+"                        Please, try again.\n"
+"                        "
+msgstr ""
+"\n"
+"                        未知原因导致页面不存在。\n"
+"                         请重试!\n"
+"                        "
+
+#: templates/admin/base.html:35
+msgid "Welcome,"
+msgstr "欢迎,"
+
+#: templates/admin/base.html:40
+msgid "View site"
+msgstr "查看课程"
+
+#: templates/admin/base.html:45
+msgid "Documentation"
+msgstr "提交期限"
+
+#: templates/admin/base.html:49
+msgid "Change password"
+msgstr "密码"
+
+#: templates/admin/base.html:51 templates/base.html:142 templates/base.html:180
+msgid "Log out"
+msgstr "退出"
+
+#: templates/admin/base.html:61 templates/base.html:166
+msgid "Home"
+msgstr "主页"
+
+#: templates/admin/base_site.html:3
+msgid "Django site admin"
+msgstr "Django网站管理"
+
+#: templates/admin/base_site.html:6
+msgid "Django administration"
+msgstr ""
+
+#: templates/admin/login.html:21
+msgid "Please correct the error below."
+msgstr "请更正以下错误。"
+
+#: templates/admin/login.html:21
+msgid "Please correct the errors below."
+msgstr "请更正以下错误。"
+
+#: templates/admin/login.html:37
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+
+#: templates/admin/login.html:57
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: templates/admin/login.html:61 templates/base.html:151
+#: templates/base.html:187
+msgid "Log in"
+msgstr "登录"
+
+#: templates/base.html:92
+msgid "Toggle navigation"
+msgstr "切换导航"
+
+#: templates/base.html:117
+msgid "Select course"
+msgstr "选择课程"
+
+#: templates/base.html:136 userprofile/templates/userprofile/profile.html:6
+msgid "Profile"
+msgstr "用户资料"
+
+#: templates/base.html:162
+msgid "Site"
+msgstr "站点"
+
+#: templates/base.html:211 userprofile/templates/userprofile/privacy.html:4
+#: userprofile/templates/userprofile/privacy.html:9
+msgid "Privacy Notice"
+msgstr "学生须知"
+
+#: templates/base.html:223 templates/base.html:243
+msgid "Loading failed!"
+msgstr "加载失败！"
+
+#: templates/base.html:224 templates/base.html:244
+msgid "Loading..."
+msgstr "加载中..."
+
+#: templates/base.html:231 templates/base.html:249
+msgid "Close"
+msgstr "关闭"
+
+#: templates/base.html:268
+msgid "Search"
+msgstr "搜索"
+
+#: templates/base.html:272
+msgid "No matches"
+msgstr "没有匹配项"
+
+#: templates/base.html:275
+msgid "Search for..."
+msgstr "搜索..."
+
+#: threshold/models.py:24
+msgid "Harder points are consumed by easier difficulty requirements."
+msgstr "分数和难度挂钩"
+
+#: threshold/models.py:113
+msgid "{:d} points"
+msgstr "{:d} 分"
+
+#: userprofile/templates/userprofile/login.html:5
+#: userprofile/templates/userprofile/login.html:10
+msgid "Login"
+msgstr "登录"
+
+#: userprofile/templates/userprofile/login.html:54
+msgid "Login Using Google"
+msgstr "使用第三方账号登录"
+
+#: userprofile/templates/userprofile/login.html:81
+msgid "Password"
+msgstr "密码"
+
+#: userprofile/templates/userprofile/login.html:94
+#, python-format
+msgid ""
+"\n"
+"  You may want to read our <a href=\"%(url)s\">privacy notice</a>.\n"
+"  "
+msgstr ""
+"\n"
+"  请阅读 <a href=\"%(url)s\">学生须知</a>.\n"
+"  "
+
+#: userprofile/templates/userprofile/logout.html:4
+#: userprofile/templates/userprofile/logout.html:9
+msgid "Logged out"
+msgstr "退出登录"
+
+#: userprofile/templates/userprofile/logout.html:15
+msgid ""
+"\n"
+"            You have successfully logged out. Please close the browser if "
+"you were\n"
+"            using a public computer to clear your remaining sessions.\n"
+"            "
+msgstr ""
+"\n"
+"            您当前已退出登录，假如您在公共计算机上访问本网站，请关闭浏览器并"
+"且清除您的浏览数据。\n"
+"            "
+
+#: userprofile/templates/userprofile/profile.html:20
+msgid "[Unknown name]"
+msgstr "匿名"
+
+#: userprofile/templates/userprofile/profile.html:30
+msgid "[Missing]"
+msgstr "[未设置]"
+
+#: userprofile/templates/userprofile/profile.html:31
+msgid "Student ID"
+msgstr "学生编号"
+
+#: userprofile/templates/userprofile/profile.html:33
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: userprofile/templates/userprofile/profile.html:37
+msgid "API Access Token"
+msgstr "API访问令牌"
+
+#: userprofile/templates/userprofile/profile.html:64
+#, python-format
+msgid ""
+"\n"
+"            You can change your avatar icon\n"
+"            at <a href=\"http://gravatar.com\">gravatar.com</a>.\n"
+"            Use your e-mail address <strong>%(email)s</strong>\n"
+"            when registering your account.\n"
+"            "
+msgstr ""
+"\n"
+"            请在 <a href=\"http://cn.gravatar.com\">gravatar.com</a>\n"
+"            网站上设置您的头像。创建账户时请使用您的 e-mail 地址 <strong>"
+"%(email)s</strong>。\n"
+"            "
+
+#: userprofile/templates/userprofile/profile.html:74
+msgid ""
+"\n"
+"            To change your settings, such as <strong>e-mail</strong>\n"
+"            address or <strong>password</strong>, you must update\n"
+"            them on your identity provider.\n"
+"            "
+msgstr ""
+"\n"
+"            要更改您的设置，例如 <strong>e-mail</strong>\n"
+"            地址或 <strong>password</strong>，您必须通过区块链钱包提供的身份"
+"认证程序更新它们。\n"
+"            "
+
+#: userprofile/templates/userprofile/profile.html:81
+msgid "Automatic service redirections"
+msgstr "自动重定向服务"
+
+#: userprofile/templates/userprofile/profile.html:83
+msgid ""
+"\n"
+"\t\t\t\tThese are all services that you have marked for automatic "
+"redirection on this device.\n"
+"\t\t\t\tYou can remove automatic redirection here and you will be shown the "
+"privacy information next time you are being redirected to the service.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t在该设备上标记自动重定向的全部服务。\n"
+"\t\t\t\t您可以在此处删除自动重定向，下次重定向到服务时将显示隐私信息。\n"
+" \t\t\t\t"
+
+#: userprofile/templates/userprofile/profile.html:88
+msgid "Forget automatic redirection"
+msgstr "忽略自动重定向"
+
+#: userprofile/views.py:80
+msgid "No privacy notice. Please notify administration!"
+msgstr "请添加"
+
+#: venv/lib/python3.8/site-packages/colorfield/fields.py:10
+#, fuzzy
+#| msgid "Enter valid JSON."
+msgid "Enter a valid hex color."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/sitemaps/apps.py:7
+msgid "Site Maps"
+msgstr "站点"
+
+#: venv/lib/python3.8/site-packages/django/contrib/staticfiles/apps.py:9
+#, fuzzy
+#| msgid "Static exercise"
+msgid "Static Files"
+msgstr "静态练习"
+
+#: venv/lib/python3.8/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:45
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:47
+msgid "That page number is less than 1"
+msgstr "该页码少于1"
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:52
+msgid "That page contains no results"
+msgstr "该页面不包含任何结果"
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:31
+#, fuzzy
+#| msgid "Enter valid JSON."
+msgid "Enter a valid value."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:102
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:658
+#, fuzzy
+#| msgid "Enter valid JSON."
+msgid "Enter a valid URL."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:154
+#, fuzzy
+#| msgid "Enter valid JSON."
+msgid "Enter a valid integer."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:165
+msgid "Enter a valid email address."
+msgstr "输入有效的邮箱地址"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.8/site-packages/django/core/validators.py:239
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:246
+msgid ""
+"Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:255
+#: venv/lib/python3.8/site-packages/django/core/validators.py:275
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:260
+#: venv/lib/python3.8/site-packages/django/core/validators.py:276
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:270
+#: venv/lib/python3.8/site-packages/django/core/validators.py:274
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:304
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:310
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:342
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:351
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:361
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:376
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:395
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:290
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:325
+#, fuzzy
+#| msgid "Internal users"
+msgid "Enter a number."
+msgstr "线下学生"
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:397
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:402
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:407
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:469
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:521
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1162
+#: venv/lib/python3.8/site-packages/django/forms/models.py:756
+msgid "and"
+msgstr "和"
+
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1164
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:104
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:105
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:106
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:107
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:111
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:128
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:905
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1772
+msgid "Integer"
+msgstr "整数"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:909
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1770
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:984
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1850
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:996
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:997
+#, python-format
+msgid "'%(value)s' value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:999
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1040
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1104
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1153
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1155
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1298
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1158
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1296
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1300
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1304
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1452
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1454
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1593
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1596
+msgid "Duration"
+msgstr "提交期限"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1646
+msgid "Email address"
+msgstr "邮箱地址"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1669
+msgid "File path"
+msgstr "文件路径"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1735
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1737
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1866
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1897
+msgid "IP address"
+msgstr "ip地址"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1977
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1978
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1980
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2015
+msgid "Positive integer"
+msgstr "正整数"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2028
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2042
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2074
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2081
+msgid "Text"
+msgstr "文本"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2109
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2111
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2262
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2312
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2314
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/files.py:221
+msgid "File"
+msgstr "文件"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/files.py:360
+msgid "Image"
+msgstr "图像"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:778
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:780
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1007
+msgid "One-to-one relationship"
+msgstr "一对一关系"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1057
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1058
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1100
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.8/site-packages/django/forms/boundfield.py:146
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:53
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:245
+msgid "Enter a whole number."
+msgstr "输入完整的数"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:396
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1126
+msgid "Enter a valid date."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:420
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1127
+msgid "Enter a valid time."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:442
+msgid "Enter a valid date/time."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:471
+msgid "Enter a valid duration."
+msgstr "请输入有效的JOSN！"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:472
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr "这个数字必须在{min_days}到{max_days}之间"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:532
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:533
+msgid "No file was submitted."
+msgstr "未提交"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:534
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:536
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:539
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:600
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:762
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:852
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1270
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:853
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:968
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1269
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:969
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1185
+msgid "Enter a valid UUID."
+msgstr "请输入有效的JOSN！"
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.8/site-packages/django/forms/forms.py:86
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/forms.py:212
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:91
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:338
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:345
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:375
+msgid "Delete"
+msgstr "删除"
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:751
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:755
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:761
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:770
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1091
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1158
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1272
+#, python-format
+msgid "\"%(pk)s\" is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/utils.py:162
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:395
+msgid "Clear"
+msgstr "清除"
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:396
+msgid "Currently"
+msgstr "当前分数"
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:397
+msgid "Change"
+msgstr "改变"
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:711
+msgid "Unknown"
+msgstr "匿名"
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:712
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:713
+msgid "No"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:788
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:817
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:834
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:836
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:838
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:840
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:842
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:844
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:62
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:63
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:68
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:69
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:150
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:152
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:11
+msgid "Sat"
+msgstr "状态"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:11
+msgid "Sun"
+msgstr "总计"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "March"
+msgstr "三月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "September"
+msgstr "9月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "October"
+msgstr "10月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+msgid "November"
+msgstr "11月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:16
+msgid "December"
+msgstr "12月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "jan"
+msgstr "一月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "feb"
+msgstr "2月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "mar"
+msgstr "三月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "apr"
+msgstr "4月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "may"
+msgstr "5月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "jun"
+msgstr "6月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "jul"
+msgstr "7月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "aug"
+msgstr "8月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "sep"
+msgstr "9月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "oct"
+msgstr "10月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "nov"
+msgstr "11"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "dec"
+msgstr "12"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr "三月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr "3月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr "成员"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr "11月"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr "12月"
+
+#: venv/lib/python3.8/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/text.py:67
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/text.py:233
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.8/site-packages/django/utils/text.py:252
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:83
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 完成时间"
+msgstr[1] "%d 完成时间"
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:72
+msgid "0 minutes"
+msgstr "完成时间"
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:110
+msgid "Forbidden"
+msgstr "隐藏"
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:120
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the 'Referrer-Policy: no-referrer' header, please remove them. The "
+"CSRF protection requires the 'Referer' header to do strict referer checking. "
+"If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" ...> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:61
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:111
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:338
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:589
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:623
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:67
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:154
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:42
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:6
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:345
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:367
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:368
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:383
+msgid "Django Documentation"
+msgstr "django文档"
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:384
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:395
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:396
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:407
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:408
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid "Calendar"
+#~ msgstr "日历"
+
+#~ msgid "Download calendar (ics)"
+#~ msgstr "下载日历 (ics)"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    Old courses can be found at the <a href=\"%(url)s\">course archive</"
+#~ "a>.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    老的课程在此 <a href=\"%(url)s\">course archive</a>.\n"
+#~ "    "

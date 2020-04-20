@@ -1,0 +1,37 @@
+# Copyright (c) 2016 Jaakko Kantojärvi, Learning + Technology Research Group, Aalto University
+# This file is distributed under the same license as the django-colortag package.
+#
+# Jaakko Kantojärvi <jaakko@n-1.fi>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-14 10:12+0300\n"
+"PO-Revision-Date: 2016-09-14 10:20+0200\n"
+"Last-Translator: Jaakko Kantojärvi <jaakko@n-1.fi>\n"
+"Language-Team: English <>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: django_colortag/models.py:17
+msgid "Display name for tag"
+msgstr "Tagin näyttönimi"
+
+#: django_colortag/models.py:18
+msgid "Slug key for tag. If left blank, one is created from name"
+msgstr ""
+"Yksisanainen tunniste tagille. Jos jätät tyhjäksi, sopiva luodaan tagin"
+" nimestä."
+
+#: django_colortag/models.py:19
+msgid "Describe the usage or meaning of this tag"
+msgstr "Kuvaile tagin käyttö tai merkitys."
+
+#: django_colortag/models.py:20
+msgid "Color that is used as background for this tag"
+msgstr "Tagin taustaväri"
+

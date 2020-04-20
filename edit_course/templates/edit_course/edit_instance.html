@@ -1,0 +1,27 @@
+{% extends "edit_course/edit_course_base.html" %}
+{% load i18n %}
+{% load bootstrap %}
+{% load course %}
+{% load editcourse %}
+
+{% block editbreadcrumblist %}
+{{ block.super }}
+<li class="active">{% trans "Details" %}</li>
+{% endblock %}
+{% block view_tag %}edit-course,course-details{% endblock %}
+
+{% block coursecontent %}
+<br />
+<form method="post" enctype="multipart/form-data" class="well">
+    {% csrf_token %}
+    <legend>{% trans "Edit course details" %}</legend>
+    {{ form|bootstrap }}
+    <div class="form-group">
+        <label>{% trans "Teachers" %}</label>
+        {% profiles course.teachers.all instance is_teacher %}</p>
+    </div>
+    <button type="submit" class="btn btn-primary">
+        {% trans "Save" %}
+    </button>
+</form>
+{% endblock %}

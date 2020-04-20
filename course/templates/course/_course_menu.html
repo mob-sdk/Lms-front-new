@@ -1,0 +1,185 @@
+{% load i18n %}
+{% load course %}
+{% load exercise %}
+{% load notification %}
+{% load external_services %}
+{% load static %}
+
+{% prepare_course_menu %}
+
+{% if instance.language|first == "|" %}
+<li role="presentation" class="header">
+	<div class="row">
+    <div class="col-sm-10">
+			<h4>{% trans "Course" %}</h4>
+    </div>
+    <div class="col-sm">
+			<div class="dropdown h4">
+				<input type="image" src="{% static 'images/uls.svg' %}" alt="{% trans 'Language' %}"
+				class="btn btn-xs" id="lang-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
+				<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="lang-dropdown">
+					{% for language in instance.language|list_unselected %}
+					<li>
+						<form action="{% url 'set_language' %}" method="post">
+							{% csrf_token %}
+							<input name="next" type="hidden" value="{{ request.get_full_path }}" />
+							<input name="language" type="hidden" value="{{ language }}" />
+							<button type="submit" class="btn">{{ language|language_name_local }}</button>
+						</form>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+    </div>
+  </div>
+</li>
+{% else %}
+<li role="presentation" class="header">
+	<h4>{% trans "Course" %}</h4>
+</li>
+{% endif %}
+
+<li role="presentation" class="menu-home">
+	<a href="{{ instance|url }}">
+		<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+		{{ course.code }}
+	</a>
+</li>
+<li role="presentation" class="menu-toc">
+	<a href="{{ instance|url:'toc' }}">
+		<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+		{% trans "Course materials" %}
+	</a>
+</li>
+<li role="presentation" class="menu-results">
+	<a href="{{ instance|url:'results' }}">
+		<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+		{% trans "Exercise results" %}
+	</a>
+</li>
+
+{% max_group_size as max_group %}
+{% if max_group > 1 %}
+<li role="presentation" class="menu-groups">
+	<a href="{{ instance|url:'groups' }}">
+		<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+		{% trans "Form a group" %}
+	</a>
+</li>
+{% endif %}
+
+
+{% for group in course_menu.student_link_groups %}
+{% if group.label %}
+<li role="presentation" class="header">
+	<h4>{{ group.label|parse_localization }}</h4>
+</li>
+{% endif %}
+{% for entry in group.items %}
+{% if entry.enabled %}
+<li role="presentation">
+	<a href="{{ entry.url }}"{% if entry.blank %} target="_blank"{% endif %}>
+		{% if entry.icon_class %}
+		<span class="glyphicon glyphicon-{{ entry.icon_class }}" aria-hidden="true"></span>
+		{% endif %}
+		{{ entry.label|parse_localization }}
+	</a>
+</li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% if instance.tabs.exists %}
+<li role="presentation" class="header">
+	<h4>{% trans "Apps" %}</h4>
+</li>
+{% for tab in instance.tabs.all %}
+<li role="presentation" class="menu-tab{{ tab.id }}">
+		<a href="{% url 'apps-tab' course_slug=course.url instance_slug=instance.url tab_id=tab.id %}">
+				<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+				{{ tab.label }}
+		</a>
+</li>
+{% endfor %}
+{% endif %}
+
+{% if is_course_staff %}
+<li role="presentation" class="header">
+	<h4>{% trans "Course staff" %}</h4>
+</li>
+
+<li role="presentation" class="menu-participants">
+	<a href="{{ instance|url:'participants' }}">
+		<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+		{% trans "Participants" %}
+	</a>
+</li>
+
+<li role="presentation" class="menu-groups-edit">
+	<a href="{{ instance|url:'groups-list' }}">
+		<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+		{% trans "Groups" %}
+	</a>
+</li>
+
+{% if instance.coursediplomadesign %}
+<li role="presentation" class="menu-grades">
+	<a href="{% url 'diploma-list' instance.coursediplomadesign.id %}">
+		<span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+		{% trans "Grades" %}
+	</a>
+</li>
+{% endif %}
+
+<li role="presentation" class="menu-all-results">
+	<a href="{{ instance|url:'all-results' }}">
+		<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+		{% trans "All results" %}
+	</a>
+</li>
+
+<li role="presentation" class="menu-analytics">
+	<a href="{{ instance|url:'analytics' }}">
+		<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+		{% trans "Visualizations" %}
+	</a>
+</li>
+
+{% if is_teacher %}
+<li role="presentation" class="menu-edit-news">
+		<a href="{{ instance|url:'news-list' }}">
+				<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+				{% trans "Edit news" %}
+		</a>
+</li>
+<li role="presentation" class="menu-edit-course">
+		<a href="{{ instance|url:'course-edit' }}">
+				<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+				{% trans "Edit course" %}
+		</a>
+</li>
+{% endif %}
+
+{% for group in course_menu.staff_link_groups %}
+{% if group.label %}
+<li role="presentation" class="header">
+	<h4>{{ group.label|parse_localization }}</h4>
+</li>
+{% endif %}
+{% for entry in group.items %}
+{% if entry.enabled %}
+{% if is_teacher or entry|is_assistant_link %}
+<li role="presentation">
+	<a href="{{ entry.url }}"{% if entry.blank %} target="_blank"{% endif %}>
+		{% if entry.icon_class %}
+		<span class="glyphicon glyphicon-{{ entry.icon_class }}" aria-hidden="true"></span>
+		{% endif %}
+		{{ entry.label|parse_localization }}
+	</a>
+</li>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% endif %}

@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% load course %}
+
+{% block title %}{% trans "Profile" %} | {{ block.super }}{% endblock %}
+{% block view_tag %}profile{% endblock %}
+
+{% block scripts %}
+{{ block.super }}
+<script src="{% static 'userprofile/local_storage_external_services.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>
+        {% if user.first_name or user.last_name %}
+        {{ user.first_name }} {{ user.last_name }}
+        {% else %}
+        {% trans "[Unknown name]" %}
+        {% endif %}
+    </h1>
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <div class="thumbnail">
+            <img src="{{ profile.avatar_url }}" alt="avatar" />
+        </div>
+        <dl>
+            {% trans "[Missing]" as miss %}
+        	  <dt>{% trans "Student ID" %}</dt>
+            <dd>{% firstof profile.student_id miss %}</dd>
+            <dt>{% trans "E-mail" %}</dt>
+            <dd>{% firstof user.email miss %}</dd>
+            <dt>{% trans "Username" %}</dt>
+            <dd>{% firstof user.username miss %}</dd>
+            <dt>{% trans "API Access Token" %}</dt>
+            <dd><input value="{{ profile.api_token }}" class="form-control"></dd>
+			<dt>{% trans "Language" %}</dt>
+			<dd>
+				<form action="{% url 'set_language' %}" method="post" class="form">{% csrf_token %}
+					<input name="next" type="hidden" value="{{ redirect_to }}">
+					<div class="input-group">
+						<select name="language" class="form-control">
+							{% get_current_language as LANGUAGE_CODE %}
+							{% get_available_languages as LANGUAGES %}
+							{% get_language_info_list for LANGUAGES as languages %}
+							{% for language in languages %}
+								<option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %}selected{% endif %}>
+									{{ language.name_local }}
+								</option>
+							{% endfor %}
+						</select>
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary">{% trans 'Save' %}</button>
+						</div>
+					</div>
+				</form>
+			</dd>
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <div class="alert alert-info">
+            {% blocktrans with email=user.email %}
+            You can change your avatar icon
+            at <a href="http://gravatar.com">gravatar.com</a>.
+            Use your e-mail address <strong>{{ email }}</strong>
+            when registering your account.
+            {% endblocktrans %}
+        </div>
+
+        {# TODO: check the user type and show editing options/help #}
+        <div class="alert alert-info">
+            {% blocktrans %}
+            To change your settings, such as <strong>e-mail</strong>
+            address or <strong>password</strong>, you must update
+            them on your identity provider.
+            {% endblocktrans %}
+        </div>
+		<div class="well">
+			<h4>{% trans "Automatic service redirections" %}</h4>
+			<p>
+				{% blocktrans %}
+				These are all services that you have marked for automatic redirection on this device.
+				You can remove automatic redirection here and you will be shown the privacy information next time you are being redirected to the service.
+				{% endblocktrans %}
+			</p>
+			<ul class="local-storage-fields" data-forget-text="{% trans "Forget automatic redirection" %}"></ul>
+			</dd>
+		</div>
+    </div>
+    <div class="col-md-4">
+
+        {# TODO: list enrolled courses #}
+    </div>
+</div>
+{% endblock %}

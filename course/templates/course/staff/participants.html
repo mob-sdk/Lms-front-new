@@ -1,0 +1,85 @@
+{% extends "course/course_base.html" %}
+{% load i18n %}
+{% load course %}
+{% load static %}
+
+{% block title %}{% trans "Participants" %} | {{ block.super }}{% endblock %}
+{% block view_tag %}participants{% endblock %}
+
+{% block breadcrumblist %}
+{{ block.super }}
+<li class="active">{% trans "Participants" %}</li>
+{% endblock %}
+
+{% block columns %}
+<div class="col-md-12">
+
+    <p class="filter-users">
+      <small>{% trans "Filter users" %}:</small>
+      <button class="btn btn-success btn-xs" data-id="aalto">
+        <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+        {{ internal_user_label|safe }}
+      </button>
+      <button class="btn btn-info btn-xs" data-id="mooc">
+        <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+        {{ external_user_label|safe }}
+      </button>
+      {% for tag in tags %}
+      <button class="btn btn-default btn-xs" style="background-color:{{ tag.color }};color:{{ tag.font_color }};" data-id="{{ tag.id }}">
+        <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+        {{ tag.name }}
+      </button>
+      {% endfor %}
+    </p>
+
+    <p>
+        {% trans "Number of students" %} <strong id="participants-number"></strong>
+        {% if is_teacher %}
+        {% trans "of which selected" %} <strong id="selected-number">0</strong>
+        {% endif %}
+    </p>
+
+    <table class="table table-condensed">
+        <thead>
+            <tr>
+                {% if is_teacher %}
+                <th>
+                    <input type="checkbox" id="students-select-all" name="students" value="all" >
+                </th>
+                {% endif %}
+                <th><a href="#" class="order-toggle" id="order-id">{% trans "Student id" %} <span class="glyphicon glyphicon-triangle-bottom order-marker" aria-hidden="true"></span></a></th>
+                <th><a href="#" class="order-toggle" id="order-last">{% trans "Last name" %} </a></th>
+                <th><a href="#" class="order-toggle" id="order-first">{% trans "First name" %} </a></th>
+                <th>{% trans "Email" %}</th>
+                <th>{% trans "Tags" %}</th>
+            </tr>
+        </thead>
+        <tbody id="participants">
+        </tbody>
+    </table>
+
+</div>
+{% include 'course/staff/_tag_remove_modal.html' %}
+{% endblock %}
+
+{% block scripts %}
+{{ block.super }}
+{% if is_teacher %}
+<script src="{% static 'django_colortag.js' %}"></script>
+<script src="{% static 'add_tagging_dropdown.js' %}"></script>
+<script src="{% static 'js/buttons_popover.js' %}"></script>
+<script src="{% static 'js/tag_popover.js' %}"></script>
+{% endif %}
+
+<script src="{% static 'js/participants.js' %}"></script>
+<script src="{% static 'course/usertagdropdown.js' %}"></script>
+<script>
+ $(function () {
+     const participants = {{ participants|escape_slashes|safe }};
+     const api_url = "{% url 'api:course-detail' 2 instance.id %}";
+     const is_teacher = {{ is_teacher|yesno:"true,false" }};
+     participants_list(participants, api_url, is_teacher);
+ });
+</script>
+
+{% endblock %}

@@ -1,0 +1,3487 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jaakko Kantojärvi <jaakko.kantojarvi@aalto.fi>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-27 12:12+0800\n"
+"PO-Revision-Date: 2019-01-08 17:15+0200\n"
+"Last-Translator: Jaakko Kantojärvi <jaakko.kantojarvi@aalto.fi>\n"
+"Language-Team: Finnish <>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: apps/models.py:29
+msgid "object ID"
+msgstr "objektin ID"
+
+#: apps/models.py:41
+msgid "Label is the word displayed on the tab."
+msgstr "Leima on välilehdessä oleva sana."
+
+#: apps/models.py:43
+msgid "Title is displayed on the top of the tab page."
+msgstr "Otsikko näkyy välilehden yläreunassa."
+
+#: apps/models.py:50
+msgid "No content for this tab..."
+msgstr "Ei sisältöä tällä välilehdellä..."
+
+#: apps/models.py:119
+msgid "Base plug-in does not have a render-method."
+msgstr "Perusliitännäisellä ei ole renderöi-metodia."
+
+#: authorization/permissions.py:101
+msgid "Any user authenticated or not"
+msgstr "Kuka tahansa kirjautunut tai kirjautumaton käyttäjä"
+
+#: authorization/permissions.py:103
+msgid "Any authenticated student"
+msgstr "Kuka tahansa kirjautunut käyttäjä"
+
+#: authorization/permissions.py:104
+msgid "Enrolled student of the course"
+msgstr "Kurssille ilmoittautunut opiskelija"
+
+#: authorization/permissions.py:105
+msgid "Assistant of the course"
+msgstr "Kurssin assistentti tai opettaja"
+
+#: authorization/permissions.py:106
+msgid "Grading. Assistant if course has that option or teacher"
+msgstr "Arvostelu. Kurssin assistentti (jos kurssilla sallittu) tai opettaja"
+
+#: authorization/permissions.py:107
+msgid "Teacher of the course"
+msgstr "Kurssin opettaja"
+
+#: authorization/permissions.py:108
+msgid "Superuser of the service"
+msgstr "Palvelun hallintokäyttäjä"
+
+#: authorization/permissions.py:116
+msgid "Permission denied by access mode."
+msgstr "Pääsy kielletty pääsyrajoituksen perusteella."
+
+#: authorization/permissions.py:131
+msgid "Only course teachers shall pass."
+msgstr "Vain opettajille."
+
+#: authorization/permissions.py:136
+msgid "Only course staff shall pass."
+msgstr "Vain kurssihenkilökunnalle."
+
+#: authorization/permissions.py:141 course/permissions.py:66
+msgid "Only enrolled students shall pass."
+msgstr "Vain ilmoittautuneille."
+
+#: course/admin.py:24
+#: external_services/templates/external_services/list_menu.html:22
+msgid "URL"
+msgstr "URL"
+
+#: course/forms.py:23
+#, python-brace-format
+msgid "{num} member"
+msgstr "{num} jäsen"
+
+#: course/forms.py:37
+msgid "The code was not recognized."
+msgstr "Liittämiskoodia ei tunnistettu."
+
+#: course/forms.py:39
+msgid "The user is already in the group."
+msgstr "Käyttäjä on jo tässä ryhmässä."
+
+#: course/forms.py:45
+msgid "The group already exists."
+msgstr "Tämä ryhmä on jo olemassa."
+
+#: course/models.py:53
+msgid "Input an URL identifier for this course."
+msgstr "Syötä URL-osoitteessa käytettävä tunnus kurssille."
+
+#: course/models.py:66 course/models.py:669 exercise/exercise_models.py:127
+msgid "Taken words include: {}"
+msgstr "Varatut sanat: {}"
+
+#: course/models.py:320
+msgid "Internal users"
+msgstr "Paikalliset käyttäjät"
+
+#: course/models.py:321
+msgid "External users"
+msgstr "Ulkoiset käyttäjät"
+
+#: course/models.py:322
+msgid "Internal and external users"
+msgstr "Paikalliset ja ulkoiset käyttäjät"
+
+#: course/models.py:325
+msgid "Enrolled students"
+msgstr "Ilmoittautuneet opiskelijat"
+
+#: course/models.py:326
+msgid "Enrollment audience"
+msgstr "Ilmoittautumisen kohdeyleisö"
+
+#: course/models.py:327
+msgid "All registered users"
+msgstr "Kaikki rekisteröityneet käyttäjät"
+
+#: course/models.py:328
+msgid "Public to internet"
+msgstr "Julkisesti internetissä"
+
+#: course/models.py:331
+msgid "User results"
+msgstr "Pistetilanne"
+
+#: course/models.py:332
+msgid "Table of contents"
+msgstr "Sisällysluettelo"
+
+#: course/models.py:333
+msgid "Link to last visited content"
+msgstr "Linkki viimeksi vierailtuun sisältöön"
+
+#: course/models.py:334
+msgid "Experimental setup (hard-coded)"
+msgstr "Koeasetelma (kovakoodattu)"
+
+#: course/models.py:337
+msgid "No numbering"
+msgstr "Ei numerointia"
+
+#: course/models.py:338
+msgid "Arabic"
+msgstr "arabialainen"
+
+#: course/models.py:339
+msgid "Roman"
+msgstr "roomalainen"
+
+#: course/models.py:340
+msgid "Hidden arabic"
+msgstr "piilotettu arabialainen"
+
+#: course/models.py:347
+msgid "Input an URL identifier for this course instance."
+msgstr "Syötä URL-osoitteessa käytettävä tunnus kurssikerralle."
+
+#: course/models.py:364
+msgid "Select content for the course index page."
+msgstr "Valitse sisältö kurssin etusivulle."
+
+#: course/models.py:370
+msgid ""
+"External CSS and JS resources that are included on all course pages. "
+"Separate with white space."
+msgstr ""
+"Ulkoiset CSS- ja JS-resurssit, jotka sisällytetään kurssisivuihin. Erottele "
+"osoitteet rivinvaihdoilla."
+
+#: course/models.py:377
+msgid ""
+"By default exercise errors are reported to teacher email addresses. Set this "
+"field as comma separated emails to override the recipients."
+msgstr ""
+"Tehtävien tekniset virheet ilmoitetaan oletuksellisesti kurssin opettajien "
+"sähköposteihin. Syötä pilkuilla erotettuja sähköpostiosoitteita korvaamaan "
+"oletusvastaanottajat."
+
+#: course/models.py:404
+msgid "Ending time must be later than starting time."
+msgstr "Päättymisajan tulee olla alkamisajan jälkeen."
+
+#: course/models.py:406
+msgid "Lifesupport time must be later than ending time."
+msgstr "Saattohoitoajan tulee alkaa loppumisajan jälkeen."
+
+#: course/models.py:412
+msgid ""
+"Lifesupport time and archive time must be either both set or both unset."
+msgstr ""
+"Saattohoitoaika ja arkistointiaika pitää molemmat asettaa tai muutoin "
+"kumpaakaan ei voi asettaa."
+
+#: course/models.py:414
+msgid "Archive time must be later than lifesupport time."
+msgstr "Arkistointiajan tulee olla saattohoidon jälkeen."
+
+#: course/models.py:422
+msgid "Language code(s) missing from settings: "
+msgstr "Palvelun asetuksista puuttuva(t) kielikoodi(t):"
+
+#: course/models.py:424
+msgid "Language code missing from settings."
+msgstr "Kielikoodi puuttuu palvelun asetuksista."
+
+#: course/models.py:621 course/models.py:729 exercise/exercise_models.py:68
+#: exercise/submission_models.py:58
+msgid "Ready"
+msgstr "Valmis"
+
+#: course/models.py:622 exercise/exercise_models.py:69
+msgid "Unlisted in table of contents"
+msgstr "Näkymätön sisällysluettelossa"
+
+#: course/models.py:623 course/models.py:731 templates/base.html:99
+msgid "Hidden"
+msgstr "Piilotettu"
+
+#: course/models.py:624 exercise/exercise_models.py:73
+msgid "Maintenance"
+msgstr "Huolto"
+
+#: course/models.py:632
+msgid "Input an URL identifier for this module."
+msgstr "Syötä URL-osoitteessa käytettävä tunnus moduulille."
+
+#: course/models.py:648
+msgid "Multiplier of points to reduce, as decimal. 0.1 = 10%"
+msgstr "Pisteiden vähennyskerroin desimaalilukuna, 0.1 = 10%"
+
+#: course/models.py:671
+msgid "Opening time must be earlier than the closing time."
+msgstr "Alkamisajan tulee olla aikaisempi kuin päättymisaika."
+
+#: course/models.py:673
+msgid "Late submission deadline must be later than the closing time."
+msgstr ""
+"Myöhäisten palautusten määräajan tulee olla myöhäisempi kuin sulkeutumisajan."
+
+#: course/models.py:730
+msgid "No total points"
+msgstr "Ei kokonaispisteitä"
+
+#: course/models.py:741
+msgid ""
+"Once exercise is graded non zero it confirms all the points on the hierarchy "
+"level. Implemented as a mandatory feedback feature."
+msgstr ""
+"Kun tehtävä arvostellaan nollasta paremmaksi, se vahvistaa kaikki pisteet "
+"hierarkiatasolla. Suunniteltu pakollisen palautteen keräämiseksi."
+
+#: course/models.py:743
+msgid ""
+"Grade unofficial submissions after deadlines have passed or submission "
+"limits have been exceeded. The points are stored but not included in "
+"official records."
+msgstr ""
+"Arvostele epäviralliset palautukset tehtävän sulkeuduttua tai kun "
+"palautuskertojen raja on ylitetty. Pisteet tallennetaan, mutta ne eivät "
+"sisälly virallisiin tuloksiin."
+
+#: course/permissions.py:20 course/permissions.py:88
+msgid "Permission denied by course visibility"
+msgstr "Pääsy kielletty kurssin näkyvyyden perusteella"
+
+#: course/permissions.py:46 course/permissions.py:99
+msgid "The resource is not currently visible."
+msgstr "Materiaali ei ole tällä hetkellä nähtävissä."
+
+#: course/permissions.py:57 course/permissions.py:105
+msgid "This course is not open for public."
+msgstr "Tälle kurssille ei ole vapaata pääsyä."
+
+#: course/permissions.py:79
+msgid "This course is only for internal students."
+msgstr "Tämä kurssi on vain oppilaitoksen koulutusohjelmien opiskelijoille."
+
+#: course/permissions.py:82
+msgid "This course is only for external students."
+msgstr "Tämä kurssi on vain oppilaitoksen ulkopuolisille opiskelijoille."
+
+#: course/permissions.py:112
+msgid "The module is not currently visible"
+msgstr "Tämä osio ei ole tällä hetkellä nähtävissä."
+
+#: course/permissions.py:130
+#, python-brace-format
+msgid "The module will open for submissions at {date}."
+msgstr "Tämä osio avautuu {date}."
+
+#: course/permissions.py:143
+msgid "Only course teacher is allowed"
+msgstr "Vain opettajalle."
+
+#: course/permissions.py:153
+msgid "Only course staff is allowed"
+msgstr "Vain kurssihenkilökunnalle."
+
+#: course/staff_views.py:68 edit_course/views.py:50 exercise/staff_views.py:283
+msgid "Changes were saved succesfully."
+msgstr "Muutokset tallennettiin onnistuneesti."
+
+#: course/staff_views.py:72 edit_course/views.py:54 exercise/staff_views.py:287
+msgid "Failed to save changes."
+msgstr "Muutosten tallentaminen epäonnistui."
+
+#: course/templates/course/_course_dropdown_menu.html:16
+msgid "Begin by enrolling in a course."
+msgstr "Aloita ilmoittautumalla jollekin kurssille."
+
+#: course/templates/course/_course_menu.html:14
+#: course/templates/course/_course_menu.html:38
+#: edit_course/templates/edit_course/edit_course_base.html:26
+msgid "Course"
+msgstr "Kurssi"
+
+#: course/templates/course/_course_menu.html:18
+#: userprofile/templates/userprofile/profile.html:39
+msgid "Language"
+msgstr "Kieli"
+
+#: course/templates/course/_course_menu.html:51
+#: course/templates/course/_siblings.html:46
+#: exercise/templates/exercise/toc.html:7
+#: exercise/templates/exercise/toc.html:12
+msgid "Course materials"
+msgstr "Kurssimateriaali"
+
+#: course/templates/course/_course_menu.html:57
+#: exercise/templates/exercise/results.html:13
+msgid "Exercise results"
+msgstr "Pistetilanne"
+
+#: course/templates/course/_course_menu.html:66
+msgid "Form a group"
+msgstr "Luo uusi ryhmä"
+
+#: course/templates/course/_course_menu.html:94
+msgid "Apps"
+msgstr "Sovellukset"
+
+#: course/templates/course/_course_menu.html:108
+#: exercise/templates/exercise/_user_results.html:86
+#: exercise/templates/exercise/submission_plain.html:41
+msgid "Course staff"
+msgstr "Kurssihenkilökunta"
+
+#: course/templates/course/_course_menu.html:114
+#: course/templates/course/staff/participants.html:6
+#: course/templates/course/staff/participants.html:11
+#: exercise/templates/exercise/staff/user_results.html:34
+msgid "Participants"
+msgstr "Opiskelijat"
+
+#: course/templates/course/_course_menu.html:121
+#: course/templates/course/staff/group_delete.html:6
+#: course/templates/course/staff/group_delete.html:11
+#: course/templates/course/staff/group_edit.html:6
+#: course/templates/course/staff/group_edit.html:11
+#: course/templates/course/staff/groups.html:5
+#: course/templates/course/staff/groups.html:10
+#: edit_course/exercise_forms.py:105
+msgid "Groups"
+msgstr "Ryhmät"
+
+#: course/templates/course/_course_menu.html:129
+#: diploma/templates/diploma/list.html:4 diploma/templates/diploma/list.html:8
+msgid "Grades"
+msgstr "Arvosanat"
+
+#: course/templates/course/_course_menu.html:137
+#: exercise/templates/exercise/staff/results.html:5
+#: exercise/templates/exercise/staff/results.html:10
+msgid "All results"
+msgstr "Kaikki pisteet"
+
+#: course/templates/course/_course_menu.html:144
+#: exercise/templates/exercise/staff/analytics.html:6
+#: exercise/templates/exercise/staff/analytics.html:11
+msgid "Visualizations"
+msgstr "Visualisoinnit"
+
+#: course/templates/course/_course_menu.html:152
+#: news/templates/news/edit.html:11 news/templates/news/list.html:11
+msgid "Edit news"
+msgstr "Muokkaa kurssiuutisia"
+
+#: course/templates/course/_course_menu.html:158
+#: edit_course/templates/edit_course/edit_content.html:8
+#: edit_course/templates/edit_course/edit_course_base.html:5
+#: edit_course/templates/edit_course/edit_course_base.html:11
+msgid "Edit course"
+msgstr "Muokkaa kurssia"
+
+#: course/templates/course/_enroll_form.html:11
+msgid "In order to submit exercises you must enroll in the course."
+msgstr "Palauttaaksesi tehtäviä sinun pitää ilmoittautua kurssille."
+
+#: course/templates/course/_enroll_form.html:13
+msgid ""
+"In order to submit exercises and see material, you must enroll in the course."
+msgstr ""
+"Palauttaaksesi tehtäviä ja nähdäksesi materiaalin sinun pitää ilmoittautua "
+"kurssille."
+
+#: course/templates/course/_enroll_form.html:15
+#: exercise/templates/exercise/_warnings_overlay.html:37
+msgid "Enroll"
+msgstr "Ilmoittaudu"
+
+#: course/templates/course/_enroll_form.html:19
+#, python-format
+msgid ""
+"\n"
+"        The course enrollment is open until %(end)s.\n"
+"        "
+msgstr ""
+"\n"
+"        Kurssille ilmoittautuminen on avoinna %(end)s asti.\n"
+"        "
+
+#: course/templates/course/_enroll_form.html:27
+msgid "Unfortunately, enrolling in the course has ended."
+msgstr "Valitettavasti kurssille ilmoittautuminen on päättynyt."
+
+#: course/templates/course/_enroll_form.html:29
+#, python-format
+msgid ""
+"\n"
+"  The course opens %(start)s.\n"
+"  "
+msgstr ""
+"\n"
+"  Kurssi  avautuu %(start)s\n"
+"  "
+
+#: course/templates/course/_enroll_form.html:35
+msgid ""
+"Unfortunately, you may not enroll in this course and you may not explore the "
+"contents either."
+msgstr ""
+"Valitettavasti et voi ilmoittautua tälle kurssille etkä voi myöskään "
+"selailla kurssimateriaalia."
+
+#: course/templates/course/_enroll_form.html:37
+msgid ""
+"Unfortunately, you cannot enroll in this course, but you may explore the "
+"course material."
+msgstr ""
+"Valitettavasti et voi ilmoittautua tälle kurssille, mutta voit selailla "
+"kurssimateriaalia."
+
+#: course/templates/course/_enroll_form.html:40
+msgid ""
+"Login is required to submit exercises, but you may anonymously explore the "
+"course material."
+msgstr ""
+"Tehtävien palauttaminen vaatii kirjautumisen järjestelmään, mutta voit "
+"selailla kurssimateriaalia tunnistautumatta."
+
+#: course/templates/course/_group_info.html:4
+#, python-format
+msgid ""
+"\n"
+"  You are now submitting with %(collaborators)s.\n"
+"  "
+msgstr ""
+"\n"
+"  Olet nyt palauttamassa ryhmässä %(collaborators)s\n"
+"  "
+
+#: course/templates/course/_group_info.html:10
+msgid "You are now submitting alone."
+msgstr "Olet nyt palauttamassa yksin."
+
+#: course/templates/course/_group_select.html:13
+msgid "Registering selection..."
+msgstr "Tallennetaan valinta..."
+
+#: course/templates/course/_group_select.html:21
+msgid "Submit alone"
+msgstr "Palauta yksin"
+
+#: course/templates/course/_group_select.html:30
+#, python-format
+msgid ""
+"\n"
+"          Submit with %(collaborators)s\n"
+"          "
+msgstr ""
+"\n"
+"          Palauta ryhmässä: %(collaborators)s\n"
+"          "
+
+#: course/templates/course/_siblings.html:18
+#: course/templates/course/_siblings.html:37
+#: exercise/templates/exercise/_children.html:29
+#: exercise/templates/exercise/_user_results.html:139
+#: exercise/templates/exercise/_user_results.html:166
+#: exercise/templates/exercise/_user_toc.html:29
+msgid "Early access"
+msgstr "Aikainen pääsy"
+
+#: course/templates/course/archive.html:5
+#: course/templates/course/archive.html:12
+msgid "Course archive"
+msgstr "Kurssiarkisto"
+
+#: course/templates/course/archive.html:23
+#: course/templates/course/index.html:37
+msgid "Hidden from students"
+msgstr "Piilotettu opiskelijoilta"
+
+#: course/templates/course/course_base.html:27
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: course/templates/course/course_base.html:31
+msgid "Download calendar (ics)"
+msgstr "Lataa kalenteri (ics)"
+
+#: course/templates/course/enroll.html:6 course/templates/course/enroll.html:10
+msgid "Enrollment"
+msgstr "Ilmoittautuminen"
+
+#: course/templates/course/enroll.html:16
+msgid "You are already enrolled in this course."
+msgstr "Olet jo ilmoittautunut tälle kurssille."
+
+#: course/templates/course/enroll.html:23
+msgid "Enrollment target group"
+msgstr "Ilmoittautumisen kohderyhmä"
+
+#: course/templates/course/enroll.html:24
+#, python-format
+msgid ""
+"\n"
+"Enrollment is open from %(start)s to %(end)s.\n"
+msgstr ""
+"\n"
+"Ilmoittautuminen on avoinna alkaen %(start)s ja päättyen %(end)s.\n"
+
+#: course/templates/course/enroll.html:27
+msgid "Course visibility"
+msgstr "Kurssin näkyvyys"
+
+#: course/templates/course/groups.html:8 course/templates/course/groups.html:13
+#: course/templates/course/groups.html:53
+msgid "My groups"
+msgstr "Minun ryhmäni"
+
+#: course/templates/course/groups.html:22
+msgid "[staff has none]"
+msgstr "[henkilökunnalla ei ole]"
+
+#: course/templates/course/groups.html:23
+#, python-format
+msgid ""
+"\n"
+"    Your personal group <strong>join code</strong> is <strong>%(code)s</"
+"strong>.\n"
+"    "
+msgstr ""
+"\n"
+"    Henkilökohtainen ryhmään <strong>liittymiskoodisi</strong> on <strong>"
+"%(code)s</strong>.\n"
+"    "
+
+#: course/templates/course/groups.html:31
+msgid ""
+"\n"
+"      First, query the personal <strong>join codes</strong> from your other "
+"group members.\n"
+"      Then enter the codes below to form a new group.\n"
+"      It is sufficient that one group member submits this form.\n"
+"      "
+msgstr ""
+"\n"
+"      Kysy ensin henkilökohtainen <strong>liittymiskoodi</strong> muilta "
+"ryhmän jäseniltäsi.\n"
+"      Muodosta ryhmä syöttämällä koodit alle.\n"
+"      Riittää, että yksi ryhmän jäsen lähettää tämän lomakkeen.\n"
+"      "
+
+#: course/templates/course/groups.html:39
+msgid "Form a new group"
+msgstr "Muodosta uusi ryhmä"
+
+#: course/templates/course/groups.html:45
+msgid "This course does not utilize group submissions."
+msgstr "Tällä kurssilla ei voi palauttaa ryhmänä."
+
+#: course/templates/course/groups.html:64
+msgid "No groups yet"
+msgstr "Ei vielä ryhmiä"
+
+#: course/templates/course/index.html:53
+msgid "View course"
+msgstr "Näytä kurssi"
+
+#: course/templates/course/index.html:65
+#, python-format
+msgid ""
+"\n"
+"    Old courses can be found at the <a href=\"%(url)s\">course archive</a>.\n"
+"    "
+msgstr ""
+"\n"
+"Vanhat kurssit ovat nähtävissä <a href=\"%(url)s\">kurssiarkistossa</a>."
+
+#: course/templates/course/module.html:27
+#, python-format
+msgid ""
+"\n"
+"                Late submissions are allowed until %(deadline)s.\n"
+"                "
+msgstr ""
+"\n"
+"Myöhästyneitä palautuksia vastaanotetaan %(deadline)s asti."
+
+#: course/templates/course/module.html:31
+#, python-format
+msgid ""
+"\n"
+"                but points are only worth %(percent)s%%.\n"
+"                "
+msgstr ""
+"\n"
+"Pisteiden arvo on %(percent)s%% ajoissa palautetusta."
+
+#: course/templates/course/staff/_tag_remove_modal.html:21
+msgid "Untag multiple users"
+msgstr "Poista merkintä usealta käyttäjältä"
+
+#: course/templates/course/staff/_tag_remove_modal.html:25
+msgid ""
+"\n"
+"                Remove tagging\n"
+"                <span id=\"tag-remove-modal-tagging\"></span>\n"
+"                from <span id=\"tag-remove-modal-amount\"></span> users:\n"
+"                <ul id=\"tag-remove-modal-users\"></ul>\n"
+"                "
+msgstr ""
+"\n"
+"               Poistetaan merkintä\n"
+"                <span id=\"tag-remove-modal-tagging\"></span>\n"
+"                <span id=\"tag-remove-modal-amount\"></span> käyttäjältä:\n"
+"                <ul id=\"tag-remove-modal-users\"></ul>\n"
+"                "
+
+#: course/templates/course/staff/_tag_remove_modal.html:38
+#: course/templates/course/staff/group_delete.html:42
+#: deviations/templates/deviations/add_dl.html:24
+#: edit_course/templates/edit_course/edit_model.html:68
+#: edit_course/templates/edit_course/remove_model.html:54
+#: edit_course/templates/edit_course/usertag_add.html:23
+#: edit_course/templates/edit_course/usertag_delete.html:31
+#: edit_course/templates/edit_course/usertag_edit.html:23
+#: edit_course/templates/edit_course/usertagging_add.html:23
+#: exercise/templates/exercise/staff/assess_submission.html:28
+#: exercise/templates/exercise/staff/edit_submitters.html:23
+#: external_services/templates/external_services/edit_menu.html:24
+#: news/templates/news/edit.html:24
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: course/templates/course/staff/_tag_remove_modal.html:46
+msgid "Remove all"
+msgstr "Poista kaikki"
+
+#: course/templates/course/staff/group_delete.html:6
+#: course/templates/course/staff/group_delete.html:12
+#: course/templates/course/staff/group_delete.html:40
+#: course/templates/course/staff/groups.html:46
+#: deviations/templates/deviations/list_dl.html:44
+#: edit_course/templates/edit_course/edit_content.html:53
+#: edit_course/templates/edit_course/edit_content.html:91
+#: edit_course/templates/edit_course/edit_content.html:112
+#: edit_course/templates/edit_course/remove_model.html:51
+#: edit_course/templates/edit_course/usertag_delete.html:29
+#: edit_course/templates/edit_course/usertag_list.html:46
+#: external_services/templates/external_services/list_menu.html:68
+#: news/templates/news/list.html:53 templates/base.html:242
+msgid "Remove"
+msgstr "Poista"
+
+#: course/templates/course/staff/group_delete.html:20
+msgid "Confirm group removal"
+msgstr "Vahvista ryhmän poisto"
+
+#: course/templates/course/staff/group_delete.html:25
+#: course/templates/course/staff/groups.html:27
+msgid "ID"
+msgstr "ID"
+
+#: course/templates/course/staff/group_delete.html:26
+#: course/templates/course/staff/groups.html:28
+msgid "Members"
+msgstr "Jäsenet"
+
+#: course/templates/course/staff/group_delete.html:27
+#: course/templates/course/staff/groups.html:29
+msgid "Created"
+msgstr "Luotu"
+
+#: course/templates/course/staff/group_edit.html:6
+#: course/templates/course/staff/group_edit.html:12
+#: course/templates/course/staff/groups.html:42
+#: edit_course/templates/edit_course/usertag_list.html:42
+#: exercise/templates/exercise/staff/_assess_info.html:20
+#: external_services/templates/external_services/list_menu.html:60
+#: news/templates/news/list.html:45
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: course/templates/course/staff/group_edit.html:20
+msgid "Edit group members"
+msgstr "Muokkaa ryhmän jäseniä"
+
+#: course/templates/course/staff/group_edit.html:23
+#: edit_course/templates/edit_course/edit_content.html:186
+#: edit_course/templates/edit_course/edit_index.html:20
+#: edit_course/templates/edit_course/edit_instance.html:24
+#: edit_course/templates/edit_course/usertag_add.html:22
+#: edit_course/templates/edit_course/usertag_edit.html:22
+#: edit_course/templates/edit_course/usertagging_add.html:22
+#: exercise/templates/exercise/staff/assess_submission.html:27
+#: exercise/templates/exercise/staff/edit_submitters.html:22
+#: userprofile/templates/userprofile/profile.html:55
+msgid "Save"
+msgstr "Tallenna"
+
+#: course/templates/course/staff/groups.html:17
+msgid "Number of groups"
+msgstr "Ryhmien määrä"
+
+#: course/templates/course/staff/groups.html:20
+#: external_services/templates/external_services/edit_menu.html:12
+#: news/templates/news/edit.html:12
+msgid "Add new"
+msgstr "Lisää"
+
+#: course/templates/course/staff/participants.html:18
+#: diploma/templates/diploma/list.html:13
+msgid "Filter users"
+msgstr "Suodata listaa"
+
+#: course/templates/course/staff/participants.html:36
+msgid "Number of students"
+msgstr "Opiskelijoiden määrä"
+
+#: course/templates/course/staff/participants.html:38
+msgid "of which selected"
+msgstr "joista valittuna"
+
+#: course/templates/course/staff/participants.html:50
+#: diploma/templates/diploma/list.html:27
+#: exercise/templates/exercise/staff/user_results.html:45
+msgid "Student id"
+msgstr "Opiskelijanumero"
+
+#: course/templates/course/staff/participants.html:51
+#: exercise/templates/exercise/staff/user_results.html:46
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: course/templates/course/staff/participants.html:52
+#: exercise/templates/exercise/staff/user_results.html:47
+msgid "First name"
+msgstr "Etunimi"
+
+#: course/templates/course/staff/participants.html:53
+#: exercise/templates/exercise/staff/user_results.html:48
+msgid "Email"
+msgstr "Sähköposti"
+
+#: course/templates/course/staff/participants.html:54
+#: edit_course/templates/edit_course/edit_course_base.html:46
+#: edit_course/templates/edit_course/usertag_add.html:9
+#: edit_course/templates/edit_course/usertag_delete.html:10
+#: edit_course/templates/edit_course/usertag_edit.html:9
+#: edit_course/templates/edit_course/usertag_list.html:10
+#: edit_course/templates/edit_course/usertagging_add.html:9
+msgid "Tags"
+msgstr "Merkinnät"
+
+#: course/views.py:98
+msgid "You cannot enroll, or have already enrolled, in this course."
+msgstr "Et voi ilmoittautua tai olet jo ilmoittautunut tälle kurssille."
+
+#: course/views.py:102 exercise/exercise_models.py:528
+msgid "The enrollment is not open."
+msgstr "Ilmoittautuminen ei ole avoinna."
+
+#: course/views.py:176
+msgid "A new student group was created."
+msgstr "Luotiin uusi opiskelijaryhmä."
+
+#: deviations/forms.py:25
+msgid ""
+"Amount of extra time given in minutes. Leave blank if you fill in the date "
+"below."
+msgstr "Annettu ylimääräinen palautusaika minuuteissa."
+
+#: deviations/forms.py:30
+msgid "New submission deadline in the future in format YYYY-MM-DD HH:MM."
+msgstr "Uusi eräpäivä formaatissa YYYY-MM-DD HH:MM."
+
+#: deviations/forms.py:35
+msgid "Do not apply late penalty during extra time."
+msgstr "Älä käytä myöhästymissakkoa ylimääräisen palautusajan aikana."
+
+#: deviations/templates/deviations/add_dl.html:6
+#: deviations/templates/deviations/add_dl.html:19
+msgid "Add deadline deviations"
+msgstr "Lisää määräajan muutoksia"
+
+#: deviations/templates/deviations/add_dl.html:11
+#: deviations/templates/deviations/list_dl.html:5
+#: deviations/templates/deviations/list_dl.html:10
+msgid "List deadline deviations"
+msgstr "Listaa määräajan muutokset"
+
+#: deviations/templates/deviations/add_dl.html:12
+#: deviations/templates/deviations/list_dl.html:18
+msgid "Add new deadline deviations"
+msgstr "Lisää uusia määräajan muutoksia"
+
+#: deviations/templates/deviations/add_dl.html:23
+#: edit_course/templates/edit_course/batch_assess.html:85
+#: edit_course/templates/edit_course/edit_model.html:66
+#: exercise/templates/exercise/model/_file_submit_form.html:4
+#: exercise/templates/exercise/model/_file_submit_form.html:14
+#: external_services/templates/external_services/edit_menu.html:23
+#: news/templates/news/edit.html:23
+msgid "Submit"
+msgstr "Lähetä"
+
+#: deviations/templates/deviations/list_dl.html:23
+msgid "Deadline deviations"
+msgstr "Määräajan muutokset"
+
+#: deviations/templates/deviations/list_dl.html:27
+msgid "Submitter"
+msgstr "Palauttaja"
+
+#: deviations/templates/deviations/list_dl.html:28
+#: edit_course/templates/edit_course/edit_content.html:149
+#: exercise/templates/exercise/_user_results.html:81
+msgid "Exercise"
+msgstr "Tehtävä"
+
+#: deviations/templates/deviations/list_dl.html:29
+msgid "Extra minutes"
+msgstr "Ylimääräiset minuutit"
+
+#: deviations/templates/deviations/list_dl.html:30
+msgid "Without late penalty"
+msgstr "Ilman myöhästymissakkoa"
+
+#: deviations/templates/deviations/list_dl.html:31
+#: edit_course/templates/edit_course/usertag_list.html:31
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: deviations/templates/deviations/list_dl.html:51
+msgid "No deadline deviations."
+msgstr "Ei yhtään määräajan muutosta."
+
+#: deviations/views.py:43
+msgid "You have to provide either minutes or a date in the future."
+msgstr "Sinun on määriteltävä joko minuutit tai päivämäärä."
+
+#: deviations/views.py:77
+#, python-brace-format
+msgid ""
+"Deadline deviation already exists for {user} in {exercise}!Remove it before "
+"trying to add a new one."
+msgstr ""
+"Määräajan muutos on jo olemassa opiskelijalle {user} tehtävässä {exercise}! "
+"Poista se ennen uuden muutokse lisäämistä."
+
+#: diploma/templates/diploma/_diploma_button.html:7
+msgid "Get course diploma"
+msgstr "Hae kurssidiplomi"
+
+#: diploma/templates/diploma/_diploma_button.html:12
+msgid "Open grade 0 diploma"
+msgstr "Avaa 0 arvosanan diplomi"
+
+#: diploma/templates/diploma/list.html:26
+#: edit_course/templates/edit_course/signin_as_user.html:14
+#: userprofile/templates/userprofile/login.html:78
+#: userprofile/templates/userprofile/profile.html:35
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: diploma/templates/diploma/list.html:28
+#: exercise/templates/exercise/_submission_info.html:22
+#: exercise/templates/exercise/staff/_assess_info.html:29
+#: exercise/templates/exercise/staff/_submissions_table.html:54
+msgid "Grade"
+msgstr "Arvostelu"
+
+#: edit_course/course_forms.py:30
+#: exercise/templates/exercise/_user_results.html:82
+msgid "Category"
+msgstr "Kategoria"
+
+#: edit_course/course_forms.py:61 edit_course/exercise_forms.py:59
+msgid "Hierarchy"
+msgstr "Hierarkia"
+
+#: edit_course/course_forms.py:62 edit_course/exercise_forms.py:63
+#: edit_course/templates/edit_course/edit_course_base.html:36
+msgid "Content"
+msgstr "Sisältö"
+
+#: edit_course/course_forms.py:63
+msgid "Schedule"
+msgstr "Aikataulu"
+
+#: edit_course/course_forms.py:97
+msgid "The URL identifier is locked while the course is visible to students."
+msgstr ""
+"URL-osoitteessa käytetty tunniste on lukittu, kun kurssi näkyy "
+"opiskelijoille."
+
+#: edit_course/course_forms.py:99
+msgid "Removes visibility of model answers for students."
+msgstr "Saattohoito poistaa esimerkkiratkaisut opiskelijoiden näkyviltä."
+
+#: edit_course/course_forms.py:101
+msgid "Removes possibility for students to return answers."
+msgstr "Arkistoinnin jälkeen tehtävien palauttaminen ei ole enää mahdollista."
+
+#: edit_course/course_forms.py:142
+msgid "New URL identifier for the course instance:"
+msgstr "Uusi URL-osoitteessa käytettävä tunniste kurssikerralle:"
+
+#: edit_course/course_forms.py:153
+msgid "The URL is already taken."
+msgstr "URL on jo käytössä."
+
+#: edit_course/exercise_forms.py:102
+msgid "Grading"
+msgstr "Arvostelu"
+
+#: edit_course/managers.py:45
+msgid "category"
+msgstr "kategoria"
+
+#: edit_course/managers.py:51
+msgid "module"
+msgstr "moduuli"
+
+#: edit_course/managers.py:63
+msgid "learning object"
+msgstr "oppimissisältö"
+
+#: edit_course/operations/batch.py:17
+msgid "Parsing the submission JSON raised an error '{error!s}'."
+msgstr "Palautus JSONin tulkitseminen tuotti virheet '{error!s}'."
+
+#: edit_course/operations/batch.py:22
+msgid "Missing JSON field: objects."
+msgstr "Puuttuva JSON-kenttä: objects."
+
+#: edit_course/operations/batch.py:25
+msgid "Invalid JSON. Expected list or list in objects field"
+msgstr "Virheellinen JSON. Odotettiin listaa tai object kentässä listaa."
+
+#: edit_course/operations/batch.py:34
+#, python-brace-format
+msgid "Missing field \"exercise_id\" in object {count:d}."
+msgstr "Puuttuva kenttä \"exercise_id\" objektissa {count:d}."
+
+#: edit_course/operations/batch.py:43
+#, python-brace-format
+msgid "Unknown exercise_id {id:d} in object {count:d}."
+msgstr "Tuntematon exercise_id {id:d} objektissa {count:d}."
+
+#: edit_course/operations/batch.py:55
+#, python-brace-format
+msgid ""
+"Object number {ordinal:d} has invalid fields:\n"
+" {errors}"
+msgstr ""
+"Arvostelulla numero {ordinal:d} on virheellisiä kenttiä:\n"
+" {errors}"
+
+#: edit_course/operations/configure.py:26
+#, python-brace-format
+msgid "Unable to parse value '{value}' as a date."
+msgstr "Arvoa '{value}' ei voitu jäsentää päivämääränä."
+
+#: edit_course/operations/configure.py:54
+#, python-brace-format
+msgid "Unable to parse value '{value}' as a time duration."
+msgstr "Arvoa '{value}' ei voitu jäsentää ajankestona."
+
+#: edit_course/operations/configure.py:62
+#, python-brace-format
+msgid "Unable to parse value '{value}' as an int."
+msgstr "Arvoa '{value}' ei voitu jäsentää kokonaislukuna."
+
+#: edit_course/operations/configure.py:70
+#, python-brace-format
+msgid "Unable to parse value '{value}' as a float."
+msgstr "Arvoa '{value}' ei voitu jäsentää liukulukuna."
+
+#: edit_course/operations/configure.py:85
+#, python-brace-format
+msgid "Field '{field}' has an unknown value '{value}'."
+msgstr "Kentällä '{field}' on tuntematon arvo '{value}'."
+
+#: edit_course/operations/configure.py:97
+msgid "Learning object requires a key."
+msgstr "Oppimisolio vaatii avaimen."
+
+#: edit_course/operations/configure.py:100
+msgid "Learning object requires a category."
+msgstr "Oppimisolio vaatii kategorian."
+
+#: edit_course/operations/configure.py:103
+#, python-brace-format
+msgid "Unknown category '{category}'."
+msgstr "Tuntematon kategoria '{category}'."
+
+#: edit_course/operations/configure.py:133
+#, python-brace-format
+msgid ""
+"The site has no configuration for the LTI service '{lti_label}' used by the "
+"LTI exercise '{exercise_key}'. You may have misspelled the value for the "
+"field 'lti' or the site administrator has not yet added the configuration "
+"for the LTI service. The exercise was not created/updated due to the error."
+msgstr ""
+"Sivustolla ei ole asetuksia LTI-palvelulle '{lti_label}', jota käyttää LTI-"
+"tehtävä '{exercise_key}'. Olet mahdollisesti kirjoittanut väärin kentän "
+"'lti' arvon tai sivuston ylläpitäjä ei ole vielä lisännyt tämän LTI-palvelun "
+"asetuksia. Tehtävää ei luotu/päivitetty tämän virheen takia."
+
+#: edit_course/operations/configure.py:267
+msgid "Cannot request build log from build_log_url when it is blank."
+msgstr "Käännöslokin hakeminen ei onnistu jos build_log_url on tyhjä."
+
+#: edit_course/operations/configure.py:271
+msgid "Requesting build log failed with error '{error!s}'."
+msgstr "Käännöslokin hakeminen epäonnistui virheellä '{error!s}'."
+
+#: edit_course/operations/configure.py:276
+msgid "Parsing the build log JSON raised error '{error!s}'."
+msgstr "Rakentamislokin jäsentäminen palautti virheen '{error!s}'."
+
+#: edit_course/operations/configure.py:279
+msgid "Remote URL returned an empty build log."
+msgstr "Etäpalvelin palautti tyhjän käännöslokin."
+
+#: edit_course/operations/configure.py:288
+msgid "Configuration URL required."
+msgstr "Konfiguraatio-URL vaaditaan."
+
+#: edit_course/operations/configure.py:293
+msgid ""
+"Request for a course configuration failed with error '{error!s}'. "
+"Configuration of course aborted."
+msgstr ""
+"Kurssikonfigurointipyyntö epäonnistui virheellä '{error!s}'. Konfigurointi "
+"keskeytettiin."
+
+#: edit_course/operations/configure.py:302
+msgid "JSON parser raised error '{error!s}'. Configuration of course aborted."
+msgstr "JSON parseri tuotti virheen '{error!s}'. Konfigurointi keskeytettiin."
+
+#: edit_course/operations/configure.py:397
+msgid "Assistants must be given as a student ID array."
+msgstr "Assistentit tulee antaa oppilasnumero-taulukkona."
+
+#: edit_course/operations/configure.py:404
+#, python-brace-format
+msgid ""
+"Adding the assistant failed, because an associated user with student ID {id} "
+"does not exist."
+msgstr ""
+"Assistentin lisääminen epäonnistui, sillä käyttäjää opiskelijanumerolla {id} "
+"ei ole olemassa."
+
+#: edit_course/operations/configure.py:417
+msgid "Categories required as an object."
+msgstr "Kategoriat vaaditaan objektina."
+
+#: edit_course/operations/configure.py:420
+msgid "Modules required as an array."
+msgstr "Moduulit vaaditaan taulukkona."
+
+#: edit_course/operations/configure.py:428
+msgid "Category requires a name."
+msgstr "Kategoria vaatii nimen."
+
+#: edit_course/operations/configure.py:466
+msgid "Module requires a key."
+msgstr "Moduuli vaatii avaimen."
+
+#: edit_course/operations/configure.py:569
+msgid "ExerciseCollection object requires collection_category."
+msgstr "Tehtäväkokoelmaolio tarvitsee collection_category:n."
+
+#: edit_course/operations/configure.py:572
+msgid "ExerciseCollection object must have either identified or URL"
+msgstr "Tehtäväkokoelmaolion täytyy omata joko määrittely identified tai URL."
+
+#: edit_course/operations/configure.py:580
+msgid "Course: {} does not exist"
+msgstr "Kurssi: {} ei ole olemassa"
+
+#: edit_course/operations/configure.py:586
+msgid "Course: {}, Instance: {}, not found."
+msgstr "Kurssi: {}, Instanssi: {}, ei löytynyt."
+
+#: edit_course/operations/configure.py:591
+msgid "ExerciseColletion URL \"{}\" not in correct domain {}."
+msgstr "Tehtäväkokoelman URL \"{}\" ei ole oikeassa domainissa {}."
+
+#: edit_course/operations/configure.py:602
+msgid "No course found with URL \"{}\""
+msgstr "Kurssia ei löytynyt URLla \"{}\""
+
+#: edit_course/operations/configure.py:608
+msgid "Category: {}, not found in Course: {}, Instance: {}."
+msgstr "Kategoria: {}, ei löytynyt kurssista: {}, instanssista: {}."
+
+#: edit_course/templates/edit_course/batch_assess.html:6
+msgid "Batch assess submissions"
+msgstr "Joukkoarvostele palautuksia"
+
+#: edit_course/templates/edit_course/batch_assess.html:11
+#: edit_course/templates/edit_course/batch_assess.html:18
+msgid "Batch create and assess submissions"
+msgstr "Luo ja arvostele palautusjoukkoja"
+
+#: edit_course/templates/edit_course/batch_assess.html:21
+#, python-format
+msgid ""
+"\n"
+"<p><em>Use only if you know what you are doing!</em></p>\n"
+"<p>By submitting json to the form below you can try to create and assess "
+"multiple exercises for students automatically.</p>\n"
+"<dl>\n"
+"\t<dt>XXXXX1 and XXXXX2</dt>\n"
+"    <dd>the real student ids</dd>\n"
+"\t<dt>X1 (integer)</dt>\n"
+"    <dd>the system userprofile id of the desired grader. Your userprofile id "
+"is <b>%(id)s.</b></dd>\n"
+"\t<dt>Z1 and Z2 (integers)</dt>\n"
+"    <dd>the system exercise ids</dd>\n"
+"</dl>\n"
+msgstr ""
+"\n"
+"<p><em>Käytä vain jos tiedät, mitä olet tekemässä!</em></p>\n"
+"<p>Lähettämällä tämän voit yrittää luoda ja arvostella useita tehtäviä "
+"automaattisesti.</p>\n"
+"<dl>\n"
+"\t<dt>XXXXX1 ja XXXXX2</dt>\n"
+"    <dd>oikeat opiskelijanumerot</dd>\n"
+"\t<dt>X1 (integer)</dt>\n"
+"    <dd>Toivotun arvostelijan userprofile id. Sinun userprofile id on <b>"
+"%(id)s</b>.</dd>\n"
+"\t<dt>Z1 ja Z2 (integers)</dt>\n"
+"    <dd>tehtävien IDt</dd>\n"
+"</dl>\n"
+
+#: edit_course/templates/edit_course/build_log.html:9
+msgid "Build initated by"
+msgstr "Käännoksen aloitti"
+
+#: edit_course/templates/edit_course/build_log.html:13
+msgid "Build initated at"
+msgstr "Käännös aloitettiin"
+
+#: edit_course/templates/edit_course/build_log.html:18
+#: edit_course/templates/edit_course/build_log.html:23
+msgid "Build finished"
+msgstr "Käännös valmistui"
+
+#: edit_course/templates/edit_course/build_log.html:19
+msgid "Not yet built"
+msgstr "Käännös kesken"
+
+#: edit_course/templates/edit_course/clone_instance.html:9
+#: edit_course/templates/edit_course/edit_course_base.html:21
+msgid "Instances"
+msgstr "Kurssikerrat"
+
+#: edit_course/templates/edit_course/clone_instance.html:17
+msgid "Course instances"
+msgstr "Kurssikerrat"
+
+#: edit_course/templates/edit_course/clone_instance.html:30
+msgid "hidden"
+msgstr "piilotettu"
+
+#: edit_course/templates/edit_course/clone_instance.html:42
+msgid "Clone course"
+msgstr "Kloonaa kurssi"
+
+#: edit_course/templates/edit_course/clone_instance.html:44
+msgid ""
+"\n"
+"        This action will clone all course modules and exercises into a new "
+"instance.\n"
+"        "
+msgstr ""
+"\n"
+"Tämä toiminto kopioi kaikki kurssimoduulit ja harjoitukset uuteen "
+"kurssikertaan."
+
+#: edit_course/templates/edit_course/clone_instance.html:50
+msgid "Clone into new instance"
+msgstr "Kopioi uudeksi kurssikerraksi"
+
+#: edit_course/templates/edit_course/clone_instance.html:54
+msgid "Cloning course..."
+msgstr "Kopioidaan kurssia..."
+
+#: edit_course/templates/edit_course/edit_content.html:17
+msgid "Import and override content configuration from URL"
+msgstr "Tuo ja korvaa sisältöasetukset URL-osoitteesta"
+
+#: edit_course/templates/edit_course/edit_content.html:20
+msgid "Apply"
+msgstr "Tuo"
+
+#: edit_course/templates/edit_course/edit_content.html:21
+msgid "Clear content cache"
+msgstr "Tyhjennä tehtävien välimuisti"
+
+#: edit_course/templates/edit_course/edit_content.html:25
+msgid "Retrieve latest build log"
+msgstr "Hae uusin käännösloki"
+
+#: edit_course/templates/edit_course/edit_content.html:31
+msgid "Previous modification of this course instance took place at"
+msgstr "Kurssia on viimeksi muokattu"
+
+#: edit_course/templates/edit_course/edit_content.html:37
+msgid "Exercise categories"
+msgstr "Tehtäväkategoriat"
+
+#: edit_course/templates/edit_course/edit_content.html:49
+msgid "Edit category"
+msgstr "Muokkaa kategoriaa"
+
+#: edit_course/templates/edit_course/edit_content.html:63
+msgid "Add new category"
+msgstr "Lisää uusi kategoria"
+
+#: edit_course/templates/edit_course/edit_content.html:73
+msgid "Course modules"
+msgstr "Kurssimoduulit"
+
+#: edit_course/templates/edit_course/edit_content.html:87
+msgid "Edit module"
+msgstr "Muokkaa moduulia"
+
+#: edit_course/templates/edit_course/edit_content.html:95
+msgid "Open module"
+msgstr "Avaa moduuli"
+
+#: edit_course/templates/edit_course/edit_content.html:109
+#: exercise/templates/exercise/exercise_base.html:91
+msgid "Edit exercise"
+msgstr "Muokkaa tehtävää"
+
+#: edit_course/templates/edit_course/edit_content.html:115
+msgid "Open exercise"
+msgstr "Avaa tehtävä"
+
+#: edit_course/templates/edit_course/edit_content.html:119
+#: exercise/templates/exercise/_user_results.html:146
+msgid "View submissions"
+msgstr "Näytä palautukset"
+
+#: edit_course/templates/edit_course/edit_content.html:129
+msgid "Add new learning object"
+msgstr "Lisää uusi oppimissisältö"
+
+#: edit_course/templates/edit_course/edit_content.html:139
+msgid "Choose learning object type to add"
+msgstr "Valitse lisättävän oppimissisällön tyyppi"
+
+#: edit_course/templates/edit_course/edit_content.html:145
+msgid "Content chapter"
+msgstr "Sisältökappale"
+
+#: edit_course/templates/edit_course/edit_content.html:146
+msgid "A remote content page loaded in as a chapter."
+msgstr "Ulkoinen sisältösivu, joka ladataan luvuksi"
+
+#: edit_course/templates/edit_course/edit_content.html:150
+msgid "A remote exercise page loaded in for posting submissions."
+msgstr "Ulkoinen tehtäväsivu, johon palautukset lähetetään"
+
+#: edit_course/templates/edit_course/edit_content.html:153
+msgid "LTI Exercise"
+msgstr "LTI-tehtävä"
+
+#: edit_course/templates/edit_course/edit_content.html:154
+msgid ""
+"A remote exercise page loaded in for posting submissions including signed "
+"LTI course and student information."
+msgstr ""
+"Ulkoinen tehtäväsivu, jossa käytetään LTI-muotoisia kurssi- ja "
+"opiskelijatietoja"
+
+#: edit_course/templates/edit_course/edit_content.html:157
+msgid "Exercise with attachment"
+msgstr "Tehtävä liitetiedostolla"
+
+#: edit_course/templates/edit_course/edit_content.html:158
+msgid ""
+"A local page accepting files and initiating remote grading with teacher "
+"provided grading attachment."
+msgstr ""
+"Paikallinen tehtäväsivu tiedostojen vastaanottamiseen ja ulkoinen "
+"automaattiarviointi opettajan asettaman liitetiedoston kanssa"
+
+#: edit_course/templates/edit_course/edit_content.html:161
+msgid "Static exercise"
+msgstr "Staattinen tehtävä"
+
+#: edit_course/templates/edit_course/edit_content.html:162
+msgid "A local page with editable markup content."
+msgstr "Paikallinen sivu muokattavalla HTML-sisällöllä"
+
+#: edit_course/templates/edit_course/edit_content.html:176
+msgid "Add new module"
+msgstr "Lisää uusi moduuli"
+
+#: edit_course/templates/edit_course/edit_content.html:187
+msgid "Renumerate learning objects for each module"
+msgstr "Numeroi oppimissisällöt uudelleen moduuleittain"
+
+#: edit_course/templates/edit_course/edit_content.html:188
+msgid "Renumerate learning objects ignoring modules"
+msgstr "Numeroi oppimissisällöt uudelleen huomioimatta moduuleita"
+
+#: edit_course/templates/edit_course/edit_course_base.html:31
+#: edit_course/templates/edit_course/edit_index.html:9
+msgid "Index"
+msgstr "Etusivu"
+
+#: edit_course/templates/edit_course/edit_course_base.html:41
+msgid "Menu"
+msgstr "Valikko"
+
+#: edit_course/templates/edit_course/edit_course_base.html:51
+msgid "Deviations"
+msgstr "Määräajan muutokset"
+
+#: edit_course/templates/edit_course/edit_course_base.html:56
+msgid "Batch assess"
+msgstr "Joukkoarviointi"
+
+#: edit_course/templates/edit_course/edit_index.html:17
+msgid "Edit course index"
+msgstr "Muokkaa kurssin etusivua"
+
+#: edit_course/templates/edit_course/edit_instance.html:9
+msgid "Details"
+msgstr "Tiedot"
+
+#: edit_course/templates/edit_course/edit_instance.html:17
+msgid "Edit course details"
+msgstr "Muokkaa kurssin tietoja"
+
+#: edit_course/templates/edit_course/edit_instance.html:20
+msgid "Teachers"
+msgstr "Opettajat"
+
+#: edit_course/templates/edit_course/edit_model.html:6
+#, python-format
+msgid "Edit %(model)s ID %(id)s"
+msgstr "Muokkaa %(model)s ID %(id)s"
+
+#: edit_course/templates/edit_course/edit_model.html:6
+#, python-format
+msgid "Add new %(model)s"
+msgstr "Lisää uusi %(model)s"
+
+#: edit_course/templates/edit_course/edit_model.html:12
+#, python-format
+msgid ""
+"\n"
+"    \tEdit %(model)s\n"
+"    \t"
+msgstr ""
+"\n"
+"Muokkaa %(model)s"
+
+#: edit_course/templates/edit_course/edit_model.html:16
+#, python-format
+msgid ""
+"\n"
+"        Add new %(model)s\n"
+"        "
+msgstr ""
+"\n"
+"Lisää uusi %(model)s"
+
+#: edit_course/templates/edit_course/edit_model.html:34
+msgid "Remote service"
+msgstr "Ulkoinen palvelu"
+
+#: edit_course/templates/edit_course/edit_model.html:41
+msgid "Fill in the URL and"
+msgstr "Syötä URL-osoite ja"
+
+#: edit_course/templates/edit_course/edit_model.html:43
+msgid "Download possible metadata"
+msgstr "Lataa mahdollinen metadata"
+
+#: edit_course/templates/edit_course/remove_model.html:5
+#, python-format
+msgid "Remove %(model)s ID %(id)s"
+msgstr "Poista %(model)s ID %(id)s"
+
+#: edit_course/templates/edit_course/remove_model.html:10
+#, python-format
+msgid ""
+"\n"
+"\tRemove %(model)s\n"
+"\t"
+msgstr ""
+"\n"
+"Poista %(model)s"
+
+#: edit_course/templates/edit_course/remove_model.html:21
+#, python-format
+msgid ""
+"\n"
+"\t\tConfirm %(model)s removal\n"
+"\t\t"
+msgstr ""
+"\n"
+"Vahvista %(model)s poisto"
+
+#: edit_course/templates/edit_course/remove_model.html:28
+#, python-format
+msgid ""
+"\n"
+"\t\t\tYou are removing %(model)s <strong>%(name)s</strong>.\n"
+"\t\t\tAre you sure?\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"Olet poistamassa %(model)s <strong>%(name)s</strong>.\n"
+"Oletko varma?"
+
+#: edit_course/templates/edit_course/remove_model.html:35
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\tIf you remove this exercise, <strong>all the %(num)s submissions\n"
+"\t\t\t\tto the exercise will also be removed</strong>.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"Jos poistat tämän harjoituksen, <strong>kaikki harjoituksen %(num)s "
+"palautusta poistetaan myös</strong>."
+
+#: edit_course/templates/edit_course/remove_model.html:42
+#, python-format
+msgid ""
+"\n"
+"\t\t\tThe %(model)s <strong>%(name)s</strong> is not empty.\n"
+"\t\t\tContained exercises must be removed first.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"Tämä %(model)s <strong>%(name)s</strong> ei ole tyhjä.\n"
+"Sen sisältämät harjoitukset pitää poistaa ensin."
+
+#: edit_course/templates/edit_course/signin_as_user.html:4
+#: edit_course/templates/edit_course/signin_as_user.html:7
+msgid "Sign in as given user"
+msgstr "Kirjaudu jonain käyttäjänä"
+
+#: edit_course/templates/edit_course/signin_as_user.html:9
+msgid ""
+"For debugging purposes, superusers may sign in here as any user. Consider "
+"your actions!"
+msgstr ""
+"Debuggaus-syistä pääkäyttäjät voivat kirjautua tänne minä tähänsa "
+"käyttäjänä. Mieti mitä teet!"
+
+#: edit_course/templates/edit_course/signin_as_user.html:17
+msgid "Change my session"
+msgstr "Vaihda sessiotani"
+
+#: edit_course/templates/edit_course/usertag_add.html:10
+msgid "Add new user tag"
+msgstr "Lisää käyttäjämerkintä"
+
+#: edit_course/templates/edit_course/usertag_add.html:18
+msgid "Add student tag"
+msgstr "Lisää opiskelijamerkintä"
+
+#: edit_course/templates/edit_course/usertag_delete.html:11
+msgid "Remove user tag"
+msgstr "Poista käyttäjämerkintä"
+
+#: edit_course/templates/edit_course/usertag_delete.html:20
+msgid "Confirm user tag removal"
+msgstr "Vahvista käyttäjämerkinnän poisto"
+
+#: edit_course/templates/edit_course/usertag_delete.html:24
+msgid "Are you sure you want to remove following user tag?"
+msgstr "Haluatko varmasti poistaa seuraavan käyttäjämerkinnän?"
+
+#: edit_course/templates/edit_course/usertag_edit.html:10
+#: edit_course/templates/edit_course/usertag_edit.html:18
+msgid "Edit student tag"
+msgstr "Muokkaa opiskelijamerkintää"
+
+#: edit_course/templates/edit_course/usertag_list.html:19
+msgid "Add new student tag"
+msgstr "Lisää uusi opiskelijamerkintä"
+
+#: edit_course/templates/edit_course/usertag_list.html:24
+msgid "Student tags"
+msgstr "Opiskelijamerkinnät"
+
+#: edit_course/templates/edit_course/usertag_list.html:28
+msgid "Tag"
+msgstr "Merkintä"
+
+#: edit_course/templates/edit_course/usertag_list.html:29
+msgid "Description"
+msgstr "Kuvaus"
+
+#: edit_course/templates/edit_course/usertag_list.html:30
+msgid "Visible to students"
+msgstr "Näkyy opiskelijoille"
+
+#: edit_course/templates/edit_course/usertag_list.html:50
+msgid "Tag students"
+msgstr "Merkitse opiskelijoita"
+
+#: edit_course/templates/edit_course/usertag_list.html:56
+msgid "No student tags."
+msgstr "Ei opiskelijamerkintöjä."
+
+#: edit_course/templates/edit_course/usertagging_add.html:10
+#: edit_course/templates/edit_course/usertagging_add.html:18
+msgid "Add new user tagging"
+msgstr "Merkitse opiskelijoita"
+
+#: edit_course/views.py:158
+msgid ""
+"At least one exercise category must be created before creating exercises."
+msgstr "Vähintään yksi kategoria pitää luoda ennen harjoitusten lisäämistä."
+
+#: edit_course/views.py:175
+#, python-brace-format
+msgid "Failed to save {name} due to an error '{error}'."
+msgstr "Kohteen {name} tallennus epäonnistui virheen '{error}' takia."
+
+#: edit_course/views.py:179
+#, python-brace-format
+msgid "The {name} was saved successfully."
+msgstr "Kohde {name} tallennettiin onnistuneesti."
+
+#: edit_course/views.py:185
+#, python-brace-format
+msgid "Failed to save {name}."
+msgstr "Kohteen {name} tallennus epäonnistui."
+
+#: edit_course/views.py:265
+#, python-brace-format
+msgid "Tagged user {user_name} with tag {tag_name}."
+msgid_plural "Tagged users {user_name} with tag {tag_name}."
+msgstr[0] "Lisättiin käyttäjälle {user_name} merkintä {tag_name}"
+msgstr[1] "Lisättiin käyttäjille {user_name} merkintä {tag_name}"
+
+#: edit_course/views.py:286
+msgid "New submissions stored."
+msgstr "Uudet palautukset tallennettiin."
+
+#: edit_course/views.py:303
+msgid "Course instance is now cloned."
+msgstr "Kurssikerta on nyt kopioitu."
+
+#: edit_course/views.py:325
+msgid "Course content configured."
+msgstr "Kurssin sisältö on konfiguroitu."
+
+#: edit_course/views.py:327
+msgid "Server returned error '{error!s}'."
+msgstr "Palvelin palautti virheen: '{error!s}'"
+
+#: edit_course/views.py:333
+msgid "Exercise caches have been cleared."
+msgstr "Tehtävien välimuisti on tyhjennetty."
+
+#: edit_course/views.py:356
+#, python-brace-format
+msgid "Username \"{username}\" does not exist."
+msgstr "Käyttäjätunnusta \"{username}\" ei ole olemassa."
+
+#: exercise/admin.py:40
+msgid "Real class"
+msgstr "Oikea luokka"
+
+#: exercise/admin.py:41
+msgid "Course instance"
+msgstr "Kurssikerta"
+
+#: exercise/admin.py:42 exercise/templates/exercise/_submission_info.html:33
+#: exercise/templates/exercise/staff/_assess_info.html:17
+#: exercise/templates/exercise/staff/_submissions_table.html:51
+msgid "Submitters"
+msgstr "Opiskelijat"
+
+#: exercise/async_views.py:29
+msgid ""
+"<div class=\"alert alert-error\">\n"
+"<p>The exercise assessment service is malfunctioning. Staff has been "
+"notified.</p>\n"
+"<p>This submission is now marked as erroneous.</p>\n"
+"</div>"
+msgstr ""
+"<div class=\"alert alert-error\">\n"
+"<p>Tehtävän arvostelupalvelu on rikki. Kurssin henkilökunnalle on ilmoitettu "
+"tästä.</p>\n"
+"<p>Tämä palautus merkittiin epäonnistuneeksi.</p>\n"
+"</div>"
+
+#: exercise/exercise_models.py:70
+msgid "Enrollment questions"
+msgstr "Ilmoittautumiskysely"
+
+#: exercise/exercise_models.py:71
+msgid "Enrollment questions for external students"
+msgstr "Ilmoittautumiskysely (ulkopuoliset opiskelijat)"
+
+#: exercise/exercise_models.py:72
+msgid "Hidden from non course staff"
+msgstr "Piilotettu muilta kuin kurssin henkilökunnalta"
+
+#: exercise/exercise_models.py:76
+msgid "Course audience"
+msgstr "Kurssin kohdeyleisö"
+
+#: exercise/exercise_models.py:77
+msgid "Only internal users"
+msgstr "Vain paikalliset käyttäjät"
+
+#: exercise/exercise_models.py:78
+msgid "Only external users"
+msgstr "Vain ulkoiset käyttäjät"
+
+#: exercise/exercise_models.py:79
+msgid "Only registered users"
+msgstr "Kaikki rekisteröityneet käyttäjät"
+
+#: exercise/exercise_models.py:94
+msgid "Input an URL identifier for this object."
+msgstr "Syötä URL-osoitteessa käytettävä tunnus tälle kohteelle."
+
+#: exercise/exercise_models.py:97
+msgid "Internal description is not presented on site."
+msgstr "Sisäistä kuvausta ei esitetä sivustolla."
+
+#: exercise/exercise_models.py:99
+msgid "Remove the third info column for more space."
+msgstr "Poista kolmas tietopalsta tilan leventämiseksi."
+
+#: exercise/exercise_models.py:104
+msgid "List model answer files as protected URL addresses."
+msgstr "Luettele esimerkkiratkaisujen ei-julkiset URL-osoitteet."
+
+#: exercise/exercise_models.py:106
+msgid "List template files as protected URL addresses."
+msgstr "Luettele pohjatiedostojen ei-julkiset URL-osoitteet."
+
+#: exercise/exercise_models.py:129
+msgid "Course_module and category must belong to the same course instance."
+msgstr "Moduulin ja kategorian pitää kuulua samaan kurssikertaan."
+
+#: exercise/exercise_models.py:132
+msgid "Cannot select parent from another course module."
+msgstr "Et voi valita 'Parent'-viitettä toisesta kurssimoduulista."
+
+#: exercise/exercise_models.py:134
+msgid "Cannot select self as a parent."
+msgstr "Kohdetta ei voi valita itsensä 'Parent'-viitteeksi."
+
+#: exercise/exercise_models.py:354
+msgid "Points to pass cannot be greater than max_points."
+msgstr "'Points to pass' ei voi olla suurempi kuin 'max_points'."
+
+#: exercise/exercise_models.py:356
+msgid "Minimum group size cannot exceed maximum size."
+msgstr "Ryhmän koon alaraja ei voi olla suurempi kuin yläraja."
+
+#: exercise/exercise_models.py:419
+#, no-python-format, python-brace-format
+msgid ""
+"Deadline for the exercise has passed. Late submissions are allowed until "
+"{date} but points are only worth {percent:d}% of normal."
+msgstr ""
+"Tehtävän määräaika on mennyt. Myöhäisiä palautuksia vastaanotetaan {date} "
+"asti, mutta pisteiden arvo on ainoastaan {percent:d}% normaalista."
+
+#: exercise/exercise_models.py:424
+#, python-brace-format
+msgid ""
+"Deadline for the exercise has passed ({date}). You may still submit to "
+"receive feedback, but your current grade will not change."
+msgstr ""
+"Tehtävän määräaika on mennyt ({date}). Voit edelleen palauttaa saadaksesi "
+"palautetta, mutta nykyinen arvosanasi ei muutu."
+
+#: exercise/exercise_models.py:428
+#, python-brace-format
+msgid "The exercise opens {date} for submissions."
+msgstr "Tämän tehtävän voi palauttaa {date} alkaen."
+
+#: exercise/exercise_models.py:432
+#, python-brace-format
+msgid "Deadline for the exercise has passed ({date})."
+msgstr "Tehtävän määräaika on mennyt ({date})."
+
+#: exercise/exercise_models.py:436
+#, python-brace-format
+msgid "This course has been archived ({date})."
+msgstr "Tämä kurssi on arkistoitu ({date})."
+
+#: exercise/exercise_models.py:489
+msgid ""
+"You have used the allowed amount of submissions for this exercise. You may "
+"still submit to receive feedback, but your current grade will not change."
+msgstr ""
+"Olet käyttänyt kaikki tehtävän palautuskerrat. Voit edelleen palauttaa "
+"saadaksesi palautetta, mutta nykyinen arvosanasi ei muutu."
+
+#: exercise/exercise_models.py:490
+msgid "You have used the allowed amount of submissions for this exercise."
+msgstr "Olet käyttänyt kaikki tehtävän palautuskerrat."
+
+#: exercise/exercise_models.py:532
+msgid "You cannot enroll in the course."
+msgstr "Et voi ilmoittautua kurssille."
+
+#: exercise/exercise_models.py:537
+msgid "Staff can submit exercises without enrolling."
+msgstr "Henkilökunta voi palauttaa tehtäviä ilmoittautumatta."
+
+#: exercise/exercise_models.py:540
+msgid "You must enroll in the course to submit exercises."
+msgstr "Palauttaaksesi tehtäviä sinun pitää ilmoittautua kurssille."
+
+#: exercise/exercise_models.py:562
+msgid "Group can only change between different exercises."
+msgstr "Ryhmää voi vaihtaa vain eri tehtävien välissä."
+
+#: exercise/exercise_models.py:563
+#, python-brace-format
+msgid "You have previously submitted this exercise {with_group}. {msg}"
+msgstr "Olet palauttanut tämän tehtävän aiemmin {with_group}. {msg}"
+
+#: exercise/exercise_models.py:566
+msgid "alone"
+msgstr "yksin"
+
+#: exercise/exercise_models.py:570
+msgid "with {}"
+msgstr "ryhmässä {}"
+
+#: exercise/exercise_models.py:576
+#, python-brace-format
+msgid ""
+"{collaborators} already submitted to this exercise in a different group."
+msgstr "{collaborators} palautti jo tämän tehtävän eri ryhmässä."
+
+#: exercise/exercise_models.py:591
+#, python-brace-format
+msgid "This exercise must be submitted in groups of {size} students."
+msgstr "Tämä tehtävä täytyy palauttaa {size} opiskelijan ryhmässä."
+
+#: exercise/exercise_models.py:601
+msgid ""
+"Cannot submit exercise due to unknown reason. If you think this is an error, "
+"please contact course staff."
+msgstr ""
+"Tehtävää ei voitu palauttaa tuntemattomasta syystä. Jos uskot tämän olevan "
+"virhe, ota ystävällisesti yhteyttä kurssihenkilökuntaan."
+
+#: exercise/exercise_models.py:737
+msgid "Default: [hostname]/[course:url]/[instance:url]/"
+msgstr "Oletus: [hostname]/[course:url]/[instance:url]/"
+
+#: exercise/exercise_models.py:739
+msgid "Default: [aplusexercise:id]"
+msgstr "Oletus: [aplusexercise:id]"
+
+#: exercise/exercise_models.py:741
+msgid "Default: the menu label of the LTI service"
+msgstr "Oletus: LTI-palvelun nimi"
+
+#: exercise/exercise_models.py:743
+msgid ""
+"Perform GET and POST from A+ to custom service URL with LTI data appended."
+msgstr ""
+"A+ suorittaa ulkoisen palvelun GET ja POST pyynnöt lisätyillä LTI-tiedoilla."
+
+#: exercise/exercise_models.py:745
+msgid ""
+"Open the exercise in an iframe inside the A+ page instead of a new window."
+msgstr "Avaa tehtävä iframe-kehyksessä A+-sivun sisällä uuden ikkunan sijasta."
+
+#: exercise/exercise_models.py:762
+msgid ""
+"Domain of Service URL must match the domain of LTI Service or it should only "
+"be the path."
+msgstr ""
+"Palveluosoitteen domainin täytyy vastata LTI-palvelun domainia tai osoitteen "
+"tulee olla vain polku."
+
+#: exercise/exercise_models.py:769
+msgid ""
+"The exercise can not be loaded because the external LTI service has been "
+"disabled."
+msgstr ""
+"Tehtävää ei voi ladata, koska ulkoinen LTI-palvelu on poistettu käytöstä."
+
+#: exercise/exercise_models.py:900
+msgid ""
+"File names that user should submit, use pipe character to separate files"
+msgstr ""
+"Tiedostonimet, jotka käyttäjän tulee palauttaa. Käytä |-merkkiä tiedostojen "
+"erottamiseen."
+
+#: exercise/forms.py:26
+msgid "Points greater than maximum points are not allowed."
+msgstr "Pisteet eivät voi ylittää maksimipistemäärää."
+
+#: exercise/forms.py:29
+msgid "Points lower than zero are not allowed."
+msgstr "Pisteet eivät voi olla negatiivisia."
+
+#: exercise/forms.py:36
+msgid ""
+"Possible penalties are not applied - the points are set as given. This will "
+"<em>override</em> grader points!"
+msgstr ""
+"Mahdollisia myöhästymisvähennyksiä ei tehdä automaattisesti. Pisteet "
+"<em>korvaavat</em> automaattisen arvioinnin tuloksen!"
+
+#: exercise/forms.py:39
+msgid "HTML formatting is allowed. This will not override machine feedback."
+msgstr "HTML-muotoilut sallitaan. Tämä ei korvaa automaattista palautetta."
+
+#: exercise/forms.py:42
+msgid "HTML formatting is allowed. This WILL override machine feedback."
+msgstr "HTML-muotoilut sallitaan. Tämä KORVAA automaattisen palautteen."
+
+#: exercise/forms.py:55
+#, python-brace-format
+msgid ""
+"The maximum points for this exercise is {max:d} and the given points is more "
+"than that."
+msgstr "Annetut pisteet ylittävät tehtävän enimmäispisteet, {max:d}."
+
+#: exercise/forms.py:100
+msgid "One of the student fields must not be blank"
+msgstr "Ainakin yksi opiskelijakentistä tulee antaa"
+
+#: exercise/forms.py:102
+msgid "Only one student field can be given"
+msgstr "Voidaan antaa vain yksi opiskelijakenttä"
+
+#: exercise/permissions.py:19
+msgid "Permission denied by exercise visibility"
+msgstr "Pääsy kielletty tehtävänäkyvyyden perusteella"
+
+#: exercise/permissions.py:31
+msgid "The exercise is not currently visible."
+msgstr "Tehtävä ei ole tällä hetkellä nähtävissä."
+
+#: exercise/permissions.py:37
+msgid "The exercise is only for registered users."
+msgstr "Tämä tehtävä on vain rekisteröityneille opiskelijoille."
+
+#: exercise/permissions.py:42
+msgid "The exercise is only for internal users."
+msgstr "Tämä tehtävä on vain oppilaitoksen koulutusohjelmien opiskelijoille."
+
+#: exercise/permissions.py:47
+msgid "The exercise is only for external users."
+msgstr "Tämä tehtävä on vain oppilaitoksen ulkopuolisille opiskelijoille."
+
+#: exercise/permissions.py:54
+msgid "Permission denied by exercise assistant permission"
+msgstr "Pääsy kielletty tehtävän assistenttiasetuksen perusteella"
+
+#: exercise/permissions.py:73
+msgid "Assistant viewing is not allowed for this exercise."
+msgstr "Assistentti ei voi nähdä tätä tehtävää."
+
+#: exercise/permissions.py:78
+msgid "Assistant grading is not allowed for this exercise."
+msgstr "Assistentti ei voi arvostella tätä tehtävää."
+
+#: exercise/permissions.py:85
+msgid "Permission denied by submission visibility"
+msgstr "Pääsy kielletty palautuksen näkyvyyden perusteella"
+
+#: exercise/permissions.py:93
+msgid "Only the submitter shall pass."
+msgstr "Vain palautuksen tehneelle - only the submitter shall pass."
+
+#: exercise/permissions.py:121
+msgid "Permission denied by exercise model answer visibility"
+msgstr "Pääsy kielletty tehtävän esimerkkiratkaisun näkyvyyden perusteella"
+
+#: exercise/permissions.py:133
+msgid "You are not allowed to view model answers for this exercise."
+msgstr "Sinulla ei ole lupaa katsoa tämän tehtävän esimerkkiratkaisua."
+
+#: exercise/protocol/aplus.py:27
+msgid "Connecting to the exercise service failed!"
+msgstr "Tehtäväpalveluun ei saatu yhteyttä!"
+
+#: exercise/protocol/aplus.py:52
+msgid "Connecting to the assessment service failed!"
+msgstr "Tehtäväpalveluun ei saatu yhteyttä!"
+
+#: exercise/protocol/aplus.py:80
+#, python-brace-format
+msgid ""
+"Assessment service responded with invalid points. Points: {points:d}/{max:d} "
+"(exercise max {exercise_max:d})"
+msgstr ""
+"Tehtävän pisteytyksessä on vikaa. Pisteet: {points:d}/{max:d} (exercise max "
+"{exercise_max:d})"
+
+#: exercise/protocol/aplus.py:109
+msgid "Assessment service responded with error."
+msgstr "Tehtäväpalvelussa tapahtui virhe."
+
+#: exercise/staff_views.py:148
+msgid "The review was saved successfully and the submitters were notified."
+msgstr "Palaute on tallennettu, ja opiskelijoille on lähetetty ilmoitus."
+
+#: exercise/staff_views.py:169
+msgid "Failed to load the resource."
+msgstr "Lataus epäonnistui."
+
+#: exercise/staff_views.py:245
+#, python-brace-format
+msgid ""
+"Invalid POST data:\n"
+"{error}"
+msgstr ""
+"Epäkelvollinen POST sisältö:\n"
+"{error}"
+
+#: exercise/staff_views.py:260
+msgid "New submission stored."
+msgstr "Uusi palautus on lisätty."
+
+#: exercise/submission_models.py:56
+msgid "Initialized"
+msgstr "Vastaanotettu"
+
+#: exercise/submission_models.py:57
+msgid "In grading"
+msgstr "Arvosteltavana"
+
+#: exercise/submission_models.py:59
+msgid "Error"
+msgstr "Virhe"
+
+#: exercise/submission_models.py:60
+#: exercise/templates/exercise/_points_badge.html:11
+msgid "Rejected"
+msgstr "Hylätty"
+
+#: exercise/submission_models.py:61
+msgid "No effect on grading"
+msgstr "Ei vaikuta arvosteluun"
+
+#: exercise/templates/exercise/_category_points.html:8
+msgid "Total points"
+msgstr "Yhteispisteet"
+
+#: exercise/templates/exercise/_exercise_info.html:7
+msgid "Current status"
+msgstr "Tila tällä hetkellä"
+
+#: exercise/templates/exercise/_exercise_info.html:12
+msgid "Earned points"
+msgstr "Ansaitut pisteet"
+
+#: exercise/templates/exercise/_exercise_info.html:19
+msgid "Late"
+msgstr "Myöhässä"
+
+#: exercise/templates/exercise/_exercise_info.html:30
+msgid "Exercise info"
+msgstr "Tehtävän tiedot"
+
+#: exercise/templates/exercise/_exercise_info.html:35
+msgid "Exercise category"
+msgstr "Tehtäväkategoria"
+
+#: exercise/templates/exercise/_exercise_info.html:40
+msgid "Your submissions"
+msgstr "Palautuksesi"
+
+#: exercise/templates/exercise/_exercise_info.html:49
+msgid "Points required to pass"
+msgstr "Pistevaatimus"
+
+#: exercise/templates/exercise/_exercise_info.html:53
+#: exercise/templates/exercise/exercise_plain.html:103
+msgid "Deadline"
+msgstr "Määräaika"
+
+#: exercise/templates/exercise/_exercise_info.html:57
+#: exercise/templates/exercise/exercise_plain.html:98
+msgid "Late submission deadline"
+msgstr "Myöhässä palautuksen määräaika"
+
+#: exercise/templates/exercise/_exercise_info.html:67
+msgid "Group size"
+msgstr "Ryhmäkoko"
+
+#: exercise/templates/exercise/_exercise_info.html:71
+msgid "Total number of submitters"
+msgstr "Palauttaneita opiskelijoita yhteensä"
+
+#: exercise/templates/exercise/_exercise_wait.html:6
+#: exercise/templates/exercise/exercise.html:49
+msgid "Communication error with the exercise."
+msgstr "Yhteys tehtäväpalveluun epäonnistui."
+
+#: exercise/templates/exercise/_exercise_wait.html:7
+msgid ""
+"Unfortunately grading takes longer than expected. Return later to see the "
+"result."
+msgstr ""
+"Valitettavasti arvostelu kestää odotettua kauemmin. Palaa myöhemmin "
+"katsomaan palautetta."
+
+#: exercise/templates/exercise/_exercise_wait.html:9
+msgid "Grading submission..."
+msgstr "Palautusta arvostellaan..."
+
+#: exercise/templates/exercise/_exercisecollection.html:15
+msgid "Current score"
+msgstr "Nykyiset pisteet"
+
+#: exercise/templates/exercise/_model_files.html:14
+msgid "File not found."
+msgstr "Tiedostoa ei löytynyt."
+
+#: exercise/templates/exercise/_model_files.html:17
+msgid "No model answer has been supplied for this exercise."
+msgstr "Tälle tehtävälle ei ole annettu malliratkaisua."
+
+#: exercise/templates/exercise/_points_badge.html:11
+#: exercise/templates/exercise/_points_badge.html:29
+msgid "Submitted after deadline or exceeded submission limit"
+msgstr "Palautettu määräajan jälkeen tai palautuskertojen määrä ylitetty"
+
+#: exercise/templates/exercise/_points_badge.html:11
+msgid "Accepted"
+msgstr "Hyväksytty"
+
+#: exercise/templates/exercise/_points_badge.html:11
+msgid "Submitted"
+msgstr "Palautettu"
+
+#: exercise/templates/exercise/_points_badge.html:14
+msgid ""
+"You must submit here to confirm your points. Submissions are accepted even "
+"after the deadline."
+msgstr ""
+"Tämä palautus vaaditaan pisteiden vahvistamiseksi. Palautuksia "
+"vastaanotetaan vielä määräajan jälkeenkin."
+
+#: exercise/templates/exercise/_points_badge.html:15
+msgid "Missing"
+msgstr "Puuttuu"
+
+#: exercise/templates/exercise/_points_badge.html:19
+#: exercise/templates/exercise/staff/analytics.html:139
+msgid "Not submitted"
+msgstr "Ei palautuksia"
+
+#: exercise/templates/exercise/_points_badge.html:29
+msgid "Passed"
+msgstr "Suoritettu"
+
+#: exercise/templates/exercise/_points_badge.html:29
+#, python-format
+msgid "%(points)s points required to pass"
+msgstr "Suoritusmerkintään vaaditaan %(points)s pistettä"
+
+#: exercise/templates/exercise/_points_badge.html:29
+msgid "Required exercises are not passed"
+msgstr "Kaikkia pakollisia tehtäviä ei ole suoritettu"
+
+#: exercise/templates/exercise/_points_progress.html:3
+#: exercise/templates/exercise/_user_results.html:84
+#: exercise/templates/exercise/exercise_plain.html:56
+#: exercise/templates/exercise/submission_plain.html:39
+msgid "Points"
+msgstr "Pisteet"
+
+#: exercise/templates/exercise/_points_progress.html:3
+msgid "Required"
+msgstr "Suorituksen pisteraja"
+
+#: exercise/templates/exercise/_submission_info.html:8
+msgid "Submission info"
+msgstr "Palautuksen tiedot"
+
+#: exercise/templates/exercise/_submission_info.html:12
+msgid "Submitted on"
+msgstr "Palautusaika"
+
+#: exercise/templates/exercise/_submission_info.html:15
+#: exercise/templates/exercise/staff/_assess_info.html:25
+#: exercise/templates/exercise/staff/_submissions_table.html:53
+#: exercise/templates/exercise/submission_plain.html:39
+msgid "Status"
+msgstr "Tila"
+
+#: exercise/templates/exercise/_submission_info.html:28
+#: exercise/templates/exercise/staff/_assess_info.html:35
+msgid "Includes late penalty"
+msgstr "Sisältää myöhästymissakon"
+
+#: exercise/templates/exercise/_template_files.html:14
+msgid ""
+"\n"
+"This exercise has no template.\n"
+msgstr ""
+"\n"
+"Tällä tehtävällä ei ole pohjatiedostoa.\n"
+
+#: exercise/templates/exercise/_text_stats.html:2
+#, python-format
+msgid ""
+"\n"
+"Submitters: %(number)s <small>%(percentage)s%%</small>\n"
+msgstr ""
+"\n"
+"Palauttajia: %(number)s <small>%(percentage)s%%</small>\n"
+
+#: exercise/templates/exercise/_user_last.html:7
+#, python-format
+msgid ""
+"\n"
+"  You have last visited\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+msgstr ""
+"\n"
+"  Olet ollut oppimateriaalissa viimeksi kohdassa\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+
+#: exercise/templates/exercise/_user_last.html:12
+#, python-format
+msgid ""
+"\n"
+"  You can start from\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+"  or browse the <a href=\"%(toc_link)s\">course materials</a>.\n"
+msgstr ""
+"\n"
+"  Voit aloittaa täältä\n"
+"  <a href=\"%(link)s\">%(name)s</a>\n"
+"  tai selata <a href=\"%(toc_link)s\">kurssimateriaalia</a>.\n"
+
+#: exercise/templates/exercise/_user_results.html:7
+msgid "Filter view"
+msgstr "Piilota näkymästä"
+
+#: exercise/templates/exercise/_user_results.html:19
+msgid "Show older assignments."
+msgstr "Näytä vanhemmat tehtävät"
+
+#: exercise/templates/exercise/_user_results.html:33
+#: exercise/templates/exercise/_user_toc.html:40
+msgid "Opens"
+msgstr "Avautuu"
+
+#: exercise/templates/exercise/_user_results.html:38
+#: exercise/templates/exercise/_user_toc.html:17
+#: exercise/templates/exercise/_user_toc.html:36
+msgid "Requires"
+msgstr "Vaaditaan"
+
+#: exercise/templates/exercise/_user_results.html:54
+#, python-format
+msgid ""
+"\n"
+"        Late submission are allowed until %(deadline)s\n"
+"        "
+msgstr ""
+"\n"
+"Myöhästyneitä palautuksia vastaanotetaan %(deadline)s asti."
+
+#: exercise/templates/exercise/_user_results.html:58
+#, python-format
+msgid ""
+"\n"
+"        but points are only worth %(percent)s%%.\n"
+"        "
+msgstr ""
+"\n"
+"Pisteiden arvo on %(percent)s%% ajoissa palautetusta."
+
+#: exercise/templates/exercise/_user_results.html:67
+#, python-format
+msgid ""
+"\n"
+"      %(points)s points required to pass the module.\n"
+"      "
+msgstr ""
+"\n"
+"Osion suorittamiseen vaaditaan %(points)s pistettä."
+
+#: exercise/templates/exercise/_user_results.html:83
+#: exercise/templates/exercise/staff/_assess_info.html:38
+msgid "Submissions"
+msgstr "Palautukset"
+
+#: exercise/templates/exercise/_user_results.html:126
+#: exercise/templates/exercise/exercise_base.html:61
+#: exercise/templates/exercise/exercise_plain.html:83
+msgid "No submissions yet"
+msgstr "Ei vielä palautuksia"
+
+#: exercise/templates/exercise/_warnings_overlay.html:6
+msgid "You cannot submit this exercise"
+msgstr "Et voi palauttaa tätä tehtävää"
+
+#: exercise/templates/exercise/_warnings_overlay.html:18
+msgid "Show anyway"
+msgstr "Näytä kuitenkin"
+
+#: exercise/templates/exercise/_warnings_overlay.html:43
+msgid "Enrollment information"
+msgstr "Ilmoittautumisen tiedot"
+
+#: exercise/templates/exercise/exercise.html:40
+#: exercise/templates/exercise/exercise.html:48
+msgid "Posting submission..."
+msgstr "Palautusta lähetetään..."
+
+#: exercise/templates/exercise/exercise.html:47
+msgid "Loading exercise..."
+msgstr "Tehtävää ladataan..."
+
+#: exercise/templates/exercise/exercise.html:54
+msgid "Submission received."
+msgstr "Palautus on vastaanotettu."
+
+#: exercise/templates/exercise/exercise.html:57
+msgid "Go to feedback"
+msgstr "Katso palaute"
+
+#: exercise/templates/exercise/exercise_base.html:40
+msgid "Exercise description"
+msgstr "Tehtävänanto"
+
+#: exercise/templates/exercise/exercise_base.html:46
+#: exercise/templates/exercise/exercise_plain.html:63
+msgid "My submissions"
+msgstr "Palautukseni"
+
+#: exercise/templates/exercise/exercise_base.html:74
+#: exercise/templates/exercise/model.html:9
+msgid "Model answer"
+msgstr "Esimerkkiratkaisu"
+
+#: exercise/templates/exercise/exercise_base.html:85
+msgid "Inspect submission"
+msgstr "Tutki palautusta"
+
+#: exercise/templates/exercise/exercise_base.html:97
+#: exercise/templates/exercise/exercise_plain.html:134
+msgid "View all submissions"
+msgstr "Näytä kaikki palautukset"
+
+#: exercise/templates/exercise/exercise_plain.html:93
+#, python-format
+msgid ""
+"\n"
+"                                                %(points)s points required "
+"to pass.\n"
+"                                            "
+msgstr ""
+"\n"
+"Suoritusmerkintään vaaditaan %(points)s pistettä"
+
+#: exercise/templates/exercise/exercise_plain.html:119
+msgid "Show model answer"
+msgstr "Näytä esimerkkiratkaisu"
+
+#: exercise/templates/exercise/exercise_plain.html:127
+msgid "Show exercise template"
+msgstr "Näytä pohjatiedosto"
+
+#: exercise/templates/exercise/exercise_plain.html:156
+#: exercise/templates/exercise/submission.html:37
+#: exercise/templates/exercise/submission_plain.html:94
+msgid "Your submission has been accepted for grading."
+msgstr "Palautuksesi on vastaanotettu arvostelua varten."
+
+#: exercise/templates/exercise/results.html:8
+msgid "Results"
+msgstr "Tulokset"
+
+#: exercise/templates/exercise/staff/_assess_info.html:12
+msgid "Submitted data"
+msgstr "Palautuksen tiedot"
+
+#: exercise/templates/exercise/staff/_assess_info.html:27
+msgid "Submission time"
+msgstr "Palautusaika"
+
+#: exercise/templates/exercise/staff/_assess_info.html:32
+msgid "grader output"
+msgstr "arvosteluautomaatista"
+
+#: exercise/templates/exercise/staff/_assess_info.html:56
+msgid "In total"
+msgstr "Kaikkiaan"
+
+#: exercise/templates/exercise/staff/_assess_info.html:61
+msgid "Add one extra submission for the student in this exercise."
+msgstr "Lisää yksi uusi palautuskerta tälle opiskelijalle tähän tehtävään."
+
+#: exercise/templates/exercise/staff/_assess_info.html:70
+msgid "Submitted files"
+msgstr "Palautetut tiedostot"
+
+#: exercise/templates/exercise/staff/_assess_info.html:80
+msgid "No files"
+msgstr "Ei tiedostoja"
+
+#: exercise/templates/exercise/staff/_assess_info.html:85
+msgid "Submitted values"
+msgstr "Palautekentät"
+
+#: exercise/templates/exercise/staff/_assess_info.html:92
+#: exercise/templates/exercise/staff/_assess_info.html:103
+msgid "No values"
+msgstr "Ei ole"
+
+#: exercise/templates/exercise/staff/_assess_info.html:96
+msgid "Grading data"
+msgstr "Arvostelun tiedot"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:11
+#: exercise/templates/exercise/staff/submissions_summary.html:13
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:20
+msgid "Download"
+msgstr "Lataa"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:37
+#, python-format
+msgid ""
+"\n"
+"    %(limit)s latest submissions.\n"
+"    <a class=\"btn btn-default btn-sm\" href=\"%(url)s\">Show all</a>\n"
+"    "
+msgstr ""
+"\n"
+"%(limit)s viimeistä palautusta.\n"
+"<a class=\"btn btn-default btn-sm\" href=\"%(url)s\">Näytä kaikki</a>"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:42
+#, python-format
+msgid ""
+"\n"
+"    %(count)s submissions\n"
+"    "
+msgstr ""
+"\n"
+"%(count)s palautusta"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:52
+msgid "Time"
+msgstr "Aika"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:55
+#: exercise/templates/exercise/staff/_submissions_table.html:86
+#: exercise/templates/exercise/staff/inspect_submission.html:13
+#: exercise/templates/exercise/submission_plain.html:74
+msgid "Inspect"
+msgstr "Tutki"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:68
+#, python-format
+msgid ""
+"\n"
+"                    Late <small>-%(percent)s%%</small>\n"
+"                    "
+msgstr ""
+"\n"
+"Myöhässä <small>-%(percent)s%%</small>"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:80
+msgid "Assistant"
+msgstr "Assistentti"
+
+#: exercise/templates/exercise/staff/_submissions_table.html:92
+msgid "No submissions"
+msgstr "Ei vielä palautuksia"
+
+#: exercise/templates/exercise/staff/analytics.html:23
+msgid "All"
+msgstr "Kaikki"
+
+#: exercise/templates/exercise/staff/analytics.html:31
+msgid "Collective Progress"
+msgstr "Kollektiivinen edistyminen"
+
+#: exercise/templates/exercise/staff/analytics.html:34
+msgid "Learning Trajectories"
+msgstr "Oppimiskäyrät"
+
+#: exercise/templates/exercise/staff/analytics.html:37
+msgid "Table"
+msgstr "Taulukko"
+
+#: exercise/templates/exercise/staff/analytics.html:74
+msgid "Download CSV"
+msgstr "Lataa CSV"
+
+#: exercise/templates/exercise/staff/analytics.html:78
+msgid "Toggle Dropdown"
+msgstr "Näytä pudotusvalikko"
+
+#: exercise/templates/exercise/staff/analytics.html:81
+msgid "Open API"
+msgstr "Avaa API"
+
+#: exercise/templates/exercise/staff/analytics.html:88
+msgid "Clear selection"
+msgstr "Tyhjennä valinta"
+
+#: exercise/templates/exercise/staff/analytics.html:140
+#, python-format
+msgid "< 90%% points"
+msgstr "< 90%% pisteistä"
+
+#: exercise/templates/exercise/staff/analytics.html:141
+#, python-format
+msgid ">= 90%% points"
+msgstr ">= 90%% pisteistä"
+
+#: exercise/templates/exercise/staff/assess_submission.html:6
+msgid "Assess SID "
+msgstr "Arvostele SID "
+
+#: exercise/templates/exercise/staff/assess_submission.html:11
+#: exercise/templates/exercise/staff/edit_submitters.html:11
+#: exercise/templates/exercise/staff/inspect_submission.html:11
+#: exercise/templates/exercise/staff/list_submissions.html:5
+#: exercise/templates/exercise/staff/list_submissions.html:10
+#: exercise/templates/exercise/staff/submissions_summary.html:12
+msgid "All submissions"
+msgstr "Kaikki palautukset"
+
+#: exercise/templates/exercise/staff/assess_submission.html:12
+#: exercise/templates/exercise/staff/edit_submitters.html:12
+#: exercise/templates/exercise/staff/inspect_submission.html:12
+msgid "Submission ID"
+msgstr "Palautus ID"
+
+#: exercise/templates/exercise/staff/assess_submission.html:13
+msgid "Assess"
+msgstr "Arvostele"
+
+#: exercise/templates/exercise/staff/assess_submission.html:21
+msgid "Assessment"
+msgstr "Arviointi"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:6
+msgid "Edit submitters SID "
+msgstr "Muokkaa palauttajia SID "
+
+#: exercise/templates/exercise/staff/edit_submitters.html:13
+msgid "Edit submitters"
+msgstr "Muokkaa palauttajia"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:27
+msgid "Quick select a group"
+msgstr "Ryhmän pikavalinta"
+
+#: exercise/templates/exercise/staff/edit_submitters.html:34
+msgid "Select"
+msgstr "Valitse"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:6
+msgid "Inspect SID "
+msgstr "Tutki SID "
+
+#: exercise/templates/exercise/staff/inspect_submission.html:21
+#: exercise/templates/exercise/submission.html:27
+#: exercise/templates/exercise/submission_plain.html:84
+msgid "Assistant feedback"
+msgstr "Assistentin palaute"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:28
+msgid "No assistant feedback available for this submission."
+msgstr "Assistentti ei ole vielä käsitellyt tätä palautusta."
+
+#: exercise/templates/exercise/staff/inspect_submission.html:37
+msgid "Assess this submission as an assistant"
+msgstr "Arvostele tämä palautus"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:39
+msgid "Assess this submission as a teacher"
+msgstr "Arvostele tämä palautus"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:46
+msgid "Grader feedback"
+msgstr "Automaattinen palaute"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:52
+#: exercise/templates/exercise/submission.html:41
+#: exercise/templates/exercise/submission_plain.html:98
+msgid "No grader feedback available for this submission."
+msgstr "Tästä palautuksesta ei ole saatavilla palautetta."
+
+#: exercise/templates/exercise/staff/inspect_submission.html:60
+msgid "Re-submit to service"
+msgstr "Lähetä arvosteltavaksi uudelleen"
+
+#: exercise/templates/exercise/staff/inspect_submission.html:65
+msgid ""
+"\n"
+"            Click this button to re-submit this submission to the "
+"assessment\n"
+"            service. This is meant to be used only in situations where the\n"
+"            assessment service has behaved incorrectly so that the grading\n"
+"            data is incorrect or the status of the submission never became\n"
+"            ready. Caution! Re-submitting overwrites the current grading "
+"data.\n"
+"            "
+msgstr ""
+"\n"
+"Tällä painikkeella voi lähettää palautuksen uudelleen tehtäväpalveluun. "
+"Toiminto on tarkoitettu käytettäväksi, kun tehtäväpalvelu on toiminut "
+"väärin, ja arvostelu on virheellinen tai tila ei muuttunut valmiiksi. "
+"Huomaa, että vanha arvostelu korvautuu uudella."
+
+#: exercise/templates/exercise/staff/inspect_submission.html:73
+msgid ""
+"Exercises of this type can not be re-submitted to the assessment service."
+msgstr ""
+"Tämän tyyppisiä tehtäviä ei voi lähettää tehtäväpalveluun uudelleen "
+"arvioitavaksi."
+
+#: exercise/templates/exercise/staff/inspect_submission.html:81
+msgid "Grader errors"
+msgstr "Virheet tarkistimelta"
+
+#: exercise/templates/exercise/staff/results.html:19
+#, python-format
+msgid ""
+"\n"
+"                \tStudent (N=%(num)s)\n"
+"                \t"
+msgstr ""
+"\n"
+"Opiskelija (N=%(num)s)"
+
+#: exercise/templates/exercise/staff/results.html:28
+msgid "Sum"
+msgstr "Yhteensä"
+
+#: exercise/templates/exercise/staff/results.html:44
+msgid "Maximum points"
+msgstr "Enimmäispisteet"
+
+#: exercise/templates/exercise/staff/submissions_summary.html:7
+msgid "Submissions summary"
+msgstr "Palautusten yhteenveto"
+
+#: exercise/templates/exercise/submission.html:5
+#: exercise/templates/exercise/submission.html:10
+msgid "Submission"
+msgstr "Palautus"
+
+#: exercise/templates/exercise/submission.html:15
+msgid "Files in this submission"
+msgstr "Tiedostot tässä palautuksessa"
+
+#: exercise/templates/exercise/submission_plain.html:34
+msgid "Return to exercise"
+msgstr "Palaa tehtävään"
+
+#: exercise/templates/exercise/submission_plain.html:38
+msgid "Date"
+msgstr "Päiväys"
+
+#: exercise/templates/exercise/submission_plain.html:40
+msgid "Files"
+msgstr "Tiedostot"
+
+#: exercise/templates/exercise/submission_plain.html:48
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\tLate <small>-%(percent)s%%</small>\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"Myöhässä <small>-%(percent)s%%</small>"
+
+#: exercise/templates/exercise/template.html:9
+msgid "Exercise template"
+msgstr "Pohjatiedosto"
+
+#: exercise/templatetags/exercise.py:101
+msgid "Latest submissions"
+msgstr "Viimeisimmät palautukset"
+
+#: exercise/templatetags/exercise.py:102
+msgid "No submissions for this course."
+msgstr "Ei vielä palautuksia tälle kurssille."
+
+#: exercise/templatetags/exercise.py:273
+msgid "Excel compatible CSV"
+msgstr "Excel-yhteensopiva CSV"
+
+#: exercise/views.py:88
+msgid "Exercise is in maintenance and content is hidden from students."
+msgstr "Tehtävässä on huoltokatko, ja sisältö on piilotettu opiskelijoilta."
+
+#: exercise/views.py:94
+msgid "Unfortunately this exercise is currently under maintenance."
+msgstr "Valitettavasti tässä tehtävässä on juuri nyt huoltokatko."
+
+#: exercise/views.py:155
+msgid ""
+"The submission could not be saved for some reason. The submission was not "
+"registered."
+msgstr "Palautuksen tallentaminen epäonnistui. Palautusta ei ole huomioitu."
+
+#: exercise/views.py:168
+msgid "You need to sign in and enroll to submit exercises."
+msgstr ""
+"Palauttaaksesi tehtäviä sinun pitää rekisteröityä ja ilmoittautua kurssin "
+"etusivulla."
+
+#: external_services/cache.py:43
+msgid "External"
+msgstr "Ulkoiset palvelut"
+
+#: external_services/models.py:16
+msgid "Url can not contain scheme or domain part."
+msgstr "Url ei voi sisältää skeema- tai verkkotunnusosaa."
+
+#: external_services/models.py:24
+msgid "Destination is hosted internally. Link to internal privacy notice."
+msgstr ""
+"Määränpää on ylläpidetty sisäisesti. Linkataan sisäiseen "
+"tietosuojailmoitukseen."
+
+#: external_services/models.py:25
+msgid ""
+"Destination is hosted in the same organization. Link to a privacy notice."
+msgstr ""
+"Määränpää on ylläpidetty samassa organisaatiossa Linkataan "
+"tietosuojailmoitukseen."
+
+#: external_services/models.py:26
+msgid ""
+"Destination is hosted in European Economic Area. Link to a privacy notice."
+msgstr ""
+"Määränpää on ylläpidetty Euroopaan talousalueella. Linkataan "
+"tietosuojailmoitukseen."
+
+#: external_services/models.py:27
+msgid ""
+"Destination is hosted out side of European Economic Area, but certified "
+"under EU-US Privacy Shield. Link to an extended privacy notice."
+msgstr ""
+"Määränpää on ylläpidetty Euroopaan talousalueen ulkopuolella, mutta se on EU-"
+"US Privacy Shield -sertifioitu. Linkataan tietosuojailmoitukseen."
+
+#: external_services/models.py:28
+msgid ""
+"Destination is hosted out side of European Economic Area. Link to an "
+"extended privacy notice."
+msgstr ""
+"Määränpää on ylläpidetty Euroopaan talousalueen ulkopuolella. Linkataan "
+"tietosuojailmoitukseen."
+
+#: external_services/models.py:32
+msgid "The service URL"
+msgstr "Palvelun URL"
+
+#: external_services/models.py:37
+msgid ""
+"The geographical area of the destination. Will display correct user notice."
+msgstr ""
+"Määränpään maantieteellinen sijainti. Tämän perusteella näytetään "
+"käyttäjälle sopiva ilmoitus."
+
+#: external_services/models.py:42
+msgid ""
+"A link to the service privacy notice. This is mandatory for services outside "
+"organization!"
+msgstr ""
+"Linkki palvelun tietosuojailmoitukseen. Tämä on pakollinen palveluille "
+"organisaation ulkopuolella!"
+
+#: external_services/models.py:45
+msgid "A default label to show in the course menu."
+msgstr "Oletusleima näytettäväski kurssin valikkoon."
+
+#: external_services/models.py:50
+msgid ""
+"A default menu icon style name, see http://getbootstrap.com/components/"
+"#glyphicons-glyphs"
+msgstr ""
+"Oletusmenuikonityylin nimi, katso http://getbootstrap.com/components/"
+"#glyphicons-glyphs"
+
+#: external_services/models.py:54
+msgid "If not enabled, the service is disabled for all course instances."
+msgstr ""
+"Jos poissa päältä, palvelu on poissa käytöstä kaikissa kurssi-instansseissa."
+
+#: external_services/models.py:69
+msgid "Privacy notice URL is mandatory for services outside organization."
+msgstr ""
+"URL tietosuojailmoitukseen on pakollinen organisaation ulkopuolisilla "
+"palveluilla."
+
+#: external_services/models.py:109
+msgid "Anonymous service, no API access"
+msgstr "Anonyymi palvelu, ei API-käyttöoikeutta"
+
+#: external_services/models.py:110
+msgid "Public service, no API access"
+msgstr "Julkinen palvelu, ei API-käyttöoikeutta"
+
+#: external_services/models.py:111
+msgid "Public service, allow API access"
+msgstr "Julkinen palvelu, API-käyttöoikeus"
+
+#: external_services/models.py:116
+msgid ""
+"Select whether to pass pseudonymised user data to the LTI service.<br>Public "
+"services can also enable sharing the user's API token and course API URL in "
+"the LTI launch request. This grants the LTI tool API access with the user's "
+"privileges."
+msgstr ""
+"Valitse lähetetäänkö palvelulle pseudonymisoidut käyttäjätiedot."
+"<br>Julkisille palveluille voidaan myös myöntää käyttöoikeus käyttäjän API-"
+"avaimeen ja kurssin API-URL:ään."
+
+#: external_services/models.py:120
+msgid "The consumer key provided by the LTI service."
+msgstr "LTI-palvelun tarjoama kuluttaja-avain."
+
+#: external_services/models.py:124
+msgid "The consumer secret provided by the LTI service."
+msgstr "LTI-palvelun tarjoama kuluttajasalaisuus."
+
+#: external_services/models.py:165
+msgid "All students, assistants and teachers can access."
+msgstr "Kaikki opiskelijat, assistentit ja opettajat pääsevät."
+
+#: external_services/models.py:166
+msgid "Only assistants and teachers can access."
+msgstr "Vain assistentit ja opettajat pääsevät."
+
+#: external_services/models.py:167
+msgid "Only teachers can access."
+msgstr "Vain opettajat pääsevät."
+
+#: external_services/models.py:173
+msgid "A course where the menu item exists."
+msgstr "Kurssi, jossa valikkovaihtoehto on olemassa."
+
+#: external_services/models.py:184
+msgid "An external service to link to. These are configured by administrators."
+msgstr "Ulkopuolinen palvelu johon linkataan. Nämä määrittelee ylläpitäjä."
+
+#: external_services/models.py:191
+msgid ""
+"URL that is a) relative to the service URL or b) this course if no service "
+"is selected.\n"
+"Case a: url starting with / overwrites path in service url and extends it "
+"otherwise.\n"
+"case b: url starting with / is absolute within this service and relative to "
+"the course path otherwise.\n"
+"Note that URL entered here can not include scheme or domain."
+msgstr ""
+"URL joka on a) relatiivinen palvelun URL:n tai b) tähän kurssiin, mikäli "
+"palvelua ei ole valittu.\n"
+"Tilanne a: url joka alkaa / ylikirjoittaa palvelun koko polun ja jos ei niin "
+"jatkaa sitä.\n"
+"Tilanne b: url joka alkaa / on absoluuttinen tämän palvelun suhteen ja jos "
+"ei niin relatiivinen kurssin polkuun.\n"
+"Huomaa ettei tämä URL voi sisältää skeemaa tai domainnimeä."
+
+#: external_services/models.py:200
+msgid "Places menu item under a group label."
+msgstr "Sijoittaa linkin annetun väliotsikon alle."
+
+#: external_services/models.py:206
+msgid "Label for the menu link (else service default)."
+msgstr "Nimi (muuten palvelun oletus)."
+
+#: external_services/models.py:212
+msgid ""
+"Menu icon style name (else service default), e.g. star see http://"
+"getbootstrap.com/components/#glyphicons-glyphs"
+msgstr ""
+"Ikonin tyyli (muuten palvelun oletus), esim. star katso http://getbootstrap."
+"com/components/#glyphicons-glyphs"
+
+#: external_services/models.py:216
+msgid "Heavier menu entries are placed after lighter ones."
+msgstr "Painavammat linkit sijoittuvat kevyempien jälkeen."
+
+#: external_services/models.py:233
+msgid ""
+"Relative URL is required when there is no preconfigured service selected."
+msgstr "Relatiivinen URL on pakollinen, kun esiluotua palvelua ei ole valittu."
+
+#: external_services/models.py:235
+msgid "Menu label is required when there is no preconfigured service selected."
+msgstr "Nimi on pakollinen, kun esiluotua palvelua ei ole valittu."
+
+#: external_services/permissions.py:8
+msgid "Permission denied by menu visibility"
+msgstr "Pääsy kielletty linkin näkyvyyden perusteella."
+
+#: external_services/permissions.py:19
+msgid "The link is only for teachers."
+msgstr "Tämä linkki on vain opettajille."
+
+#: external_services/permissions.py:24
+msgid "The link is only for course staff."
+msgstr "Tämä linkki on vain kurssihenkilökunnalle."
+
+#: external_services/permissions.py:31
+msgid "Not LTI service"
+msgstr "Ei LTI-palvelu"
+
+#: external_services/templates/external_services/_launch.html:28
+#, python-format
+msgid "You are leaving %(brand)s and entering %(name)s"
+msgstr ""
+"Olet poistumassa palvelusta %(brand)s ja siirtymässä palveluun %(name)s"
+
+#: external_services/templates/external_services/_launch.html:30
+#, python-format
+msgid "This exercise is hosted on %(name)s"
+msgstr "Tämä tehtävä tulee ulkopuoliselta palvelulta %(name)s"
+
+#: external_services/templates/external_services/_launch.html:40
+msgid "Don't show this and automatically load the exercise next time."
+msgstr "Älä näytä tätä ja automaattisesti lataa tehtävä ensikerralla."
+
+#: external_services/templates/external_services/_launch.html:42
+msgid "Don't show this and automatically open the exercise next time."
+msgstr "Älä näytä tätä ja automaattisesti avaa tehtävä ensikerralla."
+
+#: external_services/templates/external_services/_launch.html:45
+msgid "Don't show this and automatically continue to the service next time."
+msgstr "Älä näytä tätä ja automaattisesti jatka palveluun ensikerralla."
+
+#: external_services/templates/external_services/_launch.html:48
+msgid ""
+"This choice is saved on your device and you can remove it on your profile "
+"page."
+msgstr ""
+"Tämä valinta tallennetaan laitteellesi ja voit poistaa sen profiilisivullasi."
+
+#: external_services/templates/external_services/_launch.html:58
+msgid "Load the exercise"
+msgstr "Lataa tehtävä"
+
+#: external_services/templates/external_services/_launch.html:58
+msgid "Open the exercise in a new window"
+msgstr "Avaa tehtävä uudessa ikkunassa"
+
+#: external_services/templates/external_services/_launch.html:58
+msgid "Continue to the service"
+msgstr "Jatka palveluun"
+
+#: external_services/templates/external_services/_launch.html:62
+msgid "Show details"
+msgstr "Näytä tiedot"
+
+#: external_services/templates/external_services/_privacy.html:11
+msgid "No personal data is send to this service."
+msgstr "Mitään henkilötietoja ei lähetetä tähän palveluun."
+
+#: external_services/templates/external_services/_privacy.html:15
+#, python-format
+msgid ""
+"\n"
+"\t\t\tYour name and email address will be pseudonymised and send to the "
+"service.\n"
+"\t\t\tThis means that the service’s administration can not identify you, but "
+"%(brand)s's administration can if necessary.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\tNimesi ja sähköpostiosoitteesi pseudonymisoidaan ja lähetetään "
+"palveluun.\n"
+"\t\t\tTämä tarkoittaa sitä, että palvelun ylläpitäjä ei saa tietoonsa "
+"henkilöllisyyttäsi, mutta %(brand)s:n ylläpito pystyy tarvittaessa "
+"tunnistamaan sinut palvelussa.\n"
+"\t\t\t"
+
+#: external_services/templates/external_services/_privacy.html:26
+msgid ""
+"\n"
+"\t\tInformation including your name and email address will be sent to the "
+"service.\n"
+"\t\tThis means that at least the service’s administrators can identify you.\n"
+"\t\tYou can see the full list of information below.\n"
+"\t\t"
+msgstr ""
+"\n"
+"\t\tTietoja kuten nimesi ja sähköpostiosoitteesi lähetetään palveluun,\n"
+"\t\t joten vähintään palvelun ylläpitäjä saa tietoonsa henkilöllisyytesi.\n"
+"\t\tVoit alta tarkistaa koko listan lähetettävistä tiedoista.\n"
+"\t\t"
+
+#: external_services/templates/external_services/_privacy.html:32
+msgid ""
+"\n"
+"\t\t\tWe use this external service to help you and other students learn.\n"
+"\t\t\tNevertheless, you aren't absolutely required to use it in order to "
+"pass the course.\n"
+"\t\t\tIf you want to avoid using the service, please discuss alternative "
+"solutions with the course staff.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\tTämän palvelun tarkoitus on parantaa sinun ja muiden opiskelijoiden "
+"oppimista.\n"
+"\t\t\tTästä huolimatta palvelun käyttö ei ole täysin pakollista kurssin "
+"suorittamiseksi.\n"
+"\t\t\tJos haluat välttää palvelun käytön, niin keskustele kurssin "
+"henkilökunnan kanssa vaihtoehtoisista ratkaisuista.\n"
+"\t\t\t"
+
+#: external_services/templates/external_services/_privacy.html:49
+#, python-format
+msgid ""
+"\n"
+"\t\t\tMoreover, we send this service a so-called <a href=\"https://en."
+"wikipedia.org/wiki/Access_token\" rel=\"noopener nofollow\" target=\"_blank"
+"\" class=\"alert-link\">access token</a>, which gives the service access to "
+"the %(brand)s API at your privilege level.\n"
+"\t\t\tIf you don't want that to happen, please contact %(brand)s "
+"administration.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\tMoreover, we send this service a so-called <a href=\"https://en."
+"wikipedia.org/wiki/Access_token\" rel=\"noopener nofollow\" target=\"_blank"
+"\" class=\"alert-link\">access token</a>, which gives the service access to "
+"the %(brand)s API at your privilege level.\n"
+"\t\t\tIf you don't want that to happen, please contact %(brand)s "
+"administration.\n"
+"\t\t\t \n"
+"\t\t\tLisäksi palvelulle lähetetään <a href=\"https://en.wikipedia.org/wiki/"
+"Access_token\" rel=\"noopener nofollow\" target=\"_blank\" class=\"alert-link"
+"\">pääsyavain</a>, joka mahdollistaa palvelun pääsyn %(brand)s:n API:n sinun "
+"oikeuksillasi.\n"
+"\t\t\tMikäli näin ei pitäisi tapahtua, niin ota yhteyttä %(brand)s:n "
+"ylläpitoon.\n"
+"\t\t\t"
+
+#: external_services/templates/external_services/_privacy.html:56
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\tMoreover, we send this service a so-called <a href=\"https://en."
+"wikipedia.org/wiki/Access_token\" rel=\"noopener nofollow\" target=\"_blank"
+"\" class=\"alert-link\">access token</a>, which gives the service access to "
+"the %(brand)s API at your privilege level.\n"
+"\t\t\t\tThis means that the service can, for example, access your student ID "
+"number and your progress in the course, and submit solutions to "
+"assignments.\n"
+"\t\t\t\tThe course staff has enabled this feature and trust the service to "
+"operate with your best interests in mind.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tLisäksi palvelulle lähetetään <a href=\"https://en.wikipedia.org/"
+"wiki/Access_token\" rel=\"noopener nofollow\" target=\"_blank\" class="
+"\"alert-link\">pääsyavain</a>, joka mahdollistaa palvelun pääsyn %(brand)s:n "
+"API:n sinun oikeuksillasi.\n"
+"\t\t\t\tTämä tarkoittaa sitä, että palvelu voi mm. selvittää "
+"opiskelijanumerosi, nähdä kurssisuorituksiasi ja palauttaa tehtäviä "
+"puolestasi.\n"
+"\t\t\t\tKurssin henkilökunta on mahdollistanut tämän ja luottaa palvelun "
+"toimivan etujesi mukaisesti.\n"
+"\t\t\t\t"
+
+#: external_services/templates/external_services/_privacy.html:70
+#, python-format
+msgid ""
+"\n"
+"\tThis service is hosted by us (%(brand)s administrators) and thus our <a "
+"href=\"%(url)s\" target=\"_blank\">privacy notice</a> covers it too.\n"
+"\t"
+msgstr ""
+"\n"
+"\tTämä palvelu on meidän ylläpitämämme (%(brand)s), joten meidän <a href="
+"\"%(url)s\" target=\"_blank\">tietosuojailmoituksemme</a> kattaa myös sen.\n"
+"\t "
+
+#: external_services/templates/external_services/_privacy.html:75
+#, python-format
+msgid ""
+"\n"
+"\tThis service is hosted within our organization, but it's not maintained by "
+"us (%(brand)s administrators).\n"
+"\t"
+msgstr ""
+"\n"
+"\tTätä palvelua ylläpitävät eri toimijat samassa organisaatiossa meidän "
+"(%(brand)s) kanssamme.\n"
+"\t "
+
+#: external_services/templates/external_services/_privacy.html:84
+msgid ""
+"\n"
+"\tThis service is hosted within the European Economics Area and is thus "
+"subject to <a href=\"https://ec.europa.eu/info/law/law-topic/data-protection/"
+"reform_en\" rel=\"noopener nofollow\" target=\"_blank\" class=\"alert-link"
+"\">the European Union's General Data Protection Regulation</a>.\n"
+"\t"
+msgstr ""
+"\n"
+"\tTämä palvelu sijaitsee Euroopan talousalueella, joten sitä koskee <a href="
+"\"https://ec.europa.eu/info/law/law-topic/data-protection/reform_fi\" rel="
+"\"noopener nofollow\" target=\"_blank\" class=\"alert-link\">Euroopan "
+"unionin yleinen tietosuoja-asetus</a>.\n"
+"\t"
+
+#: external_services/templates/external_services/_privacy.html:94
+msgid ""
+"\n"
+"\tThis service is hosted outside of the European Economics Area and is thus "
+"not covered by <a href=\"https://ec.europa.eu/info/law/law-topic/data-"
+"protection/reform_en\" rel=\"noopener nofollow\" target=\"_blank\" class="
+"\"alert-link\">the European Union's General Data Protection Regulation</a> "
+"(GDPR).\n"
+"\tHowever, the service is certified under <a href=\"https://www."
+"privacyshield.gov/Individuals-in-Europe\" rel=\"noopener nofollow\" target="
+"\"_blank\" class=\"alert-link\">the EU-U.S. Privacy Shield</a>, which "
+"provides similar protection as GDPR.\n"
+"\t"
+msgstr ""
+"\n"
+"\tTämä palvelu sijaitsee Euroopan talousalueen ulkopuolella, joten sitä ei "
+"koske <a href=\"https://ec.europa.eu/info/law/law-topic/data-protection/"
+"reform_fi\" rel=\"noopener nofollow\" target=\"_blank\" class=\"alert-link"
+"\">Euroopan unionin yleinen tietosuoja-asetus</a> (GDPR).\n"
+"\tPalvelu on kuitenkin <a href=\"https://www.privacyshield.gov/Individuals-"
+"in-Europe\" rel=\"noopener nofollow\" target=\"_blank\" class=\"alert-link"
+"\">EU-U.S. Privacy Shield</a> -sertifioitu, joten se tarjoaa samankaltaisen "
+"yksityisyydensuojan kuin GDPR.\n"
+"\t "
+
+#: external_services/templates/external_services/_privacy.html:105
+msgid ""
+"This service is not covered by any privacy regulations, thus there isn’t any "
+"lawful entity to enforce it."
+msgstr ""
+"Mikään tietosuoja-asetus ei kata tätä palvelua, joten tietosuojasi ei ole "
+"taattu."
+
+#: external_services/templates/external_services/_privacy.html:108
+#, python-format
+msgid ""
+"\n"
+"\tPlease see <a href=\"%(url)s\" rel=\"noopener nofollow\" target=\"_blank\" "
+"class=\"alert-link\">the service's privacy notice</a> for more details.\n"
+"\t"
+msgstr ""
+"\n"
+"\tVoit katsoa yksityiskohdat palvelun <a href=\"%(url)s\" rel=\"noopener "
+"nofollow\" target=\"_blank\" class=\"alert-link\">tietosuojailmoituksesta</"
+"a>.\n"
+"\t "
+
+#: external_services/templates/external_services/_privacy.html:117
+#, python-format
+msgid ""
+"\n"
+"\t\tYou can first take a look at the external service without sending data: "
+"<a href=\"%(url)s\" rel=\"noopener nofollow\" target=\"_blank\">services’ "
+"front page</a>.\n"
+"\t\t"
+msgstr ""
+"\n"
+"\t\tVoit vierailla palvelussa lähettämättä dataa: <a href=\"%(url)s\" rel="
+"\"noopener nofollow\" target=\"_blank\">palvelun etusivu</a>.\n"
+"\t\t"
+
+#: external_services/templates/external_services/edit_menu.html:6
+#: external_services/templates/external_services/edit_menu.html:19
+msgid "Add menu item"
+msgstr "Lisää linkki"
+
+#: external_services/templates/external_services/edit_menu.html:11
+#: external_services/templates/external_services/list_menu.html:6
+#: external_services/templates/external_services/list_menu.html:11
+msgid "Menu items"
+msgstr "Menun linkit"
+
+#: external_services/templates/external_services/list_menu.html:18
+msgid "Link"
+msgstr "Linkki"
+
+#: external_services/templates/external_services/list_menu.html:19
+msgid "Group"
+msgstr "Ryhmä"
+
+#: external_services/templates/external_services/list_menu.html:20
+msgid "Weight"
+msgstr "Paino"
+
+#: external_services/templates/external_services/list_menu.html:21
+msgid "Service"
+msgstr "Palvelu"
+
+#: external_services/templates/external_services/list_menu.html:23
+msgid "Access"
+msgstr "Pääsy"
+
+#: external_services/templates/external_services/list_menu.html:53
+msgid "Disabled"
+msgstr "Piilotettu"
+
+#: external_services/templates/external_services/list_menu.html:79
+msgid "Add new menu item"
+msgstr "Lisää uusi linkki"
+
+#: external_services/views.py:91
+msgid "You need to be enrolled to access an anonymous service."
+msgstr "Päästäksesi anonyymiin palveluun, sinun on ilmoittauduttava kurssille."
+
+#: lib/fields.py:27
+msgid "The number must be between 0.0 and 1.0"
+msgstr "Numeron on oltava välillä 0.0 - 1.0"
+
+#: lib/fields.py:47 lib/fields.py:77
+msgid "Enter valid JSON."
+msgstr "Syötä kelvollista JSON:ia."
+
+#: lib/remote_page.py:84
+msgid "The requested resource was not found from the course service!"
+msgstr "Haettua resurssia ei löytynyt kurssipalvelusta!"
+
+#: lib/remote_page.py:86
+#, python-brace-format
+msgid "Connecting to the course service failed with {code}!"
+msgstr "Yhteys kurssipalveluun epäonnistui virheellä {code}!"
+
+#: lib/validators.py:12
+msgid "URL keys may consist of alphanumeric characters, hyphen and period."
+msgstr ""
+"URL-avaimet voivat sisältää kirjaimia, numeroita, yhdysmerkin ja pisteen."
+
+#: news/models.py:13
+msgid "No alert"
+msgstr "Ei hälytystä"
+
+#: news/models.py:14
+msgid "Green / Success"
+msgstr "Vihreä / Onnistuminen"
+
+#: news/models.py:15
+msgid "Blue / Info"
+msgstr "Sininen / Info"
+
+#: news/models.py:16
+msgid "Yellow / Warning"
+msgstr "Keltainen / Varoitus"
+
+#: news/models.py:17
+msgid "Red / Danger"
+msgstr "Punainen / Vaara"
+
+#: news/templates/news/edit.html:6 news/templates/news/edit.html:19
+#: news/templates/news/list.html:64
+msgid "Add news item"
+msgstr "Lisää uutinen"
+
+#: news/templates/news/list.html:6
+msgid "News"
+msgstr "Uutiset"
+
+#: news/templates/news/list.html:18
+msgid "Publish"
+msgstr "Julkaise"
+
+#: news/templates/news/list.html:19
+msgid "Audience"
+msgstr "Yleisö"
+
+#: news/templates/news/list.html:20
+msgid "Title"
+msgstr "Otsikko"
+
+#: news/templates/news/user_news.html:8
+msgid "Appears"
+msgstr "Ilmestyy"
+
+#: news/templates/news/user_news.html:20
+msgid "Course news"
+msgstr "Kurssiuutiset"
+
+#: news/templates/news/user_news.html:28
+msgid "Appears later"
+msgstr "Ilmestyy myöhemmin"
+
+#: news/templates/news/user_news.html:37
+msgid "Show more"
+msgstr "Näytä lisää"
+
+#: notification/templates/notification/_notification_messages.html:7
+msgid "You have"
+msgstr "Sinulla on"
+
+#: notification/templatetags/notification.py:24
+msgid "new notification"
+msgid_plural "new notifications"
+msgstr[0] "uusi ilmoitus"
+msgstr[1] "uutta ilmoitusta"
+
+#: shibboleth_login/views.py:33
+msgid ""
+"Failed to login the user. Shibboleth META headers missing. Check the Apache "
+"mod_shibd is active and /shibboleth is protected."
+msgstr ""
+"Käyttäjän kirjaaminen sisään epäonnistui. Shibboleth META otsikot puuttuvat. "
+"Tarkista että Apache mod_shibd on aktiivinen ja /shibboleth on suojattu."
+
+#: shibboleth_login/views.py:40
+msgid "The user account has been disabled."
+msgstr "Käyttäjätunnus on suljettu."
+
+#: templates/404.html:20
+msgid ""
+"\n"
+"                        For an unknown reason you arrived somewhere that "
+"does not exist.\n"
+"                        Please, try again.\n"
+"                        "
+msgstr ""
+"\n"
+"Olet päätynyt tuntemattomasta syystä osoitteeseen, jota ei ole olemassa.Ole "
+"ystävällinen, ja yritä uudelleen."
+
+#: templates/base.html:78
+msgid "Toggle navigation"
+msgstr "Näytä valikko"
+
+#: templates/base.html:102
+msgid "Select course"
+msgstr "Valitse kurssi"
+
+#: templates/base.html:120 userprofile/templates/userprofile/profile.html:6
+msgid "Profile"
+msgstr "Käyttäjätili"
+
+#: templates/base.html:126 templates/base.html:164
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: templates/base.html:135 templates/base.html:171
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: templates/base.html:146
+msgid "Site"
+msgstr "Sivusto"
+
+#: templates/base.html:150
+msgid "Home"
+msgstr "Etusivu"
+
+#: templates/base.html:195 userprofile/templates/userprofile/privacy.html:4
+#: userprofile/templates/userprofile/privacy.html:9
+msgid "Privacy Notice"
+msgstr "Tietosuojailmoitus"
+
+#: templates/base.html:206 templates/base.html:225
+msgid "Loading failed!"
+msgstr "Lataus epäonnistui!"
+
+#: templates/base.html:207 templates/base.html:226
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: templates/base.html:214 templates/base.html:231
+msgid "Close"
+msgstr "Sulje"
+
+#: templates/base.html:246
+msgid "Search"
+msgstr "Hae"
+
+#: templates/base.html:250
+msgid "No matches"
+msgstr "Ei osumia"
+
+#: templates/base.html:253
+msgid "Search for..."
+msgstr "Etsi..."
+
+#: threshold/models.py:24
+msgid "Harder points are consumed by easier difficulty requirements."
+msgstr "Vaativammat pisteet käytetään helpompien vaatimuksien täyttöön."
+
+#: threshold/models.py:113
+msgid "{:d} points"
+msgstr "{:d} pisteet"
+
+#: userprofile/templates/userprofile/login.html:5
+#: userprofile/templates/userprofile/login.html:10
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: userprofile/templates/userprofile/login.html:54
+msgid "Login Using Google"
+msgstr "Kirjaudu Google-tunnuksella"
+
+#: userprofile/templates/userprofile/login.html:81
+msgid "Password"
+msgstr "Salasana"
+
+#: userprofile/templates/userprofile/login.html:94
+#, python-format
+msgid ""
+"\n"
+"  You may want to read our <a href=\"%(url)s\">privacy notice</a>.\n"
+"  "
+msgstr ""
+"\n"
+"Voit olla kiinnostunut <a href=\"%(url)s\">tietosuojailmoituksestamme</a>."
+
+#: userprofile/templates/userprofile/logout.html:4
+#: userprofile/templates/userprofile/logout.html:9
+msgid "Logged out"
+msgstr "Olet kirjautunut ulos"
+
+#: userprofile/templates/userprofile/logout.html:15
+msgid ""
+"\n"
+"            You have successfully logged out. Please close the browser if "
+"you were\n"
+"            using a public computer to clear your remaining sessions.\n"
+"            "
+msgstr ""
+"\n"
+"Olet kirjautunut onnistuneesti ulos palvelusta. Jos käytät julkista "
+"tietokonetta, sulje selain poistaaksesi istunnon tiedot."
+
+#: userprofile/templates/userprofile/profile.html:20
+msgid "[Unknown name]"
+msgstr "[Tuntematon nimi]"
+
+#: userprofile/templates/userprofile/profile.html:30
+msgid "[Missing]"
+msgstr "[Puuttuu]"
+
+#: userprofile/templates/userprofile/profile.html:31
+msgid "Student ID"
+msgstr "Opiskelijanumero"
+
+#: userprofile/templates/userprofile/profile.html:33
+msgid "E-mail"
+msgstr "Sähköposti"
+
+#: userprofile/templates/userprofile/profile.html:37
+msgid "API Access Token"
+msgstr "API pääsyavain"
+
+# msgid "Save"
+# msgstr "Tallenna"
+#: userprofile/templates/userprofile/profile.html:64
+#, python-format
+msgid ""
+"\n"
+"             <a href=\"http://cn.gravatar.com\">gravatar.com</a>.\n"
+"            You can change your avatar icon\n"
+"            Use your e-mail address <strong>%(email)s</strong>\n"
+"            when registering your account.\n"
+"            "
+msgstr ""
+"\n"
+"Voit vaihtaa profiilikuvaasi <a href=\"http://gravatar.com\">gravatar.com-"
+"palvelussa</a>. Käytä palvelussa samaa sähköpostiosoitettasi, <strong>"
+"%(email)s</strong>."
+
+#: userprofile/templates/userprofile/profile.html:74
+msgid ""
+"\n"
+"            To change your settings, such as <strong>e-mail</strong>\n"
+"            address or <strong>password</strong>, you must update\n"
+"            them on your identity provider.\n"
+"            "
+msgstr ""
+"\n"
+"Käyttäjätilisi tietoja, kuten <strong>sähköpostiosoitetta</strong> tai "
+"<strong>salasanaa</strong>, voit muokata kirjautumiseen käyttämässäsi "
+"palvelussa."
+
+#: userprofile/templates/userprofile/profile.html:81
+msgid "Automatic service redirections"
+msgstr "Automaattiset uudelleenohjaukset palveluihin"
+
+#: userprofile/templates/userprofile/profile.html:83
+msgid ""
+"\n"
+"\t\t\t\tThese are all services that you have marked for automatic "
+"redirection on this device.\n"
+"\t\t\t\tYou can remove automatic redirection here and you will be shown the "
+"privacy information next time you are being redirected to the service.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tOlen merkinnyt nämä kaikki palvelut automaattisesti "
+"uudelleenohjattaviksi tällä laitteella.\n"
+"\t\t\t\tVoit poistaa automaattisen uudelleenohjauksen. Sinulle näytetään "
+"yksityisyydensuojasta tieto ensikerralla kun sinut ollaan ohjaamassa "
+"palveluun.\n"
+"\t\t\t\t"
+
+#: userprofile/templates/userprofile/profile.html:88
+msgid "Forget automatic redirection"
+msgstr "Unohda automaattinen uudelleenohjaus."
+
+#: userprofile/views.py:80
+msgid "No privacy notice. Please notify administration!"
+msgstr "Ei tietosuojailmoitusta. Ota yhteys ylläpitäjään!"

@@ -1,0 +1,54 @@
+{% extends "course/course_base.html" %}
+{% load i18n %}
+{% load course %}
+{% load apps %}
+
+{% block title %}{{ current.name|parse_localization }} | {{ block.super }}{% endblock %}
+
+{% block siblings %}
+{% include "course/_siblings.html" %}
+{% endblock %}
+
+{% block breadcrumblist %}
+{{ block.super }}
+<li class="active">{{ current.name|parse_localization }}</li>
+{% endblock %}
+
+{% block coursecontent %}
+    <p>
+        <span class="small">
+            {{ current.opening_time }}
+            &ndash; {{ current.closing_time }}
+        </span>
+        {% if current.late_allowed %}
+        <br />
+        <span class="dates">
+            <em>
+                {% blocktrans with deadline=current.late_time %}
+                Late submissions are allowed until {{ deadline }}.
+                {% endblocktrans %}
+                {% if current.late_percent != 100 %}
+                {% blocktrans with percent=current.late_percent %}
+                but points are only worth {{ percent }}%.
+                {% endblocktrans %}
+                {% endif %}
+            </em>
+        </span>
+        {% endif %}
+    </p>
+
+	{% if module.introduction %}
+	<p>
+		{{ module.introduction|safe }}
+	</p>
+	{% endif %}
+
+  {% include "exercise/_children.html" with children=children accessible=True %}
+{% endblock %}
+
+{% block sidecontent %}
+    {% plugin_renderers user instance as plugins %}
+    {% for plugin in plugins %}
+        {{ plugin.render|safe }}
+    {% endfor %}
+{% endblock %}

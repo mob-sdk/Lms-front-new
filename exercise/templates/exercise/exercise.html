@@ -1,0 +1,108 @@
+{% extends "exercise/exercise_base.html" %}
+{% load i18n %}
+{% load static %}
+{% load course %}
+{% load comments_extras %}
+{% load bootstrap %}
+
+{% block view_tag %}exercise{% endblock %}
+
+{% block exercisebreadcrumblist %}
+<li class="active">{{ current.name|parse_localization }}</li>
+{% endblock %}
+
+{% block exercisecontent %}
+
+{% if toc %}
+{% include 'exercise/_user_toc.html' %}
+{% endif %}
+
+<div id="exercise-page-content" {% if exercise.is_submittable %} data-aplus-chapter="{{ exercise|url }}"
+  data-aplus-group="{{ exercise.min_group_size }}-{{ exercise.max_group_size }}"
+  {% if summary.get_submission_count > 0 %} data-aplus-group-fixed="{{ summary.get_group_id }}" {% endif %} {% endif %}>
+  <div class="overlay-parent">
+    {% if issues and not submission_allowed %}
+    {% include 'exercise/_warnings_overlay.html' %}
+    {% endif %}
+    <div {% if disable_submit %}data-aplus-disable-submit="true" {% endif %}>
+      {{ page.content|safe }}
+      
+      
+      <a href="{{ exercise|url:'exercise-comments' }}" class="btn btn-primary">评论</a>
+        <!-- { include "exercise/comments_form.html" %} -->
+
+      {% show_comments exercise %}
+      <!-- <h3>评论列表，共 <span>{{ exercise.comments_count }}</span> 条评论</h3>
+      {% if exercise.comments %}
+      {{ exercise.comments|safe }}
+      {% else %}
+      <div class="alert alert-info">
+        没有评论
+      </div>
+      {% endif %}
+       -->
+
+    </div>
+  </div>
+</div>
+
+<!-- <div class="col-md-5">
+  { include "exercise/comments_form.html" %}
+</div> -->
+
+<div id="submit-progress" class="hide progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%;">
+    {% trans "Posting submission..." %}
+  </div>
+</div>
+
+{% include "exercise/_exercise_wait.html" %}
+
+<div id="loading-indicator" class="hide progress" data-msg-load="{% trans 'Loading exercise...' %}"
+  data-msg-submit="{% trans 'Posting submission...' %}"
+  data-msg-error="{% trans 'Communication error with the exercise.' %}">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%;"></div>
+</div>
+
+<div id="quiz-success" class="hide">
+  <h3 class="text-center">{% trans "Submission received." %}</h3>
+  <p class="text-center badge-placeholder"></p>
+  <button type="button" class="btn btn-success center-block read-feedback" data-dismiss="modal">
+    {% trans "Go to feedback" %}
+  </button>
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+{{ block.super }}
+<script src="{% static 'js/external_launcher.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/external_services.css' %}">
+<script src="{% static 'exercise/poll.js' %}"></script>
+<script src="{% static 'exercise/group.js' %}"></script>
+<script src="{% static 'exercise/chapter.js' %}"></script>
+<script src="{% static 'exercise/language_link.js' %}" data-set-lang="{% url 'set_language' %}"></script>
+<script>
+  // Visualize loading in case of slow POST operations.
+  /*$(function() {
+      var forms = $("#exercise-page-content").find("form:not([data-aplus-exercise] form)");
+      forms.on("submit", function(event) {
+          $("#submit-progress").removeClass("hide");
+      });
+  });*/
+
+  // Add an Ajax exercise event listener to refresh the info column.
+  window.addEventListener("message", function (event) {
+    if (event.data.type === "a-plus-refresh-stats") {
+      $("#submit-progress").addClass("hide");
+      var $stats = $("#exercise-info"),
+        url = $stats.data("url");
+      $stats.load(url, function () {
+        $stats.find('[data-toggle="tooltip"]').tooltip();
+      });
+    }
+  });
+</script>
+{{ page.head|safe }}
+{% endblock %}

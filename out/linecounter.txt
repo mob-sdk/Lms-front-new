@@ -1,0 +1,1286 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.2
+-------------------------------------------------------------------------------
+count time : 2019-08-06 15:49:43
+count workspace : /Users/Runge/lms-front
+total files : 1252
+total code lines : 65432
+total comment lines : 6611
+total blank lines : 11113
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .txt|            238|             12|             39|   0.36|
+   |               |            108|              5|             21|   0.17|
+   |            .py|          24966|           1836|           4802|     38|
+   |            .md|            798|             21|            336|    1.2|
+   |          .json|           4083|              0|              9|    6.2|
+   |            .sh|             82|              7|             25|   0.13|
+   |          .html|           5341|             34|            447|    8.2|
+   |           .xml|           2275|             56|             38|    3.5|
+   |           .iml|             33|              0|              0|  0.050|
+   |            .js|          18990|           4457|           3833|     29|
+   |          .conf|            220|              9|             31|   0.34|
+   |       .service|            108|              0|             14|   0.17|
+   |        .socket|             18|              0|              4|  0.028|
+   |           .css|           6810|            174|           1083|     10|
+   |           .svg|            850|              0|              0|    1.3|
+   |   .webmanifest|             19|              0|              0|  0.029|
+   |           .map|              2|              0|              0| 0.0031|
+   |            .po|            491|              0|            431|   0.75|
+   -------------------------------------------------------------------------
+.gitignore, code is 33, comment is 0, blank is 7.
+.idea/dataSources.local.xml, code is 9, comment is 0, blank is 0.
+.idea/dataSources.xml, code is 14, comment is 0, blank is 0.
+.idea/libraries/R_User_Library.xml, code is 6, comment is 0, blank is 0.
+.idea/lms-front.iml, code is 33, comment is 0, blank is 0.
+.idea/misc.xml, code is 7, comment is 0, blank is 0.
+.idea/modules.xml, code is 8, comment is 0, blank is 0.
+.idea/vcs.xml, code is 6, comment is 0, blank is 0.
+.idea/workspace.xml, code is 816, comment is 0, blank is 0.
+__pycache__/manage.cpython-37.pyc, it is a binary file.
+api/__init__.py, code is 0, comment is 0, blank is 0.
+api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+api/__pycache__/urls_v2.cpython-37.pyc, it is a binary file.
+api/urls_v2.py, code is 74, comment is 3, blank is 13.
+aplus.db, it is a binary file.
+aplus/__init__.py, code is 0, comment is 0, blank is 0.
+aplus/__init__.pyc, it is a binary file.
+aplus/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+aplus/__pycache__/local_settings.example.cpython-37.pyc, it is a binary file.
+aplus/__pycache__/secret_key.cpython-37.pyc, it is a binary file.
+aplus/__pycache__/settings.cpython-37.pyc, it is a binary file.
+aplus/__pycache__/urls.cpython-37.pyc, it is a binary file.
+aplus/__pycache__/wsgi.cpython-37.pyc, it is a binary file.
+aplus/api/__init__.py, code is 7, comment is 0, blank is 1.
+aplus/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+aplus/fi/__init__.py, code is 0, comment is 0, blank is 0.
+aplus/fi/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+aplus/fi/__pycache__/formats.cpython-37.pyc, it is a binary file.
+aplus/fi/formats.py, code is 1, comment is 0, blank is 0.
+aplus/local_settings.example.py, code is 0, comment is 57, blank is 4.
+aplus/secret_key.py, code is 1, comment is 0, blank is 1.
+aplus/settings.py, code is 280, comment is 93, blank is 54.
+aplus/settings/__init__.py, code is 0, comment is 0, blank is 0.
+aplus/settings/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+aplus/settings/__pycache__/base.cpython-37.pyc, it is a binary file.
+aplus/settings/__pycache__/local.cpython-37.pyc, it is a binary file.
+aplus/settings/__pycache__/production.cpython-37.pyc, it is a binary file.
+aplus/settings/base.py, code is 280, comment is 93, blank is 54.
+aplus/settings/local.py, code is 0, comment is 0, blank is 0.
+aplus/settings/production.py, code is 0, comment is 0, blank is 0.
+aplus/urls.py, code is 44, comment is 5, blank is 9.
+aplus/wsgi.py, code is 4, comment is 0, blank is 3.
+aplus/zh/__init__.py, code is 0, comment is 0, blank is 0.
+aplus/zh/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+aplus/zh/__pycache__/formats.cpython-37.pyc, it is a binary file.
+aplus/zh/formats.py, code is 32, comment is 29, blank is 4.
+apps/__init__.py, code is 0, comment is 0, blank is 0.
+apps/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+apps/__pycache__/admin.cpython-37.pyc, it is a binary file.
+apps/__pycache__/app_renderers.cpython-37.pyc, it is a binary file.
+apps/__pycache__/models.cpython-37.pyc, it is a binary file.
+apps/__pycache__/tests.cpython-37.pyc, it is a binary file.
+apps/__pycache__/urls.cpython-37.pyc, it is a binary file.
+apps/__pycache__/views.cpython-37.pyc, it is a binary file.
+apps/admin.py, code is 19, comment is 0, blank is 3.
+apps/app_renderers.py, code is 111, comment is 9, blank is 32.
+apps/migrations/0001_initial.py, code is 152, comment is 1, blank is 5.
+apps/migrations/0002_auto_20150527_1004.py, code is 24, comment is 1, blank is 5.
+apps/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+apps/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+apps/migrations/__pycache__/0002_auto_20150527_1004.cpython-37.pyc, it is a binary file.
+apps/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+apps/models.py, code is 91, comment is 7, blank is 47.
+apps/south_migrations/0001_initial.py, code is 186, comment is 21, blank is 26.
+apps/south_migrations/0002_auto__add_iframetoserviceplugin__add_field_baseplugin_views.py, code is 139, comment is 5, blank is 10.
+apps/south_migrations/0003_auto__add_externaliframetab.py, code is 142, comment is 3, blank is 8.
+apps/south_migrations/0004_auto__rename_iframetoserviceplugin_to_externaliframeplugin.py, code is 136, comment is 1, blank is 8.
+apps/south_migrations/0005_contenttypes_for_externaliframeplugin.py, code is 139, comment is 8, blank is 5.
+apps/south_migrations/0006_auto__del_externaltab__del_embeddedplugin__del_chatplugin__del_iframep.py, code is 138, comment is 9, blank is 14.
+apps/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+apps/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+apps/south_migrations/__pycache__/0002_auto__add_iframetoserviceplugin__add_field_baseplugin_views.cpython-37.pyc, it is a binary file.
+apps/south_migrations/__pycache__/0003_auto__add_externaliframetab.cpython-37.pyc, it is a binary file.
+apps/south_migrations/__pycache__/0004_auto__rename_iframetoserviceplugin_to_externaliframeplugin.cpython-37.pyc, it is a binary file.
+apps/south_migrations/__pycache__/0005_contenttypes_for_externaliframeplugin.cpython-37.pyc, it is a binary file.
+apps/south_migrations/__pycache__/0006_auto__del_externaltab__del_embeddedplugin__del_chatplugin__del_iframep.cpython-37.pyc, it is a binary file.
+apps/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+apps/templates/plugins/external_iframe_tab.html, code is 1, comment is 0, blank is 0.
+apps/templates/plugins/iframe_to_service_plugin.html, code is 2, comment is 0, blank is 0.
+apps/templates/plugins/rss.html, code is 14, comment is 0, blank is 0.
+apps/templates/plugins/view_tab.html, code is 11, comment is 0, blank is 3.
+apps/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+apps/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+apps/templatetags/__pycache__/apps.cpython-37.pyc, it is a binary file.
+apps/templatetags/apps.py, code is 40, comment is 0, blank is 7.
+apps/tests.py, code is 53, comment is 1, blank is 13.
+apps/urls.py, code is 8, comment is 0, blank is 2.
+apps/views.py, code is 29, comment is 0, blank is 6.
+assets/css/d3Stream.min.css, code is 1, comment is 0, blank is 0.
+assets/css/llama.min.css, code is 1, comment is 0, blank is 0.
+assets/css/main.css, code is 396, comment is 13, blank is 12.
+assets/css/submission.css, code is 70, comment is 0, blank is 7.
+assets/css/summary.css, code is 28, comment is 0, blank is 2.
+assets/favicons/favicon-16x16.png, it is a binary file.
+assets/favicons/favicon-32x32.png, it is a binary file.
+assets/favicons/favicon.ico, it is a binary file.
+assets/images/uls.svg, code is 4, comment is 0, blank is 0.
+assets/js-translations/teacher.zh.json, code is 5, comment is 0, blank is 0.
+assets/js/aplus.js, code is 578, comment is 49, blank is 71.
+assets/js/buttons_popover.js, code is 32, comment is 17, blank is 2.
+assets/js/d3Stream.min.js, code is 1, comment is 0, blank is 0.
+assets/js/llama.min.js, code is 1, comment is 0, blank is 0.
+assets/js/participants.js, code is 150, comment is 5, blank is 12.
+assets/js/polyfill-find.js, code is 52, comment is 28, blank is 16.
+assets/js/summary.js, code is 291, comment is 4, blank is 57.
+assets/js/tag_popover.js, code is 106, comment is 6, blank is 5.
+assets/js/translate.js, code is 1046, comment is 235, blank is 192.
+assets/js/translate.min.js, code is 1, comment is 2, blank is 0.
+assets/js/translate.min.js.map, code is 1, comment is 0, blank is 0.
+assets/pseudonym.json, code is 633, comment is 0, blank is 1.
+assets_src/translate-js/.gitignore, code is 1, comment is 0, blank is 0.
+assets_src/translate-js/main.js, code is 67, comment is 22, blank is 14.
+assets_src/translate-js/package-lock.json, code is 2311, comment is 0, blank is 0.
+assets_src/translate-js/package.json, code is 22, comment is 0, blank is 0.
+assets_src/translate-js/README.md, code is 26, comment is 0, blank is 10.
+authorization/__init__.py, code is 0, comment is 0, blank is 0.
+authorization/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+authorization/__pycache__/exceptions.cpython-37.pyc, it is a binary file.
+authorization/__pycache__/permissions.cpython-37.pyc, it is a binary file.
+authorization/__pycache__/views.cpython-37.pyc, it is a binary file.
+authorization/api/__init__.py, code is 0, comment is 0, blank is 0.
+authorization/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+authorization/api/__pycache__/mixins.cpython-37.pyc, it is a binary file.
+authorization/api/mixins.py, code is 22, comment is 0, blank is 6.
+authorization/exceptions.py, code is 4, comment is 0, blank is 0.
+authorization/permissions.py, code is 83, comment is 6, blank is 49.
+authorization/views.py, code is 89, comment is 25, blank is 47.
+course/__init__.py, code is 0, comment is 0, blank is 0.
+course/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+course/__pycache__/admin.cpython-37.pyc, it is a binary file.
+course/__pycache__/forms.cpython-37.pyc, it is a binary file.
+course/__pycache__/long_urls.cpython-37.pyc, it is a binary file.
+course/__pycache__/models.cpython-37.pyc, it is a binary file.
+course/__pycache__/permissions.cpython-37.pyc, it is a binary file.
+course/__pycache__/renders.cpython-37.pyc, it is a binary file.
+course/__pycache__/staff_views.cpython-37.pyc, it is a binary file.
+course/__pycache__/test_visibility_enroll.cpython-37.pyc, it is a binary file.
+course/__pycache__/tests.cpython-37.pyc, it is a binary file.
+course/__pycache__/urls.cpython-37.pyc, it is a binary file.
+course/__pycache__/viewbase.cpython-37.pyc, it is a binary file.
+course/__pycache__/views.cpython-37.pyc, it is a binary file.
+course/admin.py, code is 63, comment is 1, blank is 21.
+course/api/__init__.py, code is 0, comment is 0, blank is 0.
+course/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+course/api/__pycache__/full_serializers.cpython-37.pyc, it is a binary file.
+course/api/__pycache__/mixins.cpython-37.pyc, it is a binary file.
+course/api/__pycache__/serializers.cpython-37.pyc, it is a binary file.
+course/api/__pycache__/views.cpython-37.pyc, it is a binary file.
+course/api/full_serializers.py, code is 141, comment is 1, blank is 26.
+course/api/mixins.py, code is 33, comment is 6, blank is 7.
+course/api/serializers.py, code is 65, comment is 1, blank is 20.
+course/api/views.py, code is 115, comment is 1, blank is 18.
+course/cache/__init__.py, code is 0, comment is 0, blank is 0.
+course/cache/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+course/cache/__pycache__/menu.cpython-37.pyc, it is a binary file.
+course/cache/__pycache__/students.cpython-37.pyc, it is a binary file.
+course/cache/menu.py, code is 100, comment is 1, blank is 23.
+course/cache/students.py, code is 41, comment is 0, blank is 10.
+course/forms.py, code is 76, comment is 0, blank is 19.
+course/long_urls.py, code is 32, comment is 4, blank is 2.
+course/management/commands/__pycache__/list_courses.cpython-37.pyc, it is a binary file.
+course/management/commands/__pycache__/scale_grade_to.cpython-37.pyc, it is a binary file.
+course/management/commands/list_courses.py, code is 17, comment is 0, blank is 7.
+course/management/commands/scale_grade_to.py, code is 33, comment is 0, blank is 5.
+course/migrations/0001_initial.py, code is 59, comment is 1, blank is 6.
+course/migrations/0002_auto_20150427_1717.py, code is 27, comment is 1, blank is 5.
+course/migrations/0003_auto_20150617_0654.py, code is 21, comment is 1, blank is 5.
+course/migrations/0004_auto_20150625_1821.py, code is 15, comment is 1, blank is 5.
+course/migrations/0005_auto_20150625_1835.py, code is 62, comment is 1, blank is 6.
+course/migrations/0006_auto_20150721_1152.py, code is 57, comment is 1, blank is 5.
+course/migrations/0007_auto_20150828_1210.py, code is 25, comment is 1, blank is 5.
+course/migrations/0008_courseinstance_technical_error_emails.py, code is 14, comment is 1, blank is 5.
+course/migrations/0009_auto_20151013_1434.py, code is 14, comment is 1, blank is 5.
+course/migrations/0010_auto_20151214_1714.py, code is 20, comment is 1, blank is 5.
+course/migrations/0011_auto_20151215_1133.py, code is 18, comment is 1, blank is 5.
+course/migrations/0012_auto_20151218_0857.py, code is 49, comment is 1, blank is 5.
+course/migrations/0013_auto_20151223_1937.py, code is 30, comment is 1, blank is 5.
+course/migrations/0014_auto_20160106_1303.py, code is 18, comment is 1, blank is 5.
+course/migrations/0015_auto_20160121_1544.py, code is 27, comment is 1, blank is 5.
+course/migrations/0016_auto_20160124_2214.py, code is 28, comment is 1, blank is 5.
+course/migrations/0017_enroll_submitters.py, code is 20, comment is 1, blank is 9.
+course/migrations/0018_auto_20160205_1240.py, code is 14, comment is 1, blank is 5.
+course/migrations/0019_auto_20160205_1312.py, code is 14, comment is 1, blank is 5.
+course/migrations/0020_auto_20160615_1239.py, code is 14, comment is 1, blank is 5.
+course/migrations/0021_auto_20160726_1209.py, code is 28, comment is 1, blank is 5.
+course/migrations/0022_copy_enrollments.py, code is 18, comment is 1, blank is 9.
+course/migrations/0023_delete_students.py, code is 12, comment is 1, blank is 5.
+course/migrations/0024_auto_20160726_1232.py, code is 13, comment is 1, blank is 5.
+course/migrations/0025_auto_20160728_1139.py, code is 29, comment is 1, blank is 5.
+course/migrations/0026_auto_20160809_1551.py, code is 20, comment is 1, blank is 5.
+course/migrations/0027_courseinstance_head_urls.py, code is 14, comment is 1, blank is 5.
+course/migrations/0028_auto_20160825_0601.py, code is 32, comment is 1, blank is 5.
+course/migrations/0029_usertags.py, code is 45, comment is 1, blank is 5.
+course/migrations/0030_auto_20160912_1341.py, code is 16, comment is 1, blank is 5.
+course/migrations/0031_courseinstance_build_log_url.py, code is 14, comment is 1, blank is 5.
+course/migrations/0032_auto_20170215_0953.py, code is 14, comment is 1, blank is 5.
+course/migrations/0033_auto_20170428_1213.py, code is 20, comment is 1, blank is 5.
+course/migrations/0034_auto_20170609_1600.py, code is 18, comment is 2, blank is 5.
+course/migrations/0035_courseinstance_last_modified.py, code is 13, comment is 2, blank is 5.
+course/migrations/0036_auto_20170907_1537.py, code is 13, comment is 2, blank is 5.
+course/migrations/0037_auto_20180108_1850.py, code is 18, comment is 2, blank is 5.
+course/migrations/0038_auto_20180212_1556.py, code is 13, comment is 2, blank is 5.
+course/migrations/0039_auto_20180326_1425.py, code is 42, comment is 5, blank is 6.
+course/migrations/0040_auto_20180607_1502.py, code is 18, comment is 2, blank is 5.
+course/migrations/0041_auto_20180920_1838.py, code is 13, comment is 2, blank is 5.
+course/migrations/0042_auto_20190327_1355.py, code is 25, comment is 2, blank is 5.
+course/migrations/0043_auto_20190412_1706.py, code is 13, comment is 2, blank is 5.
+course/migrations/0044_auto_20190415_1807.py, code is 13, comment is 2, blank is 5.
+course/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+course/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0002_auto_20150427_1717.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0003_auto_20150617_0654.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0004_auto_20150625_1821.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0005_auto_20150625_1835.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0006_auto_20150721_1152.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0007_auto_20150828_1210.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0008_courseinstance_technical_error_emails.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0009_auto_20151013_1434.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0010_auto_20151214_1714.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0011_auto_20151215_1133.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0012_auto_20151218_0857.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0013_auto_20151223_1937.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0014_auto_20160106_1303.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0015_auto_20160121_1544.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0016_auto_20160124_2214.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0017_enroll_submitters.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0018_auto_20160205_1240.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0019_auto_20160205_1312.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0020_auto_20160615_1239.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0021_auto_20160726_1209.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0022_copy_enrollments.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0023_delete_students.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0024_auto_20160726_1232.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0025_auto_20160728_1139.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0026_auto_20160809_1551.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0027_courseinstance_head_urls.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0028_auto_20160825_0601.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0029_usertags.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0030_auto_20160912_1341.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0031_courseinstance_build_log_url.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0032_auto_20170215_0953.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0033_auto_20170428_1213.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0034_auto_20170609_1600.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0035_courseinstance_last_modified.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0036_auto_20170907_1537.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0037_auto_20180108_1850.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0038_auto_20180212_1556.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0039_auto_20180326_1425.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0040_auto_20180607_1502.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0041_auto_20180920_1838.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0042_auto_20190327_1355.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0043_auto_20190412_1706.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/0044_auto_20190415_1807.cpython-37.pyc, it is a binary file.
+course/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+course/models.py, code is 565, comment is 31, blank is 134.
+course/permissions.py, code is 120, comment is 10, blank is 40.
+course/renders.py, code is 29, comment is 0, blank is 11.
+course/south_migrations/0001_initial.py, code is 131, comment is 11, blank is 16.
+course/south_migrations/0002_auto__chg_field_courseinstance_website.py, code is 98, comment is 3, blank is 8.
+course/south_migrations/0003_auto__add_field_courseinstance_visible_to_students.py, code is 101, comment is 3, blank is 8.
+course/south_migrations/0004_auto__chg_field_courseinstance_website__chg_field_courseinstance_url__.py, code is 109, comment is 13, blank is 18.
+course/south_migrations/0005_auto__add_coursehook.py, code is 124, comment is 3, blank is 8.
+course/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+course/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+course/south_migrations/__pycache__/0002_auto__chg_field_courseinstance_website.cpython-37.pyc, it is a binary file.
+course/south_migrations/__pycache__/0003_auto__add_field_courseinstance_visible_to_students.cpython-37.pyc, it is a binary file.
+course/south_migrations/__pycache__/0004_auto__chg_field_courseinstance_website__chg_field_courseinstance_url__.cpython-37.pyc, it is a binary file.
+course/south_migrations/__pycache__/0005_auto__add_coursehook.cpython-37.pyc, it is a binary file.
+course/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+course/staff_views.py, code is 73, comment is 0, blank is 18.
+course/static/course/usertagdropdown.js, code is 39, comment is 0, blank is 1.
+course/templates/course/_avatars.html, code is 5, comment is 0, blank is 0.
+course/templates/course/_course_dropdown_menu.html, code is 20, comment is 0, blank is 0.
+course/templates/course/_course_menu.html, code is 169, comment is 0, blank is 16.
+course/templates/course/_enroll_form.html, code is 42, comment is 0, blank is 1.
+course/templates/course/_group_info.html, code is 11, comment is 0, blank is 0.
+course/templates/course/_group_select.html, code is 39, comment is 0, blank is 0.
+course/templates/course/_profiles.html, code is 20, comment is 0, blank is 0.
+course/templates/course/_siblings.html, code is 46, comment is 0, blank is 4.
+course/templates/course/_tags.html, code is 10, comment is 0, blank is 0.
+course/templates/course/archive.html, code is 36, comment is 0, blank is 2.
+course/templates/course/course.html, code is 36, comment is 0, blank is 7.
+course/templates/course/course_base.html, code is 60, comment is 0, blank is 5.
+course/templates/course/enroll.html, code is 38, comment is 0, blank is 6.
+course/templates/course/groups.html, code is 65, comment is 0, blank is 12.
+course/templates/course/index.html, code is 79, comment is 1, blank is 8.
+course/templates/course/module.html, code is 47, comment is 0, blank is 7.
+course/templates/course/staff/_tag_remove_modal.html, code is 51, comment is 0, blank is 0.
+course/templates/course/staff/group_delete.html, code is 41, comment is 0, blank is 7.
+course/templates/course/staff/group_edit.html, code is 23, comment is 0, blank is 5.
+course/templates/course/staff/groups.html, code is 49, comment is 0, blank is 6.
+course/templates/course/staff/participants.html, code is 75, comment is 0, blank is 10.
+course/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+course/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+course/templatetags/__pycache__/base.cpython-37.pyc, it is a binary file.
+course/templatetags/__pycache__/course.cpython-37.pyc, it is a binary file.
+course/templatetags/base.py, code is 19, comment is 0, blank is 8.
+course/templatetags/course.py, code is 87, comment is 3, blank is 40.
+course/test_visibility_enroll.py, code is 583, comment is 118, blank is 55.
+course/tests.py, code is 267, comment is 5, blank is 58.
+course/urls.py, code is 21, comment is 0, blank is 4.
+course/viewbase.py, code is 121, comment is 4, blank is 32.
+course/views.py, code is 156, comment is 10, blank is 40.
+deviations/__init__.py, code is 0, comment is 0, blank is 0.
+deviations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+deviations/__pycache__/admin.cpython-37.pyc, it is a binary file.
+deviations/__pycache__/forms.cpython-37.pyc, it is a binary file.
+deviations/__pycache__/models.cpython-37.pyc, it is a binary file.
+deviations/__pycache__/tests.cpython-37.pyc, it is a binary file.
+deviations/__pycache__/urls.cpython-37.pyc, it is a binary file.
+deviations/__pycache__/views.cpython-37.pyc, it is a binary file.
+deviations/admin.py, code is 7, comment is 0, blank is 4.
+deviations/forms.py, code is 49, comment is 0, blank is 4.
+deviations/migrations/0001_initial.py, code is 46, comment is 1, blank is 6.
+deviations/migrations/0002_deadlineruledeviation_without_late_penalty.py, code is 14, comment is 1, blank is 5.
+deviations/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+deviations/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+deviations/migrations/__pycache__/0002_deadlineruledeviation_without_late_penalty.cpython-37.pyc, it is a binary file.
+deviations/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+deviations/models.py, code is 29, comment is 0, blank is 16.
+deviations/templates/deviations/add_dl.html, code is 25, comment is 0, blank is 3.
+deviations/templates/deviations/list_dl.html, code is 53, comment is 0, blank is 3.
+deviations/tests.py, code is 62, comment is 1, blank is 14.
+deviations/urls.py, code is 14, comment is 0, blank is 3.
+deviations/views.py, code is 81, comment is 0, blank is 16.
+diploma/__init__.py, code is 0, comment is 0, blank is 0.
+diploma/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/admin.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/grade.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/models.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/pdf.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/tests.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/urls.cpython-37.pyc, it is a binary file.
+diploma/__pycache__/views.cpython-37.pyc, it is a binary file.
+diploma/admin.py, code is 6, comment is 0, blank is 4.
+diploma/grade.py, code is 61, comment is 0, blank is 13.
+diploma/migrations/0001_initial.py, code is 50, comment is 1, blank is 5.
+diploma/migrations/0002_coursediplomadesign_availability.py, code is 14, comment is 1, blank is 5.
+diploma/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+diploma/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+diploma/migrations/__pycache__/0002_coursediplomadesign_availability.cpython-37.pyc, it is a binary file.
+diploma/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+diploma/models.py, code is 49, comment is 0, blank is 14.
+diploma/pdf.py, code is 55, comment is 2, blank is 16.
+diploma/templates/diploma/_diploma_button.html, code is 17, comment is 0, blank is 0.
+diploma/templates/diploma/list.html, code is 34, comment is 0, blank is 5.
+diploma/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+diploma/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+diploma/templatetags/__pycache__/diploma.cpython-37.pyc, it is a binary file.
+diploma/templatetags/diploma.py, code is 21, comment is 0, blank is 5.
+diploma/tests.py, code is 38, comment is 0, blank is 7.
+diploma/urls.py, code is 13, comment is 0, blank is 3.
+diploma/views.py, code is 77, comment is 0, blank is 21.
+doc/__pycache__/example_grader.cpython-37.pyc, it is a binary file.
+doc/a-plus-models.pdf, it is a binary file.
+doc/a-plus-views.pdf, it is a binary file.
+doc/ajax_exercise.html, code is 19, comment is 5, blank is 3.
+doc/apache2/aplus-apache2.conf, code is 76, comment is 1, blank is 10.
+doc/apache2/aplus-api-uwsgi.service, code is 16, comment is 0, blank is 2.
+doc/apache2/aplus-web-uwsgi.service, code is 16, comment is 0, blank is 2.
+doc/apache2/shibboleth2.xml, code is 53, comment is 28, blank is 19.
+doc/api_versioning.md, code is 7, comment is 0, blank is 3.
+doc/CONTENT.md, code is 50, comment is 0, blank is 19.
+doc/create_test_environment.sh, code is 33, comment is 4, blank is 5.
+doc/DEPLOYMENT.md, code is 270, comment is 9, blank is 124.
+doc/example_grader.py, code is 127, comment is 14, blank is 18.
+doc/EXERCISECOLLECTION.md, code is 9, comment is 0, blank is 4.
+doc/file_exercise.html, code is 20, comment is 4, blank is 6.
+doc/first_exercise.html, code is 20, comment is 4, blank is 4.
+doc/GRADERS.md, code is 96, comment is 0, blank is 68.
+doc/initial_data.json, code is 190, comment is 0, blank is 3.
+doc/jenkins/__pycache__/test_local_settings.cpython-37.pyc, it is a binary file.
+doc/jenkins/A-plus-test-MASTER.xml, code is 120, comment is 0, blank is 0.
+doc/jenkins/A-plus-test-PR.xml, code is 142, comment is 0, blank is 0.
+doc/jenkins/A-plustest-publish.xml, code is 54, comment is 0, blank is 0.
+doc/jenkins/etc-apache2-sites-available-plustest, code is 58, comment is 5, blank is 10.
+doc/jenkins/README.md, code is 10, comment is 1, blank is 6.
+doc/jenkins/test_local_settings.py, code is 17, comment is 7, blank is 4.
+doc/nginx/aplus-api-uwsgi.service, code is 16, comment is 0, blank is 2.
+doc/nginx/aplus-gunicorn.service, code is 18, comment is 0, blank is 2.
+doc/nginx/aplus-nginx-shib.conf, code is 99, comment is 6, blank is 14.
+doc/nginx/aplus-nginx.conf, code is 45, comment is 2, blank is 7.
+doc/nginx/aplus-web-uwsgi.service, code is 16, comment is 0, blank is 2.
+doc/nginx/shibauthorizer.service, code is 13, comment is 0, blank is 2.
+doc/nginx/shibauthorizer.socket, code is 9, comment is 0, blank is 2.
+doc/nginx/shibboleth2.xml, code is 61, comment is 28, blank is 19.
+doc/nginx/shibresponder.service, code is 13, comment is 0, blank is 2.
+doc/nginx/shibresponder.socket, code is 9, comment is 0, blank is 2.
+doc/README.md, code is 51, comment is 3, blank is 29.
+edit_course/__init__.py, code is 0, comment is 0, blank is 0.
+edit_course/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/course_forms.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/exercise_forms.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/managers.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/submission_forms.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/tests.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/urls.cpython-37.pyc, it is a binary file.
+edit_course/__pycache__/views.cpython-37.pyc, it is a binary file.
+edit_course/course_forms.py, code is 138, comment is 11, blank is 35.
+edit_course/exercise_forms.py, code is 137, comment is 0, blank is 39.
+edit_course/management/__init__.py, code is 0, comment is 0, blank is 0.
+edit_course/management/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+edit_course/management/commands/__init__.py, code is 0, comment is 0, blank is 0.
+edit_course/management/commands/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+edit_course/management/commands/__pycache__/reload_course_configuration.cpython-37.pyc, it is a binary file.
+edit_course/management/commands/reload_course_configuration.py, code is 29, comment is 0, blank is 7.
+edit_course/managers.py, code is 87, comment is 0, blank is 21.
+edit_course/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+edit_course/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+edit_course/operations/__init__.py, code is 0, comment is 0, blank is 0.
+edit_course/operations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+edit_course/operations/__pycache__/batch.cpython-37.pyc, it is a binary file.
+edit_course/operations/__pycache__/clone.cpython-37.pyc, it is a binary file.
+edit_course/operations/__pycache__/configure.cpython-37.pyc, it is a binary file.
+edit_course/operations/batch.py, code is 59, comment is 1, blank is 10.
+edit_course/operations/clone.py, code is 44, comment is 4, blank is 17.
+edit_course/operations/configure.py, code is 517, comment is 19, blank is 71.
+edit_course/submission_forms.py, code is 11, comment is 1, blank is 5.
+edit_course/templates/edit_course/batch_assess.html, code is 83, comment is 0, blank is 7.
+edit_course/templates/edit_course/build_log.html, code is 31, comment is 0, blank is 1.
+edit_course/templates/edit_course/clone_instance.html, code is 68, comment is 0, blank is 3.
+edit_course/templates/edit_course/edit_content.html, code is 187, comment is 0, blank is 3.
+edit_course/templates/edit_course/edit_course_base.html, code is 58, comment is 0, blank is 5.
+edit_course/templates/edit_course/edit_index.html, code is 21, comment is 0, blank is 2.
+edit_course/templates/edit_course/edit_instance.html, code is 25, comment is 0, blank is 2.
+edit_course/templates/edit_course/edit_model.html, code is 93, comment is 0, blank is 8.
+edit_course/templates/edit_course/remove_model.html, code is 52, comment is 0, blank is 6.
+edit_course/templates/edit_course/signin_as_user.html, code is 17, comment is 0, blank is 2.
+edit_course/templates/edit_course/usertag_add.html, code is 25, comment is 0, blank is 2.
+edit_course/templates/edit_course/usertag_delete.html, code is 31, comment is 0, blank is 5.
+edit_course/templates/edit_course/usertag_edit.html, code is 25, comment is 0, blank is 2.
+edit_course/templates/edit_course/usertag_list.html, code is 60, comment is 0, blank is 2.
+edit_course/templates/edit_course/usertagging_add.html, code is 25, comment is 0, blank is 2.
+edit_course/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+edit_course/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+edit_course/templatetags/__pycache__/editcourse.cpython-37.pyc, it is a binary file.
+edit_course/templatetags/editcourse.py, code is 47, comment is 0, blank is 11.
+edit_course/tests.py, code is 81, comment is 0, blank is 21.
+edit_course/urls.py, code is 60, comment is 0, blank is 5.
+edit_course/views.py, code is 287, comment is 4, blank is 68.
+exercise/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/admin.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/async_views.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/exercise_models.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/exercise_summary.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/exercisecollection_models.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/forms.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/models.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/permissions.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/staff_views.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/submission_models.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/tests.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/tests_cache.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/urls.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/viewbase.cpython-37.pyc, it is a binary file.
+exercise/__pycache__/views.cpython-37.pyc, it is a binary file.
+exercise/admin.py, code is 63, comment is 0, blank is 24.
+exercise/api/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/api/__pycache__/custom_serializers.cpython-37.pyc, it is a binary file.
+exercise/api/__pycache__/full_serializers.cpython-37.pyc, it is a binary file.
+exercise/api/__pycache__/mixins.cpython-37.pyc, it is a binary file.
+exercise/api/__pycache__/serializers.cpython-37.pyc, it is a binary file.
+exercise/api/__pycache__/tests.cpython-37.pyc, it is a binary file.
+exercise/api/__pycache__/views.cpython-37.pyc, it is a binary file.
+exercise/api/csv/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/api/csv/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/api/csv/__pycache__/aggregate_sheet.cpython-37.pyc, it is a binary file.
+exercise/api/csv/__pycache__/submission_sheet.cpython-37.pyc, it is a binary file.
+exercise/api/csv/__pycache__/views.cpython-37.pyc, it is a binary file.
+exercise/api/csv/aggregate_sheet.py, code is 68, comment is 0, blank is 8.
+exercise/api/csv/submission_sheet.py, code is 94, comment is 1, blank is 16.
+exercise/api/csv/views.py, code is 148, comment is 2, blank is 21.
+exercise/api/custom_serializers.py, code is 87, comment is 0, blank is 22.
+exercise/api/full_serializers.py, code is 124, comment is 1, blank is 23.
+exercise/api/mixins.py, code is 46, comment is 12, blank is 16.
+exercise/api/serializers.py, code is 64, comment is 2, blank is 16.
+exercise/api/tests.py, code is 51, comment is 16, blank is 13.
+exercise/api/views.py, code is 240, comment is 19, blank is 68.
+exercise/async_views.py, code is 52, comment is 3, blank is 15.
+exercise/cache/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/cache/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/cache/__pycache__/content.cpython-37.pyc, it is a binary file.
+exercise/cache/__pycache__/exercise.cpython-37.pyc, it is a binary file.
+exercise/cache/__pycache__/hierarchy.cpython-37.pyc, it is a binary file.
+exercise/cache/__pycache__/points.cpython-37.pyc, it is a binary file.
+exercise/cache/content.py, code is 165, comment is 3, blank is 19.
+exercise/cache/exercise.py, code is 40, comment is 0, blank is 11.
+exercise/cache/hierarchy.py, code is 272, comment is 0, blank is 39.
+exercise/cache/points.py, code is 238, comment is 13, blank is 19.
+exercise/exercise_models.py, code is 677, comment is 50, blank is 157.
+exercise/exercise_summary.py, code is 138, comment is 6, blank is 41.
+exercise/exercisecollection_models.py, code is 127, comment is 27, blank is 56.
+exercise/forms.py, code is 104, comment is 0, blank is 20.
+exercise/management/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/management/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/management/commands/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/management/commands/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/management/commands/__pycache__/export.cpython-37.pyc, it is a binary file.
+exercise/management/commands/__pycache__/tags.cpython-37.pyc, it is a binary file.
+exercise/management/commands/export.py, code is 189, comment is 3, blank is 27.
+exercise/management/commands/tags.py, code is 66, comment is 1, blank is 11.
+exercise/migrations/0001_initial.py, code is 252, comment is 1, blank is 6.
+exercise/migrations/0002_auto_20150427_1717.py, code is 14, comment is 1, blank is 5.
+exercise/migrations/0003_auto_20150617_1014.py, code is 56, comment is 1, blank is 5.
+exercise/migrations/0004_auto_20150617_1033.py, code is 28, comment is 1, blank is 11.
+exercise/migrations/0005_auto_20150625_1821.py, code is 39, comment is 1, blank is 5.
+exercise/migrations/0006_auto_20150625_1823.py, code is 19, comment is 8, blank is 7.
+exercise/migrations/0007_auto_20150625_1835.py, code is 22, comment is 1, blank is 5.
+exercise/migrations/0008_auto_20150625_1844.py, code is 15, comment is 1, blank is 6.
+exercise/migrations/0009_auto_20150721_1152.py, code is 16, comment is 1, blank is 5.
+exercise/migrations/0010_auto_20151214_1714.py, code is 19, comment is 1, blank is 5.
+exercise/migrations/0011_auto_20151218_0857.py, code is 58, comment is 1, blank is 5.
+exercise/migrations/0012_auto_20151218_0858.py, code is 16, comment is 1, blank is 9.
+exercise/migrations/0013_auto_20151222_1320.py, code is 25, comment is 1, blank is 5.
+exercise/migrations/0014_ltiexercise.py, code is 21, comment is 1, blank is 5.
+exercise/migrations/0015_auto_20160124_2139.py, code is 27, comment is 1, blank is 5.
+exercise/migrations/0016_auto_20160128_1319.py, code is 32, comment is 1, blank is 5.
+exercise/migrations/0017_auto_20160205_1026.py, code is 20, comment is 1, blank is 5.
+exercise/migrations/0018_auto_20160708_1710.py, code is 21, comment is 1, blank is 5.
+exercise/migrations/0019_auto_20160825_0601.py, code is 20, comment is 1, blank is 5.
+exercise/migrations/0020_auto_20160829_0724.py, code is 14, comment is 1, blank is 5.
+exercise/migrations/0021_auto_20160905_1335.py, code is 32, comment is 1, blank is 5.
+exercise/migrations/0022_auto_20160906_1401.py, code is 14, comment is 1, blank is 5.
+exercise/migrations/0023_learningobject_content_expire_minutes.py, code is 14, comment is 1, blank is 5.
+exercise/migrations/0024_auto_20160919_1951.py, code is 28, comment is 1, blank is 5.
+exercise/migrations/0025_auto_20170215_0953.py, code is 21, comment is 1, blank is 5.
+exercise/migrations/0026_auto_20170428_1213.py, code is 18, comment is 1, blank is 5.
+exercise/migrations/0027_learningobject_templates.py, code is 13, comment is 2, blank is 5.
+exercise/migrations/0028_auto_20180221_1230.py, code is 13, comment is 2, blank is 5.
+exercise/migrations/0029_ltiexercise_open_in_iframe.py, code is 13, comment is 2, blank is 5.
+exercise/migrations/0030_auto_20180710_1121.py, code is 13, comment is 2, blank is 5.
+exercise/migrations/0031_exercisecollection.py, code is 18, comment is 2, blank is 5.
+exercise/migrations/0032_ltiexercise_service_url.py, code is 40, comment is 1, blank is 5.
+exercise/migrations/0033_auto_20190327_1355.py, code is 15, comment is 2, blank is 5.
+exercise/migrations/0034_auto_20190416_1133.py, code is 13, comment is 2, blank is 5.
+exercise/migrations/0035_auto_20190426_1731.py, code is 14, comment is 2, blank is 5.
+exercise/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0002_auto_20150427_1717.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0003_auto_20150617_1014.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0004_auto_20150617_1033.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0005_auto_20150625_1821.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0006_auto_20150625_1823.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0007_auto_20150625_1835.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0008_auto_20150625_1844.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0009_auto_20150721_1152.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0010_auto_20151214_1714.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0011_auto_20151218_0857.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0012_auto_20151218_0858.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0013_auto_20151222_1320.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0014_ltiexercise.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0015_auto_20160124_2139.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0016_auto_20160128_1319.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0017_auto_20160205_1026.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0018_auto_20160708_1710.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0019_auto_20160825_0601.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0020_auto_20160829_0724.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0021_auto_20160905_1335.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0022_auto_20160906_1401.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0023_learningobject_content_expire_minutes.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0024_auto_20160919_1951.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0025_auto_20170215_0953.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0026_auto_20170428_1213.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0027_learningobject_templates.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0028_auto_20180221_1230.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0029_ltiexercise_open_in_iframe.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0030_auto_20180710_1121.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0031_exercisecollection.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0032_ltiexercise_service_url.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0033_auto_20190327_1355.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0034_auto_20190416_1133.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/0035_auto_20190426_1731.cpython-37.pyc, it is a binary file.
+exercise/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/models.py, code is 2, comment is 1, blank is 0.
+exercise/permissions.py, code is 95, comment is 2, blank is 30.
+exercise/protocol/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/protocol/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/protocol/__pycache__/aplus.cpython-37.pyc, it is a binary file.
+exercise/protocol/__pycache__/exercise_page.cpython-37.pyc, it is a binary file.
+exercise/protocol/aplus.py, code is 124, comment is 15, blank is 22.
+exercise/protocol/exercise_page.py, code is 23, comment is 2, blank is 4.
+exercise/south_migrations/0001_initial.py, code is 252, comment is 19, blank is 24.
+exercise/south_migrations/0002_auto__add_exercisewithattachment.py, code is 180, comment is 3, blank is 8.
+exercise/south_migrations/0002_auto__add_learningobjectcategory__add_field_learningobject_category.py, code is 187, comment is 5, blank is 10.
+exercise/south_migrations/0003_learning_object__category__null__false.py, code is 191, comment is 3, blank is 8.
+exercise/south_migrations/0004_auto__chg_field_learningobject_category__add_unique_learningobjectcate.py, code is 179, comment is 5, blank is 10.
+exercise/south_migrations/0005_merge.py, code is 183, comment is 1, blank is 6.
+exercise/south_migrations/0006_auto__chg_field_coursemodule_name.py, code is 183, comment is 3, blank is 8.
+exercise/south_migrations/0007_auto__add_field_learningobjectcategory_points_to_pass.py, code is 187, comment is 3, blank is 8.
+exercise/south_migrations/0008_auto__chg_field_learningobject_name.py, code is 185, comment is 3, blank is 8.
+exercise/south_migrations/0009_auto.py, code is 191, comment is 3, blank is 8.
+exercise/south_migrations/0010_auto__add_deadlineruledeviation__add_unique_deadlineruledeviation_exer.py, code is 218, comment is 9, blank is 14.
+exercise/south_migrations/0011_auto__add_field_submission_assistant_feedback.py, code is 215, comment is 3, blank is 8.
+exercise/south_migrations/0012_auto__chg_field_submittedfile_file_object.py, code is 213, comment is 3, blank is 8.
+exercise/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0002_auto__add_exercisewithattachment.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0002_auto__add_learningobjectcategory__add_field_learningobject_category.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0003_learning_object__category__null__false.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0004_auto__chg_field_learningobject_category__add_unique_learningobjectcate.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0005_merge.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0006_auto__chg_field_coursemodule_name.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0007_auto__add_field_learningobjectcategory_points_to_pass.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0008_auto__chg_field_learningobject_name.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0009_auto.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0010_auto__add_deadlineruledeviation__add_unique_deadlineruledeviation_exer.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0011_auto__add_field_submission_assistant_feedback.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/0012_auto__chg_field_submittedfile_file_object.cpython-37.pyc, it is a binary file.
+exercise/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/staff_views.py, code is 217, comment is 8, blank is 56.
+exercise/static/exercise/chapter.js, code is 682, comment is 91, blank is 98.
+exercise/static/exercise/group.js, code is 88, comment is 7, blank is 12.
+exercise/static/exercise/language_link.js, code is 24, comment is 2, blank is 1.
+exercise/static/exercise/poll.js, code is 94, comment is 13, blank is 14.
+exercise/submission_models.py, code is 206, comment is 17, blank is 65.
+exercise/templates/exercise/_category_points.html, code is 27, comment is 0, blank is 2.
+exercise/templates/exercise/_children.html, code is 33, comment is 0, blank is 2.
+exercise/templates/exercise/_exercise_info.html, code is 68, comment is 0, blank is 8.
+exercise/templates/exercise/_exercise_wait.html, code is 12, comment is 0, blank is 0.
+exercise/templates/exercise/_exercisecollection.html, code is 22, comment is 0, blank is 2.
+exercise/templates/exercise/_file_link.html, code is 6, comment is 0, blank is 0.
+exercise/templates/exercise/_model_files.html, code is 18, comment is 0, blank is 0.
+exercise/templates/exercise/_points_badge.html, code is 30, comment is 0, blank is 2.
+exercise/templates/exercise/_points_progress.html, code is 10, comment is 0, blank is 0.
+exercise/templates/exercise/_submission_info.html, code is 43, comment is 0, blank is 5.
+exercise/templates/exercise/_submission_list.html, code is 23, comment is 0, blank is 0.
+exercise/templates/exercise/_template_files.html, code is 17, comment is 0, blank is 0.
+exercise/templates/exercise/_text_stats.html, code is 4, comment is 0, blank is 0.
+exercise/templates/exercise/_user_last.html, code is 17, comment is 0, blank is 1.
+exercise/templates/exercise/_user_results.html, code is 209, comment is 0, blank is 13.
+exercise/templates/exercise/_user_toc.html, code is 46, comment is 0, blank is 1.
+exercise/templates/exercise/_warnings_overlay.html, code is 56, comment is 0, blank is 0.
+exercise/templates/exercise/exercise.html, code is 83, comment is 0, blank is 12.
+exercise/templates/exercise/exercise_base.html, code is 120, comment is 0, blank is 9.
+exercise/templates/exercise/exercise_plain.html, code is 153, comment is 0, blank is 11.
+exercise/templates/exercise/model.html, code is 15, comment is 0, blank is 4.
+exercise/templates/exercise/model/_file_submit_form.html, code is 16, comment is 0, blank is 0.
+exercise/templates/exercise/results.html, code is 23, comment is 0, blank is 7.
+exercise/templates/exercise/staff/_assess_info.html, code is 99, comment is 0, blank is 8.
+exercise/templates/exercise/staff/_submissions_table.html, code is 96, comment is 0, blank is 1.
+exercise/templates/exercise/staff/analytics.html, code is 130, comment is 0, blank is 17.
+exercise/templates/exercise/staff/assess_submission.html, code is 30, comment is 0, blank is 3.
+exercise/templates/exercise/staff/edit_submitters.html, code is 56, comment is 0, blank is 4.
+exercise/templates/exercise/staff/inspect_submission.html, code is 76, comment is 0, blank is 9.
+exercise/templates/exercise/staff/list_submissions.html, code is 14, comment is 0, blank is 3.
+exercise/templates/exercise/staff/results.html, code is 50, comment is 0, blank is 4.
+exercise/templates/exercise/staff/submissions_summary.html, code is 47, comment is 0, blank is 4.
+exercise/templates/exercise/staff/user_results.html, code is 78, comment is 0, blank is 11.
+exercise/templates/exercise/submission.html, code is 48, comment is 0, blank is 8.
+exercise/templates/exercise/submission_plain.html, code is 95, comment is 0, blank is 9.
+exercise/templates/exercise/template.html, code is 15, comment is 0, blank is 4.
+exercise/templates/exercise/toc.html, code is 21, comment is 0, blank is 5.
+exercise/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+exercise/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+exercise/templatetags/__pycache__/exercise.cpython-37.pyc, it is a binary file.
+exercise/templatetags/exercise.py, code is 238, comment is 0, blank is 45.
+exercise/tests.py, code is 720, comment is 34, blank is 94.
+exercise/tests_cache.py, code is 217, comment is 0, blank is 21.
+exercise/urls.py, code is 80, comment is 1, blank is 8.
+exercise/viewbase.py, code is 107, comment is 2, blank is 30.
+exercise/views.py, code is 265, comment is 12, blank is 63.
+external_services/__init__.py, code is 0, comment is 0, blank is 0.
+external_services/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/admin.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/cache.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/forms.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/lti.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/models.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/permissions.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/tests.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/urls.cpython-37.pyc, it is a binary file.
+external_services/__pycache__/views.cpython-37.pyc, it is a binary file.
+external_services/admin.py, code is 34, comment is 0, blank is 6.
+external_services/api/__init__.py, code is 0, comment is 0, blank is 0.
+external_services/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/authentication.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/oauth_nonce_cache.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/parsers.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/renderers.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/serializers.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/tests.cpython-37.pyc, it is a binary file.
+external_services/api/__pycache__/views.cpython-37.pyc, it is a binary file.
+external_services/api/authentication.py, code is 80, comment is 29, blank is 21.
+external_services/api/oauth_nonce_cache.py, code is 15, comment is 9, blank is 5.
+external_services/api/parsers.py, code is 72, comment is 18, blank is 20.
+external_services/api/renderers.py, code is 68, comment is 15, blank is 14.
+external_services/api/serializers.py, code is 72, comment is 27, blank is 15.
+external_services/api/tests.py, code is 966, comment is 315, blank is 121.
+external_services/api/views.py, code is 25, comment is 13, blank is 6.
+external_services/cache.py, code is 54, comment is 1, blank is 17.
+external_services/forms.py, code is 15, comment is 0, blank is 4.
+external_services/lti.py, code is 150, comment is 18, blank is 25.
+external_services/migrations/0001_initial.py, code is 49, comment is 1, blank is 6.
+external_services/migrations/0002_auto_20150427_1717.py, code is 68, comment is 1, blank is 5.
+external_services/migrations/0003_menuitem_access.py, code is 14, comment is 1, blank is 5.
+external_services/migrations/0004_auto_20150828_1210.py, code is 20, comment is 1, blank is 5.
+external_services/migrations/0005_auto_20160829_1344.py, code is 44, comment is 1, blank is 5.
+external_services/migrations/0006_ltiservice_enable_api_access.py, code is 14, comment is 1, blank is 5.
+external_services/migrations/0007_ltiservice_access_settings.py, code is 31, comment is 2, blank is 6.
+external_services/migrations/0008_auto_20180724_1445.py, code is 13, comment is 2, blank is 5.
+external_services/migrations/0009_auto_20180822_1629.py, code is 23, comment is 2, blank is 5.
+external_services/migrations/0010_auto_20180918_1916.py, code is 30, comment is 2, blank is 5.
+external_services/migrations/0011_menuitem_menu_url.py, code is 41, comment is 1, blank is 5.
+external_services/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+external_services/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0002_auto_20150427_1717.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0003_menuitem_access.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0004_auto_20150828_1210.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0005_auto_20160829_1344.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0006_ltiservice_enable_api_access.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0007_ltiservice_access_settings.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0008_auto_20180724_1445.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0009_auto_20180822_1629.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0010_auto_20180918_1916.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/0011_menuitem_menu_url.cpython-37.pyc, it is a binary file.
+external_services/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+external_services/models.py, code is 229, comment is 16, blank is 35.
+external_services/permissions.py, code is 27, comment is 0, blank is 11.
+external_services/south_migrations/0001_initial.py, code is 160, comment is 7, blank is 12.
+external_services/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+external_services/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+external_services/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+external_services/static/css/external_services.css, code is 59, comment is 2, blank is 14.
+external_services/static/js/external_launcher.js, code is 62, comment is 18, blank is 8.
+external_services/templates/external_services/_launch.html, code is 80, comment is 0, blank is 1.
+external_services/templates/external_services/_privacy.html, code is 57, comment is 0, blank is 0.
+external_services/templates/external_services/edit_menu.html, code is 25, comment is 0, blank is 3.
+external_services/templates/external_services/external_service_redirect.html, code is 17, comment is 0, blank is 4.
+external_services/templates/external_services/launch.html, code is 17, comment is 0, blank is 4.
+external_services/templates/external_services/list_menu.html, code is 79, comment is 0, blank is 3.
+external_services/templates/external_services/lti_outcome_response.xml, code is 37, comment is 0, blank is 0.
+external_services/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+external_services/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+external_services/templatetags/__pycache__/external_services.cpython-37.pyc, it is a binary file.
+external_services/templatetags/external_services.py, code is 26, comment is 1, blank is 11.
+external_services/tests.py, code is 125, comment is 0, blank is 24.
+external_services/urls.py, code is 23, comment is 0, blank is 3.
+external_services/views.py, code is 125, comment is 0, blank is 26.
+inheritance/__init__.py, code is 0, comment is 0, blank is 0.
+inheritance/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+inheritance/__pycache__/models.cpython-37.pyc, it is a binary file.
+inheritance/migrations/0001_initial.py, code is 18, comment is 1, blank is 6.
+inheritance/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+inheritance/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+inheritance/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+inheritance/models.py, code is 35, comment is 2, blank is 18.
+inheritance/south_migrations/0001_initial.py, code is 28, comment is 3, blank is 8.
+inheritance/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+inheritance/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+inheritance/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+lib/__init__.py, code is 0, comment is 0, blank is 0.
+lib/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+lib/__pycache__/email_messages.cpython-37.pyc, it is a binary file.
+lib/__pycache__/errors.cpython-37.pyc, it is a binary file.
+lib/__pycache__/fields.cpython-37.pyc, it is a binary file.
+lib/__pycache__/helpers.cpython-37.pyc, it is a binary file.
+lib/__pycache__/localization_syntax.cpython-37.pyc, it is a binary file.
+lib/__pycache__/logging.cpython-37.pyc, it is a binary file.
+lib/__pycache__/models.cpython-37.pyc, it is a binary file.
+lib/__pycache__/remote_page.cpython-37.pyc, it is a binary file.
+lib/__pycache__/storage.cpython-37.pyc, it is a binary file.
+lib/__pycache__/testdata.cpython-37.pyc, it is a binary file.
+lib/__pycache__/validators.cpython-37.pyc, it is a binary file.
+lib/__pycache__/viewbase.cpython-37.pyc, it is a binary file.
+lib/api/__init__.py, code is 0, comment is 0, blank is 0.
+lib/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+lib/api/__pycache__/constants.cpython-37.pyc, it is a binary file.
+lib/api/__pycache__/core.cpython-37.pyc, it is a binary file.
+lib/api/__pycache__/fields.cpython-37.pyc, it is a binary file.
+lib/api/__pycache__/mixins.cpython-37.pyc, it is a binary file.
+lib/api/__pycache__/renderers.cpython-37.pyc, it is a binary file.
+lib/api/__pycache__/serializers.cpython-37.pyc, it is a binary file.
+lib/api/authentication/__init__.py, code is 11, comment is 0, blank is 6.
+lib/api/authentication/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+lib/api/authentication/__pycache__/grader.cpython-37.pyc, it is a binary file.
+lib/api/authentication/grader.py, code is 61, comment is 3, blank is 21.
+lib/api/constants.py, code is 2, comment is 0, blank is 0.
+lib/api/core.py, code is 47, comment is 9, blank is 22.
+lib/api/fields.py, code is 71, comment is 4, blank is 30.
+lib/api/mixins.py, code is 14, comment is 6, blank is 5.
+lib/api/renderers.py, code is 20, comment is 0, blank is 6.
+lib/api/serializers.py, code is 125, comment is 0, blank is 42.
+lib/cache/__init__.py, code is 2, comment is 0, blank is 0.
+lib/cache/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+lib/cache/__pycache__/backends.cpython-37.pyc, it is a binary file.
+lib/cache/__pycache__/cached.cpython-37.pyc, it is a binary file.
+lib/cache/__pycache__/tests.cpython-37.pyc, it is a binary file.
+lib/cache/backends.py, code is 34, comment is 0, blank is 5.
+lib/cache/cached.py, code is 72, comment is 25, blank is 18.
+lib/cache/tests.py, code is 97, comment is 14, blank is 28.
+lib/crypto/__init__.py, code is 1, comment is 0, blank is 0.
+lib/crypto/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+lib/crypto/__pycache__/signed_messages.cpython-37.pyc, it is a binary file.
+lib/crypto/__pycache__/tests.cpython-37.pyc, it is a binary file.
+lib/crypto/signed_messages.py, code is 49, comment is 20, blank is 16.
+lib/crypto/tests.py, code is 69, comment is 3, blank is 15.
+lib/email_messages.py, code is 31, comment is 0, blank is 6.
+lib/errors.py, code is 2, comment is 0, blank is 1.
+lib/fields.py, code is 61, comment is 3, blank is 19.
+lib/helpers.py, code is 104, comment is 6, blank is 35.
+lib/localization_syntax.py, code is 17, comment is 1, blank is 6.
+lib/logging.py, code is 3, comment is 0, blank is 2.
+lib/models.py, code is 31, comment is 0, blank is 10.
+lib/remote_page.py, code is 183, comment is 2, blank is 34.
+lib/storage.py, code is 23, comment is 0, blank is 6.
+lib/testdata.py, code is 147, comment is 0, blank is 17.
+lib/validators.py, code is 7, comment is 3, blank is 2.
+lib/viewbase.py, code is 59, comment is 4, blank is 27.
+LICENSE.md, code is 189, comment is 3, blank is 46.
+locale/fi/LC_MESSAGES/django.mo, it is a binary file.
+locale/fi/LC_MESSAGES/django.po, code is 246, comment is 0, blank is 247.
+locale/zh/LC_MESSAGES/django.mo, it is a binary file.
+locale/zh/LC_MESSAGES/django.po, code is 245, comment is 0, blank is 184.
+manage.py, code is 13, comment is 1, blank is 4.
+media/course_instance_1/exercise_attachment_23/mda-jftmi3a5ujxgs207.mp4, it is a binary file.
+media/public/course_instance_1/c-base.jpg, it is a binary file.
+media/public/course_instance_1/c-base.png, it is a binary file.
+media/public/course_instance_1/c.jpg, it is a binary file.
+media/public/course_instance_1/python.jpeg, it is a binary file.
+media/public/course_instance_2/python.jpeg, it is a binary file.
+media/public/course_instance_2/python_oQWeLwx.jpeg, it is a binary file.
+news/__init__.py, code is 0, comment is 0, blank is 0.
+news/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+news/__pycache__/admin.cpython-37.pyc, it is a binary file.
+news/__pycache__/cache.cpython-37.pyc, it is a binary file.
+news/__pycache__/forms.cpython-37.pyc, it is a binary file.
+news/__pycache__/models.cpython-37.pyc, it is a binary file.
+news/__pycache__/tests.cpython-37.pyc, it is a binary file.
+news/__pycache__/urls.cpython-37.pyc, it is a binary file.
+news/__pycache__/views.cpython-37.pyc, it is a binary file.
+news/admin.py, code is 13, comment is 0, blank is 6.
+news/cache.py, code is 60, comment is 1, blank is 12.
+news/forms.py, code is 13, comment is 0, blank is 4.
+news/migrations/0001_initial.py, code is 27, comment is 1, blank is 5.
+news/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+news/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+news/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+news/models.py, code is 29, comment is 0, blank is 6.
+news/templates/news/edit.html, code is 25, comment is 0, blank is 3.
+news/templates/news/list.html, code is 64, comment is 0, blank is 3.
+news/templates/news/user_news.html, code is 50, comment is 0, blank is 2.
+news/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+news/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+news/templatetags/__pycache__/news.cpython-37.pyc, it is a binary file.
+news/templatetags/news.py, code is 42, comment is 0, blank is 12.
+news/tests.py, code is 1, comment is 1, blank is 1.
+news/urls.py, code is 17, comment is 0, blank is 3.
+news/views.py, code is 53, comment is 0, blank is 15.
+notification/__init__.py, code is 0, comment is 0, blank is 0.
+notification/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+notification/__pycache__/admin.cpython-37.pyc, it is a binary file.
+notification/__pycache__/cache.cpython-37.pyc, it is a binary file.
+notification/__pycache__/models.cpython-37.pyc, it is a binary file.
+notification/__pycache__/tests.cpython-37.pyc, it is a binary file.
+notification/__pycache__/urls.cpython-37.pyc, it is a binary file.
+notification/__pycache__/views.cpython-37.pyc, it is a binary file.
+notification/admin.py, code is 5, comment is 0, blank is 4.
+notification/cache.py, code is 51, comment is 1, blank is 13.
+notification/migrations/0001_initial.py, code is 25, comment is 1, blank is 6.
+notification/migrations/0002_auto_20160912_1341.py, code is 33, comment is 1, blank is 5.
+notification/migrations/0003_auto_20160914_1051.py, code is 14, comment is 1, blank is 5.
+notification/migrations/0004_auto_20190426_1731.py, code is 14, comment is 2, blank is 5.
+notification/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+notification/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+notification/migrations/__pycache__/0002_auto_20160912_1341.cpython-37.pyc, it is a binary file.
+notification/migrations/__pycache__/0003_auto_20160914_1051.cpython-37.pyc, it is a binary file.
+notification/migrations/__pycache__/0004_auto_20190426_1731.cpython-37.pyc, it is a binary file.
+notification/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+notification/models.py, code is 49, comment is 0, blank is 10.
+notification/south_migrations/0001_initial.py, code is 132, comment is 3, blank is 8.
+notification/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+notification/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+notification/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+notification/templates/notification/_notification_menu.html, code is 19, comment is 0, blank is 0.
+notification/templates/notification/_notification_messages.html, code is 17, comment is 0, blank is 0.
+notification/templatetags/__init__.py, code is 0, comment is 0, blank is 0.
+notification/templatetags/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+notification/templatetags/__pycache__/notification.cpython-37.pyc, it is a binary file.
+notification/templatetags/notification.py, code is 31, comment is 0, blank is 13.
+notification/tests.py, code is 37, comment is 0, blank is 9.
+notification/urls.py, code is 8, comment is 0, blank is 3.
+notification/views.py, code is 29, comment is 0, blank is 5.
+README.md, code is 39, comment is 3, blank is 11.
+redirect_old_urls/__init__.py, code is 0, comment is 0, blank is 1.
+redirect_old_urls/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+redirect_old_urls/__pycache__/tests.cpython-37.pyc, it is a binary file.
+redirect_old_urls/__pycache__/urls.cpython-37.pyc, it is a binary file.
+redirect_old_urls/__pycache__/views.cpython-37.pyc, it is a binary file.
+redirect_old_urls/tests.py, code is 83, comment is 0, blank is 8.
+redirect_old_urls/urls.py, code is 12, comment is 0, blank is 3.
+redirect_old_urls/views.py, code is 16, comment is 0, blank is 4.
+requirements.txt, code is 30, comment is 3, blank is 0.
+requirements_prod.txt, code is 1, comment is 0, blank is 0.
+requirements_testing.txt, code is 6, comment is 0, blank is 0.
+selenium_test/__pycache__/add_users.cpython-37.pyc, it is a binary file.
+selenium_test/add_users.py, code is 41, comment is 0, blank is 6.
+selenium_test/grader/__pycache__/manage.cpython-37.pyc, it is a binary file.
+selenium_test/grader/exercises/__init__.py, code is 0, comment is 0, blank is 0.
+selenium_test/grader/exercises/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+selenium_test/grader/exercises/__pycache__/views.cpython-37.pyc, it is a binary file.
+selenium_test/grader/exercises/templates/exercises/ajax_exercise.html, code is 19, comment is 5, blank is 3.
+selenium_test/grader/exercises/templates/exercises/file_exercise.html, code is 20, comment is 4, blank is 3.
+selenium_test/grader/exercises/templates/exercises/file_result.html, code is 16, comment is 0, blank is 0.
+selenium_test/grader/exercises/templates/exercises/first_exercise.html, code is 20, comment is 4, blank is 3.
+selenium_test/grader/exercises/templates/exercises/first_result.html, code is 12, comment is 0, blank is 0.
+selenium_test/grader/exercises/views.py, code is 55, comment is 0, blank is 16.
+selenium_test/grader/grader/__init__.py, code is 0, comment is 0, blank is 0.
+selenium_test/grader/grader/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+selenium_test/grader/grader/__pycache__/settings.cpython-37.pyc, it is a binary file.
+selenium_test/grader/grader/__pycache__/urls.cpython-37.pyc, it is a binary file.
+selenium_test/grader/grader/__pycache__/wsgi.cpython-37.pyc, it is a binary file.
+selenium_test/grader/grader/settings.py, code is 53, comment is 13, blank is 26.
+selenium_test/grader/grader/urls.py, code is 8, comment is 0, blank is 2.
+selenium_test/grader/grader/wsgi.py, code is 4, comment is 0, blank is 3.
+selenium_test/grader/manage.py, code is 6, comment is 1, blank is 3.
+selenium_test/kill_servers.sh, code is 7, comment is 1, blank is 2.
+selenium_test/README.md, code is 17, comment is 2, blank is 8.
+selenium_test/run_servers.sh, code is 26, comment is 1, blank is 12.
+selenium_test/run_servers_and_tests.sh, code is 16, comment is 1, blank is 6.
+selenium_test/test/__pycache__/edit_exercise_page_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/edit_module_page_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/file_upload_grader_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/home_page_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/locators.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/login_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/main_navigation_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/my_ajax_exercise_grader_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/my_first_exercise_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/page_objects.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/staff_page_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/submissions_page_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/teacher_feedback_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/test_initializer.cpython-37.pyc, it is a binary file.
+selenium_test/test/__pycache__/user_permissions_test.cpython-37.pyc, it is a binary file.
+selenium_test/test/edit_exercise_page_test.py, code is 30, comment is 0, blank is 10.
+selenium_test/test/edit_module_page_test.py, code is 30, comment is 0, blank is 10.
+selenium_test/test/file_upload_grader_test.py, code is 19, comment is 2, blank is 8.
+selenium_test/test/home_page_test.py, code is 15, comment is 0, blank is 6.
+selenium_test/test/locators.py, code is 87, comment is 0, blank is 17.
+selenium_test/test/login_test.py, code is 28, comment is 0, blank is 9.
+selenium_test/test/main_navigation_test.py, code is 18, comment is 6, blank is 10.
+selenium_test/test/my_ajax_exercise_grader_test.py, code is 33, comment is 1, blank is 9.
+selenium_test/test/my_first_exercise_test.py, code is 62, comment is 6, blank is 18.
+selenium_test/test/page_objects.py, code is 355, comment is 6, blank is 118.
+selenium_test/test/staff_page_test.py, code is 18, comment is 0, blank is 6.
+selenium_test/test/submissions_page_test.py, code is 37, comment is 0, blank is 12.
+selenium_test/test/teacher_feedback_test.py, code is 37, comment is 4, blank is 11.
+selenium_test/test/test_initializer.py, code is 25, comment is 3, blank is 7.
+selenium_test/test/user_permissions_test.py, code is 32, comment is 0, blank is 9.
+selenium_test/test_data.json, code is 284, comment is 0, blank is 4.
+shibboleth_login/__init__.py, code is 0, comment is 0, blank is 0.
+shibboleth_login/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+shibboleth_login/__pycache__/auth_backend.cpython-37.pyc, it is a binary file.
+shibboleth_login/__pycache__/tests.cpython-37.pyc, it is a binary file.
+shibboleth_login/__pycache__/urls.cpython-37.pyc, it is a binary file.
+shibboleth_login/__pycache__/views.cpython-37.pyc, it is a binary file.
+shibboleth_login/auth_backend.py, code is 74, comment is 1, blank is 17.
+shibboleth_login/templates/shibboleth/meta.html, code is 16, comment is 0, blank is 0.
+shibboleth_login/tests.py, code is 119, comment is 0, blank is 14.
+shibboleth_login/urls.py, code is 8, comment is 0, blank is 4.
+shibboleth_login/views.py, code is 49, comment is 1, blank is 16.
+static/add_tagging_dropdown.js, code is 100, comment is 35, blank is 10.
+static/admin/css/autocomplete.css, code is 213, comment is 0, blank is 47.
+static/admin/css/base.css, code is 776, comment is 22, blank is 189.
+static/admin/css/changelists.css, code is 277, comment is 7, blank is 60.
+static/admin/css/dashboard.css, code is 19, comment is 2, blank is 6.
+static/admin/css/fonts.css, code is 18, comment is 0, blank is 2.
+static/admin/css/forms.css, code is 417, comment is 11, blank is 104.
+static/admin/css/login.css, code is 65, comment is 1, blank is 13.
+static/admin/css/responsive.css, code is 748, comment is 28, blank is 216.
+static/admin/css/responsive_rtl.css, code is 67, comment is 2, blank is 15.
+static/admin/css/rtl.css, code is 199, comment is 10, blank is 60.
+static/admin/css/vendor/select2/LICENSE-SELECT2.md, code is 17, comment is 0, blank is 4.
+static/admin/css/vendor/select2/select2.css, code is 427, comment is 0, blank is 57.
+static/admin/css/vendor/select2/select2.min.css, code is 1, comment is 0, blank is 0.
+static/admin/css/widgets.css, code is 458, comment is 8, blank is 99.
+static/admin/fonts/LICENSE.txt, code is 154, comment is 1, blank is 29.
+static/admin/fonts/README.txt, code is 3, comment is 2, blank is 0.
+static/admin/fonts/Roboto-Bold-webfont.woff, it is a binary file.
+static/admin/fonts/Roboto-Light-webfont.woff, it is a binary file.
+static/admin/fonts/Roboto-Regular-webfont.woff, it is a binary file.
+static/admin/img/calendar-icons.svg, code is 14, comment is 0, blank is 0.
+static/admin/img/gis/move_vertex_off.svg, code is 1, comment is 0, blank is 0.
+static/admin/img/gis/move_vertex_on.svg, code is 1, comment is 0, blank is 0.
+static/admin/img/icon-addlink.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-alert.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-calendar.svg, code is 9, comment is 0, blank is 0.
+static/admin/img/icon-changelink.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-clock.svg, code is 9, comment is 0, blank is 0.
+static/admin/img/icon-deletelink.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-no.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-unknown-alt.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-unknown.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-viewlink.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/icon-yes.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/inline-delete.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/LICENSE, code is 16, comment is 0, blank is 4.
+static/admin/img/README.txt, code is 6, comment is 3, blank is 1.
+static/admin/img/search.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/selector-icons.svg, code is 34, comment is 0, blank is 0.
+static/admin/img/sorting-icons.svg, code is 19, comment is 0, blank is 0.
+static/admin/img/tooltag-add.svg, code is 3, comment is 0, blank is 0.
+static/admin/img/tooltag-arrowright.svg, code is 3, comment is 0, blank is 0.
+static/admin/js/actions.js, code is 146, comment is 6, blank is 1.
+static/admin/js/actions.min.js, code is 7, comment is 0, blank is 0.
+static/admin/js/admin/DateTimeShortcuts.js, code is 327, comment is 77, blank is 26.
+static/admin/js/admin/RelatedObjectLookups.js, code is 153, comment is 12, blank is 16.
+static/admin/js/autocomplete.js, code is 32, comment is 2, blank is 3.
+static/admin/js/calendar.js, code is 164, comment is 29, blank is 16.
+static/admin/js/cancel.js, code is 13, comment is 2, blank is 0.
+static/admin/js/change_form.js, code is 17, comment is 1, blank is 2.
+static/admin/js/collapse.js, code is 48, comment is 6, blank is 1.
+static/admin/js/collapse.min.js, code is 3, comment is 0, blank is 0.
+static/admin/js/core.js, code is 171, comment is 22, blank is 19.
+static/admin/js/inlines.js, code is 236, comment is 57, blank is 15.
+static/admin/js/inlines.min.js, code is 13, comment is 0, blank is 0.
+static/admin/js/jquery.init.js, code is 2, comment is 6, blank is 0.
+static/admin/js/popup_response.js, code is 15, comment is 1, blank is 0.
+static/admin/js/prepopulate.js, code is 28, comment is 10, blank is 4.
+static/admin/js/prepopulate.min.js, code is 1, comment is 0, blank is 0.
+static/admin/js/prepopulate_init.js, code is 10, comment is 0, blank is 0.
+static/admin/js/SelectBox.js, code is 138, comment is 9, blank is 0.
+static/admin/js/SelectFilter2.js, code is 196, comment is 30, blank is 21.
+static/admin/js/timeparse.js, code is 97, comment is 7, blank is 2.
+static/admin/js/urlify.js, code is 180, comment is 15, blank is 7.
+static/admin/js/vendor/jquery/jquery.js, code is 6686, comment is 1728, blank is 1953.
+static/admin/js/vendor/jquery/jquery.min.js, code is 1, comment is 2, blank is 0.
+static/admin/js/vendor/jquery/LICENSE.txt, code is 21, comment is 2, blank is 5.
+static/admin/js/vendor/select2/i18n/ar.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/az.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/bg.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/ca.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/cs.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/da.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/de.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/el.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/en.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/es.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/et.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/eu.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/fa.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/fi.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/fr.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/gl.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/he.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/hi.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/hr.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/hu.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/id.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/is.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/it.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/ja.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/km.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/ko.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/lt.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/lv.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/mk.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/ms.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/nb.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/nl.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/pl.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/pt-BR.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/pt.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/ro.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/ru.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/sk.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/sr-Cyrl.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/sr.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/sv.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/th.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/tr.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/uk.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/vi.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/zh-CN.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/i18n/zh-TW.js, code is 1, comment is 1, blank is 1.
+static/admin/js/vendor/select2/LICENSE.md, code is 17, comment is 0, blank is 4.
+static/admin/js/vendor/select2/select2.full.js, code is 479, comment is 134, blank is 123.
+static/admin/js/vendor/select2/select2.full.min.js, code is 1, comment is 1, blank is 0.
+static/admin/js/vendor/xregexp/LICENSE.txt, code is 17, comment is 1, blank is 4.
+static/admin/js/vendor/xregexp/xregexp.js, code is 1223, comment is 963, blank is 165.
+static/admin/js/vendor/xregexp/xregexp.min.js, code is 9, comment is 9, blank is 0.
+static/course/usertagdropdown.js, code is 39, comment is 0, blank is 1.
+static/css/d3Stream.min.css, code is 1, comment is 0, blank is 0.
+static/css/external_services.css, code is 59, comment is 2, blank is 14.
+static/css/llama.min.css, code is 1, comment is 0, blank is 0.
+static/css/main.css, code is 396, comment is 13, blank is 12.
+static/css/submission.css, code is 70, comment is 0, blank is 7.
+static/css/summary.css, code is 28, comment is 0, blank is 2.
+static/django_colortag.css, code is 25, comment is 0, blank is 0.
+static/django_colortag.js, code is 60, comment is 1, blank is 6.
+static/exercise/chapter.js, code is 682, comment is 91, blank is 98.
+static/exercise/group.js, code is 88, comment is 7, blank is 12.
+static/exercise/language_link.js, code is 24, comment is 2, blank is 1.
+static/exercise/poll.js, code is 94, comment is 13, blank is 14.
+static/favicons/android-chrome-192x192.png, it is a binary file.
+static/favicons/android-chrome-256x256.png, it is a binary file.
+static/favicons/apple-touch-icon.png, it is a binary file.
+static/favicons/browserconfig.xml, code is 9, comment is 0, blank is 0.
+static/favicons/favicon-16x16.png, it is a binary file.
+static/favicons/favicon-32x32.png, it is a binary file.
+static/favicons/favicon.ico, it is a binary file.
+static/favicons/mstile-150x150.png, it is a binary file.
+static/favicons/safari-pinned-tab.svg, code is 14, comment is 0, blank is 0.
+static/favicons/site.webmanifest, code is 19, comment is 0, blank is 0.
+static/favicons/润.png, it is a binary file.
+static/images/uls.svg, code is 4, comment is 0, blank is 0.
+static/js-translations/teacher.zh.json, code is 5, comment is 0, blank is 0.
+static/js/aplus.js, code is 578, comment is 49, blank is 71.
+static/js/buttons_popover.js, code is 32, comment is 17, blank is 2.
+static/js/d3Stream.min.js, code is 1, comment is 0, blank is 0.
+static/js/external_launcher.js, code is 62, comment is 18, blank is 8.
+static/js/llama.min.js, code is 1, comment is 0, blank is 0.
+static/js/participants.js, code is 150, comment is 5, blank is 12.
+static/js/polyfill-find.js, code is 52, comment is 28, blank is 16.
+static/js/summary.js, code is 291, comment is 4, blank is 57.
+static/js/tag_popover.js, code is 106, comment is 6, blank is 5.
+static/js/translate.js, code is 1046, comment is 235, blank is 192.
+static/js/translate.min.js, code is 1, comment is 2, blank is 0.
+static/js/translate.min.js.map, code is 1, comment is 0, blank is 0.
+static/pseudonym.json, code is 633, comment is 0, blank is 1.
+static/rest_framework/css/bootstrap-theme.min.css, code is 1, comment is 6, blank is 0.
+static/rest_framework/css/bootstrap-tweaks.css, code is 174, comment is 15, blank is 44.
+static/rest_framework/css/bootstrap.min.css, code is 1, comment is 6, blank is 0.
+static/rest_framework/css/default.css, code is 62, comment is 3, blank is 17.
+static/rest_framework/css/font-awesome-4.0.3.css, code is 1329, comment is 9, blank is 0.
+static/rest_framework/css/prettify.css, code is 27, comment is 1, blank is 2.
+static/rest_framework/docs/css/base.css, code is 284, comment is 7, blank is 64.
+static/rest_framework/docs/css/highlight.css, code is 101, comment is 6, blank is 18.
+static/rest_framework/docs/css/jquery.json-view.min.css, code is 11, comment is 0, blank is 0.
+static/rest_framework/docs/img/favicon.ico, it is a binary file.
+static/rest_framework/docs/img/grid.png, it is a binary file.
+static/rest_framework/docs/js/api.js, code is 264, comment is 21, blank is 36.
+static/rest_framework/docs/js/highlight.pack.js, code is 1, comment is 1, blank is 0.
+static/rest_framework/docs/js/jquery.json-view.min.js, code is 1, comment is 7, blank is 0.
+static/rest_framework/fonts/fontawesome-webfont.eot, it is a binary file.
+static/rest_framework/fonts/fontawesome-webfont.svg, code is 414, comment is 0, blank is 0.
+static/rest_framework/fonts/fontawesome-webfont.ttf, it is a binary file.
+static/rest_framework/fonts/fontawesome-webfont.woff, it is a binary file.
+static/rest_framework/fonts/glyphicons-halflings-regular.eot, it is a binary file.
+static/rest_framework/fonts/glyphicons-halflings-regular.svg, code is 288, comment is 0, blank is 0.
+static/rest_framework/fonts/glyphicons-halflings-regular.ttf, it is a binary file.
+static/rest_framework/fonts/glyphicons-halflings-regular.woff, it is a binary file.
+static/rest_framework/fonts/glyphicons-halflings-regular.woff2, it is a binary file.
+static/rest_framework/img/glyphicons-halflings-white.png, it is a binary file.
+static/rest_framework/img/glyphicons-halflings.png, it is a binary file.
+static/rest_framework/img/grid.png, it is a binary file.
+static/rest_framework/js/ajax-form.js, code is 92, comment is 14, blank is 21.
+static/rest_framework/js/bootstrap.min.js, code is 1, comment is 5, blank is 0.
+static/rest_framework/js/coreapi-0.1.1.js, code is 1316, comment is 203, blank is 325.
+static/rest_framework/js/csrf.js, code is 34, comment is 10, blank is 9.
+static/rest_framework/js/default.js, code is 32, comment is 6, blank is 9.
+static/rest_framework/js/jquery-3.3.1.min.js, code is 1, comment is 2, blank is 0.
+static/rest_framework/js/prettify-min.js, code is 12, comment is 0, blank is 0.
+static/userprofile/local_storage_external_services.js, code is 36, comment is 0, blank is 2.
+templates/403.html, code is 24, comment is 0, blank is 0.
+templates/404.html, code is 30, comment is 0, blank is 0.
+templates/500.html, code is 23, comment is 0, blank is 0.
+templates/_messages.html, code is 8, comment is 0, blank is 0.
+templates/admin/base.html, code is 80, comment is 6, blank is 7.
+templates/admin/base_site.html, code is 6, comment is 0, blank is 3.
+templates/admin/login.html, code is 54, comment is 0, blank is 12.
+templates/base.html, code is 262, comment is 1, blank is 16.
+templates/privacy_notice_en.html, code is 101, comment is 0, blank is 6.
+templates/privacy_notice_fi.html, code is 100, comment is 0, blank is 5.
+test_results/TEST-apps.tests.AppsTest-20190625105051.xml, code is 27, comment is 0, blank is 0.
+test_results/TEST-course.test_visibility_enroll.CourseVisibilityTest-20190625105051.xml, code is 69, comment is 0, blank is 0.
+test_results/TEST-course.tests.CourseTest-20190625105051.xml, code is 87, comment is 0, blank is 0.
+test_results/TEST-deviations.tests.DeviationsTest-20190625105051.xml, code is 21, comment is 0, blank is 0.
+test_results/TEST-diploma.tests.GradeTest-20190625105051.xml, code is 21, comment is 0, blank is 0.
+test_results/TEST-edit_course.tests.BatchAssessTest-20190625105051.xml, code is 9, comment is 0, blank is 0.
+test_results/TEST-edit_course.tests.CourseCloneTest-20190625105051.xml, code is 9, comment is 0, blank is 0.
+test_results/TEST-exercise.api.tests.ExerciceSubmissionAPITest-20190625105051.xml, code is 21, comment is 0, blank is 0.
+test_results/TEST-exercise.tests.ExerciseTest-20190625105051.xml, code is 213, comment is 0, blank is 0.
+test_results/TEST-exercise.tests_cache.CachedContentTest-20190625105051.xml, code is 45, comment is 0, blank is 0.
+test_results/TEST-exercise.tests_cache.CachedPointsTest-20190625105051.xml, code is 27, comment is 0, blank is 0.
+test_results/TEST-external_services.api.tests.LTIOutcomesNoEnrollmentTests-20190625105051.xml, code is 15, comment is 0, blank is 0.
+test_results/TEST-external_services.api.tests.LTIOutcomesPublicServiceTests-20190625105051.xml, code is 9, comment is 0, blank is 0.
+test_results/TEST-external_services.api.tests.LTIOutcomesTests-20190625105051.xml, code is 117, comment is 0, blank is 0.
+test_results/TEST-external_services.tests.ExternalServicesTest-20190625105051.xml, code is 33, comment is 0, blank is 0.
+test_results/TEST-lib.cache.tests.CachedTest-20190625105051.xml, code is 39, comment is 0, blank is 0.
+test_results/TEST-lib.crypto.tests.SignedMessagesTest-20190625105051.xml, code is 21, comment is 0, blank is 0.
+test_results/TEST-notification.tests.NotificationTest-20190625105051.xml, code is 9, comment is 0, blank is 0.
+test_results/TEST-redirect_old_urls.tests.RedirectTest-20190625105051.xml, code is 27, comment is 0, blank is 0.
+test_results/TEST-shibboleth_login.tests.ShibbolethTest-20190625105051.xml, code is 45, comment is 0, blank is 0.
+test_results/TEST-threshold.tests.ThresholdTest-20190625105051.xml, code is 27, comment is 0, blank is 0.
+test_results/TEST-userprofile.api.tests.UserProfileAPITest-20190625105051.xml, code is 15, comment is 0, blank is 0.
+test_results/TEST-userprofile.tests.UserProfileTest-20190625105051.xml, code is 27, comment is 0, blank is 0.
+threshold/__init__.py, code is 0, comment is 0, blank is 0.
+threshold/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+threshold/__pycache__/admin.cpython-37.pyc, it is a binary file.
+threshold/__pycache__/models.cpython-37.pyc, it is a binary file.
+threshold/__pycache__/tests.cpython-37.pyc, it is a binary file.
+threshold/__pycache__/views.cpython-37.pyc, it is a binary file.
+threshold/admin.py, code is 21, comment is 0, blank is 9.
+threshold/migrations/0001_initial.py, code is 55, comment is 1, blank is 5.
+threshold/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+threshold/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+threshold/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+threshold/models.py, code is 106, comment is 2, blank is 23.
+threshold/tests.py, code is 138, comment is 0, blank is 11.
+threshold/views.py, code is 1, comment is 1, blank is 1.
+userprofile/__init__.py, code is 2, comment is 0, blank is 0.
+userprofile/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/admin.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/models.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/permissions.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/tests.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/urls.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/viewbase.cpython-37.pyc, it is a binary file.
+userprofile/__pycache__/views.cpython-37.pyc, it is a binary file.
+userprofile/admin.py, code is 5, comment is 0, blank is 5.
+userprofile/api/__init__.py, code is 0, comment is 0, blank is 0.
+userprofile/api/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+userprofile/api/__pycache__/full_serializers.cpython-37.pyc, it is a binary file.
+userprofile/api/__pycache__/serializers.cpython-37.pyc, it is a binary file.
+userprofile/api/__pycache__/tests.cpython-37.pyc, it is a binary file.
+userprofile/api/__pycache__/views.cpython-37.pyc, it is a binary file.
+userprofile/api/full_serializers.py, code is 22, comment is 0, blank is 8.
+userprofile/api/serializers.py, code is 27, comment is 9, blank is 8.
+userprofile/api/tests.py, code is 54, comment is 1, blank is 4.
+userprofile/api/views.py, code is 32, comment is 3, blank is 9.
+userprofile/management/__init__.py, code is 0, comment is 0, blank is 0.
+userprofile/management/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+userprofile/management/commands/__init__.py, code is 0, comment is 0, blank is 0.
+userprofile/management/commands/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+userprofile/management/commands/__pycache__/set_superuser.cpython-37.pyc, it is a binary file.
+userprofile/management/commands/set_superuser.py, code is 33, comment is 0, blank is 6.
+userprofile/migrations/0001_initial.py, code is 42, comment is 1, blank is 6.
+userprofile/migrations/0002_auto_20150427_1717.py, code is 14, comment is 1, blank is 5.
+userprofile/migrations/0003_auto_20160728_1139.py, code is 15, comment is 1, blank is 5.
+userprofile/migrations/__init__.py, code is 0, comment is 0, blank is 0.
+userprofile/migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+userprofile/migrations/__pycache__/0002_auto_20150427_1717.cpython-37.pyc, it is a binary file.
+userprofile/migrations/__pycache__/0003_auto_20160728_1139.cpython-37.pyc, it is a binary file.
+userprofile/migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+userprofile/models.py, code is 94, comment is 4, blank is 37.
+userprofile/permissions.py, code is 31, comment is 1, blank is 9.
+userprofile/south_migrations/0001_initial.py, code is 89, comment is 7, blank is 12.
+userprofile/south_migrations/__init__.py, code is 0, comment is 0, blank is 0.
+userprofile/south_migrations/__pycache__/0001_initial.cpython-37.pyc, it is a binary file.
+userprofile/south_migrations/__pycache__/__init__.cpython-37.pyc, it is a binary file.
+userprofile/static/userprofile/local_storage_external_services.js, code is 36, comment is 0, blank is 2.
+userprofile/templates/userprofile/login.html, code is 90, comment is 0, blank is 9.
+userprofile/templates/userprofile/logout.html, code is 18, comment is 0, blank is 4.
+userprofile/templates/userprofile/privacy.html, code is 15, comment is 0, blank is 4.
+userprofile/templates/userprofile/profile.html, code is 92, comment is 0, blank is 5.
+userprofile/tests.py, code is 84, comment is 47, blank is 20.
+userprofile/urls.py, code is 13, comment is 0, blank is 3.
+userprofile/viewbase.py, code is 20, comment is 1, blank is 7.
+userprofile/views.py, code is 62, comment is 8, blank is 15.
+===============================================================================

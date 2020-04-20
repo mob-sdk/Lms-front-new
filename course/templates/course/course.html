@@ -1,0 +1,44 @@
+{% extends "course/course_base.html" %}
+{% load i18n %}
+{% load exercise %}
+{% load news %}
+{% load apps %}
+
+
+{% block view_tag %}home{% endblock %}
+{% block breadcrumb %}{% endblock %}
+{% block coursecontent %}
+
+{% include "course/_enroll_form.html" %}
+
+<div class="index">
+  {{ instance.description|safe }}
+  {% if instance.index_mode == instance.INDEX_TYPE.LAST %}
+  {% user_last %}
+  {% endif %}
+</div>
+
+{% if instance.index_mode == instance.INDEX_TYPE.LAST %}
+{% user_news 3 %}
+{% elif instance.index_mode == instance.INDEX_TYPE.TOC %}
+{% user_news 1 3 %}
+{% user_toc %}
+{% else %}
+{% user_news 1 3 %}
+{% user_results %}
+{% endif %}
+
+
+<div class="index">
+  {{ instance.footer|safe }}
+</div>
+{% endblock %}
+
+{#{% block sidecontent %}#}
+{#    {% category_points %}#}
+{##}
+{#    {% plugin_renderers user instance as plugins %}#}
+{#    {% for plugin in plugins %}#}
+{#        {{ plugin.render|safe }}#}
+{#    {% endfor %}#}
+{#{% endblock %}#}
